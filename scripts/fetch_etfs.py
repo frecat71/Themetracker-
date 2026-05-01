@@ -1,7 +1,14 @@
 """
-fetch_etfs.py — Finviz screener edition
-Fetches all ETFs in one batch via the Finviz screener (Performance view),
-parses the table, computes scores, and writes etf_data.json.
+fetch_etfs.py — Finviz quote-page edition
+
+For each ETF in our universe, fetches https://finviz.com/quote.ashx?t=<TICKER>
+and parses the snapshot table for performance values.
+
+Why per-ticker instead of screener:
+  - Finviz screener's `t=` parameter doesn't accept ticker-list filters reliably
+  - quote.ashx returns the same Performance Day/Week/Month/Quarter/YTD values
+    we already use, with one consistent layout per ETF
+  - Slower (one HTTP request per ticker) but deterministic and complete
 """
 
 from __future__ import annotations
@@ -23,8 +30,7 @@ USER_AGENT = (
     "Chrome/120.0.0.0 Safari/537.36"
 )
 
-# Finviz screener — Performance view (v=141), filter by ticker list (t=)
-FINVIZ_SCREENER = "https://finviz.com/screener.ashx?v=141&t={tickers}"
+FINVIZ_QUOTE = "https://finviz.com/quote.ashx?t={ticker}"
 
 WEIGHT_1M = 0.70
 WEIGHT_1W = 0.20
@@ -144,26 +150,24 @@ ETF_UNIVERSE: List[dict] = [
 ]
 
 
-# ─── Finviz scraping ───────────────────────────────────────────────────
+# ─── Finviz quote-page scraping ────────────────────────────────────────
 
-def fetch_html(url: str, retries: int = 3, delay: float = 2.0) -> str:
+def fetch_html(url: str, retries: int = 3, delay: float = 2.0) -> Optional[str]:
     headers = {
         "User-Agent":      USER_AGENT,
         "Accept":          "text/html,application/xhtml+xml",
         "Accept-Language": "en-US,en;q=0.9",
     }
-    last_err: Optional[Exception] = None
     for attempt in range(1, retries + 1):
         try:
-            r = requests.get(url, headers=headers, timeout=30)
+            r = requests.get(url, headers=headers, timeout=20)
             r.raise_for_status()
             return r.text
         except Exception as e:
-            last_err = e
-            print(f"[fetch] attempt {attempt} failed: {e}", file=sys.stderr)
+            print(f"[fetch] {url} attempt {attempt}: {e}", file=sys.stderr)
             if attempt < retries:
                 time.sleep(delay * attempt)
-    raise RuntimeError(f"failed to fetch {url}: {last_err}")
+    return None
 
 
 def parse_pct(cell: str) -> Optional[float]:
@@ -178,75 +182,53 @@ def parse_pct(cell: str) -> Optional[float]:
         return None
 
 
-def parse_screener_html(html: str) -> Dict[str, Dict[str, Optional[float]]]:
+def parse_quote_html(html: str) -> Dict[str, Optional[float]]:
+    """
+    Finviz quote page contains a snapshot table with key/value cells in pairs.
+    Each <td class="snapshot-td2-cp"> holds a key, the next <td class="snapshot-td2"> the value.
+    Performance keys we want: "Perf Day", "Perf Week", "Perf Month", "Perf Quarter", "Perf YTD".
+    """
     soup = BeautifulSoup(html, "html.parser")
-    target_table = None
-    for tbl in soup.find_all("table"):
-        head_text = tbl.get_text(" ", strip=True)[:300].lower()
-        if "ticker" in head_text and ("perf week" in head_text or "perf month" in head_text):
-            target_table = tbl
-            break
 
-    if target_table is None:
-        raise RuntimeError("could not locate Finviz screener table")
-
-    rows = target_table.find_all("tr")
-    if len(rows) < 2:
-        raise RuntimeError("screener table has no data rows")
-
-    header_cells = [c.get_text(strip=True) for c in rows[0].find_all(["th", "td"])]
-
-    def col_index(*candidates: str) -> Optional[int]:
-        for i, h in enumerate(header_cells):
-            for c in candidates:
-                if c.lower() in h.lower():
-                    return i
-        return None
-
-    idx = {
-        "ticker": col_index("Ticker"),
-        "1D":     col_index("Perf Day", "Change"),
-        "1W":     col_index("Perf Week"),
-        "1M":     col_index("Perf Month"),
-        "3M":     col_index("Perf Quart"),
-        "YTD":    col_index("Perf YTD"),
+    keymap = {
+        "Perf Day":     "1D",
+        "Change":       "1D",   # fallback if Perf Day missing
+        "Perf Week":    "1W",
+        "Perf Month":   "1M",
+        "Perf Quarter": "3M",
+        "Perf Quart":   "3M",   # short form sometimes used
+        "Perf YTD":     "YTD",
     }
-    if idx["ticker"] is None:
-        raise RuntimeError(f"could not find Ticker column in headers: {header_cells}")
 
-    out: Dict[str, Dict[str, Optional[float]]] = {}
-    for tr in rows[1:]:
-        cells = [c.get_text(strip=True) for c in tr.find_all(["td", "th"])]
-        if not cells or idx["ticker"] >= len(cells):
-            continue
-        ticker = cells[idx["ticker"]].upper()
-        if not ticker or not re.match(r"^[A-Z][A-Z0-9.\-]*$", ticker):
-            continue
+    # The snapshot table cells are paired: every cell with the label class is followed
+    # by a cell with the value class. We iterate over all <td> cells in document order.
+    out: Dict[str, Optional[float]] = {tf: None for tf in ("1D", "1W", "1M", "3M", "YTD")}
 
-        perfs: Dict[str, Optional[float]] = {}
-        for tf in ("1D", "1W", "1M", "3M", "YTD"):
-            ci = idx.get(tf)
-            perfs[tf] = parse_pct(cells[ci]) if (ci is not None and ci < len(cells)) else None
-        out[ticker] = perfs
+    # Strategy 1: snapshot-td2-cp / snapshot-td2 pairs (legacy class names)
+    cells = soup.find_all("td")
+    for i, cell in enumerate(cells):
+        text = cell.get_text(strip=True)
+        if text in keymap and i + 1 < len(cells):
+            tf = keymap[text]
+            val = parse_pct(cells[i + 1].get_text(strip=True))
+            if val is not None and out[tf] is None:
+                out[tf] = val
 
     return out
 
 
-def scrape_finviz_etfs(tickers: List[str]) -> Dict[str, Dict[str, Optional[float]]]:
-    if not tickers:
-        return {}
+def fetch_etf_perfs(ticker: str) -> Optional[Dict[str, Optional[float]]]:
+    html = fetch_html(FINVIZ_QUOTE.format(ticker=ticker))
+    if not html:
+        return None
+    perfs = parse_quote_html(html)
+    # Require at least one of the medium-term timeframes to consider the fetch successful
+    if perfs.get("1M") is None and perfs.get("1W") is None:
+        return None
+    return perfs
 
-    BATCH_SIZE = 100
-    out: Dict[str, Dict[str, Optional[float]]] = {}
-    for i in range(0, len(tickers), BATCH_SIZE):
-        batch = tickers[i : i + BATCH_SIZE]
-        url = FINVIZ_SCREENER.format(tickers=",".join(batch))
-        html = fetch_html(url)
-        out.update(parse_screener_html(html))
-        if i + BATCH_SIZE < len(tickers):
-            time.sleep(1.0)
-    return out
 
+# ─── Score / theme aggregation ─────────────────────────────────────────
 
 def rank_lookup(values: List[Optional[float]]) -> List[Optional[int]]:
     indexed = [(i, v) for i, v in enumerate(values) if v is not None]
@@ -258,19 +240,19 @@ def rank_lookup(values: List[Optional[float]]) -> List[Optional[int]]:
 
 
 def main() -> None:
-    tickers = [spec["ticker"] for spec in ETF_UNIVERSE]
-    print(f"[scrape] fetching {len(tickers)} ETFs from Finviz")
-    perfs_by_ticker = scrape_finviz_etfs(tickers)
-    print(f"[scrape] got data for {len(perfs_by_ticker)}/{len(tickers)} tickers")
-
     rows: List[dict] = []
-    for spec in ETF_UNIVERSE:
-        perfs = perfs_by_ticker.get(spec["ticker"].upper())
+    total = len(ETF_UNIVERSE)
+    for n, spec in enumerate(ETF_UNIVERSE, start=1):
+        perfs = fetch_etf_perfs(spec["ticker"])
+        time.sleep(0.6)  # polite delay between requests
         if not perfs:
-            print(f"[etf] missing {spec['ticker']}", file=sys.stderr)
+            print(f"[etf] missing {spec['ticker']} ({n}/{total})", file=sys.stderr)
             continue
         rows.append({**spec, "perfs": perfs})
+        if n % 10 == 0:
+            print(f"[etf] progress {n}/{total}")
 
+    print(f"[etf] fetched {len(rows)}/{total} ETFs")
     if not rows:
         raise RuntimeError("no ETF data parsed")
 
