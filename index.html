@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Finviz Theme Tracker</title>
+  <link rel="stylesheet" href="static/style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <h1>Finviz Theme Tracker</h1>
+    <div id="fetch-time" class="fetch-time">— not yet loaded —</div>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button class="tab-btn active" data-tab="heatmap" data-i18n="tabHeatmap">Heatmap</button>
+  <button class="tab-btn"        data-tab="picks"   data-i18n="tabPicks">★ Setup Picks</button>
+  <button class="tab-btn"        data-tab="top10"   data-i18n="tabTop10">Top 10</button>
+  <button class="tab-btn"        data-tab="etfs"    data-i18n="tabEtfs">📈 ETF Themes</button>
+</nav>
+
+<div id="error-msg" class="error-msg hidden"></div>
+
+<!-- HEATMAP -->
+<section class="tab-panel" data-panel="heatmap">
+  <div class="section-header">
+    <h2 data-i18n="heatmapTitle">Industry Heatmap</h2>
+    <span class="section-hint" data-hint-key="hintHeatmap">i</span>
+    <button id="inst-toggle" class="inst-toggle" type="button">🏛 INST only</button>
+  </div>
+
+  <div id="loading" class="loading-msg" data-i18n="loading">Loading data…</div>
+
+  <div class="table-wrap">
+    <table id="heatmap-table" class="heatmap-table">
+      <thead>
+        <tr>
+          <th class="rank-col">#</th>
+          <th data-col="industry" data-i18n="colIndustry">Industry</th>
+          <th data-col="1D">1D</th>
+          <th data-col="1W">1W</th>
+          <th data-col="1M">1M</th>
+          <th data-col="3M">3M</th>
+          <th data-col="YTD">YTD</th>
+          <th data-col="score" data-i18n="colScore" class="sort-active">Score</th>
+          <th data-col="accel" data-i18n="colAccel">Accel</th>
+          <th data-i18n="colTrend">Trend</th>
+        </tr>
+      </thead>
+      <tbody id="heatmap-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- SETUP PICKS -->
+<section class="tab-panel hidden" data-panel="picks">
+  <div class="section-header">
+    <h2 data-i18n="picksTitle">★ Setup Picks — First Flag</h2>
+    <span class="section-hint" data-hint-key="hintPicks">i</span>
+  </div>
+  <p class="section-sub" data-i18n="picksSubtitle">
+    Industries with positive momentum profile for First Flag breakout trades.
+  </p>
+  <div id="picks-container"></div>
+</section>
+
+<!-- TOP 10 -->
+<section class="tab-panel hidden" data-panel="top10">
+  <div class="section-header">
+    <h2 data-i18n="top10Title">Top 10 per Timeframe</h2>
+    <span class="section-hint" data-hint-key="hintTop10">i</span>
+    <div class="view-toggle">
+      <button class="view-btn active" data-view="cards" data-i18n="viewCards">📊 Cards</button>
+      <button class="view-btn"        data-view="bars"  data-i18n="viewBars">📈 Bar Chart</button>
+    </div>
+  </div>
+
+  <div id="cards-row" class="cards-row"></div>
+  <div id="bars-view" class="bars-view hidden"></div>
+
+  <div class="movers-block">
+    <div class="section-header">
+      <h2 data-i18n="moversTitle">Where is the Puck going?</h2>
+      <span class="section-hint" data-hint-key="hintMovers">i</span>
+      <div class="period-toggle">
+        <button class="period-btn active" data-days="7">1W</button>
+        <button class="period-btn"        data-days="14">2W</button>
+        <button class="period-btn"        data-days="30">1M</button>
+        <button class="period-btn"        data-days="91">3M</button>
+      </div>
+    </div>
+    <p class="section-sub" data-i18n="moversSubtitle">
+      Rank change since the selected period. The bigger the jump, the stronger the momentum.
+    </p>
+
+    <div class="movers-grid">
+      <div class="movers-col">
+        <h3 data-i18n="moversRising">🚀 Rising — Puck heading here</h3>
+        <div id="movers-rising"></div>
+      </div>
+      <div class="movers-col">
+        <h3 data-i18n="moversFading">🔻 Fading — Puck leaving</h3>
+        <div id="movers-fading"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ETFs -->
+<section class="tab-panel hidden" data-panel="etfs">
+  <div class="section-header">
+    <h2 data-i18n="etfTitle">📈 Thematic ETF Heatmap</h2>
+    <span class="section-hint" data-hint-key="hintEtfs">i</span>
+    <div class="view-toggle">
+      <button class="etf-view-btn active" data-etfview="themes" data-i18n="etfViewThemes">🎨 Themes</button>
+      <button class="etf-view-btn"        data-etfview="etfs"   data-i18n="etfViewEtfs">📊 Individual ETFs</button>
+    </div>
+  </div>
+
+  <div id="etf-loading" class="loading-msg" data-i18n="loading">Loading data…</div>
+  <div id="etf-error"   class="error-msg hidden"></div>
+
+  <div id="etf-themes-view" class="table-wrap">
+    <table id="etf-themes-table" class="heatmap-table">
+      <thead>
+        <tr>
+          <th class="rank-col">#</th>
+          <th data-etfcol="theme">Theme</th>
+          <th data-etfcol="1D">1D</th>
+          <th data-etfcol="1W">1W</th>
+          <th data-etfcol="1M">1M</th>
+          <th data-etfcol="3M">3M</th>
+          <th data-etfcol="YTD">YTD</th>
+          <th data-etfcol="score" class="sort-active">Score</th>
+          <th data-i18n="etfColEtfs">ETFs (P1)</th>
+        </tr>
+      </thead>
+      <tbody id="etf-themes-body"></tbody>
+    </table>
+  </div>
+
+  <div id="etf-etfs-view" class="table-wrap hidden">
+    <table id="etf-list-table" class="heatmap-table">
+      <thead>
+        <tr>
+          <th class="rank-col">#</th>
+          <th data-etflistcol="ticker">Ticker</th>
+          <th data-etflistcol="name">Name</th>
+          <th data-etflistcol="theme">Theme</th>
+          <th data-etflistcol="1D">1D</th>
+          <th data-etflistcol="1W">1W</th>
+          <th data-etflistcol="1M">1M</th>
+          <th data-etflistcol="3M">3M</th>
+          <th data-etflistcol="YTD">YTD</th>
+          <th data-etflistcol="score" class="sort-active">Score</th>
+        </tr>
+      </thead>
+      <tbody id="etf-list-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<script src="static/app.js"></script>
+</body>
+</html>
