@@ -1,25 +1,30 @@
 """
-fetch_etfs.py — expanded ETF universe (v2)
-Pulls daily prices from Yahoo Finance and computes themed performance.
+fetch_etfs.py — Finviz screener edition
+Fetches all ETFs in one batch via the Finviz screener (Performance view),
+parses the table, computes scores, and writes etf_data.json.
 """
 
 from __future__ import annotations
 
 import datetime as dt
 import json
+import re
 import sys
 import time
 from pathlib import Path
 from typing import Dict, List, Optional
 
 import requests
+from bs4 import BeautifulSoup
 
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/120.0.0.0 Safari/537.36"
 )
-YAHOO_CHART = "https://query1.finance.yahoo.com/v8/finance/chart/{ticker}?range=1y&interval=1d"
+
+# Finviz screener — Performance view (v=141), filter by ticker list (t=)
+FINVIZ_SCREENER = "https://finviz.com/screener.ashx?v=141&t={tickers}"
 
 WEIGHT_1M = 0.70
 WEIGHT_1W = 0.20
@@ -29,9 +34,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 ETF_FILE  = REPO_ROOT / "etf_data.json"
 
 # ─── Curated ETF universe ──────────────────────────────────────────────
-# Priority: 1 = core/pure-play, 2 = strong proxy, 3 = adjacent
 ETF_UNIVERSE: List[dict] = [
-    # AI & Tech (broad AI/robotics/automation exposure)
+    # AI & Tech
     {"ticker": "BOTZ", "name": "Global X Robotics & AI ETF",                "theme": "AI & Tech", "priority": 1},
     {"ticker": "AIQ",  "name": "Global X Artificial Intelligence & Tech",   "theme": "AI & Tech", "priority": 1},
     {"ticker": "ROBO", "name": "ROBO Global Robotics & Automation",         "theme": "AI & Tech", "priority": 1},
@@ -65,7 +69,7 @@ ETF_UNIVERSE: List[dict] = [
     {"ticker": "IGV",  "name": "iShares Expanded Tech-Software",            "theme": "Cloud & SaaS",  "priority": 2},
     {"ticker": "PSJ",  "name": "Invesco Dynamic Software",                  "theme": "Cloud & SaaS",  "priority": 3},
 
-    # Digital Infra (data centers, REITs, telecom infra)
+    # Digital Infra
     {"ticker": "DTCR", "name": "Global X Data Center & Digital Infra",      "theme": "Digital Infra", "priority": 1},
     {"ticker": "VPN",  "name": "Global X Data Center REITs & Digital Infra","theme": "Digital Infra", "priority": 2},
     {"ticker": "SRVR", "name": "Pacer Benchmark Data & Infrastructure",     "theme": "Digital Infra", "priority": 2},
@@ -140,76 +144,108 @@ ETF_UNIVERSE: List[dict] = [
 ]
 
 
-def fetch_chart(ticker: str, retries: int = 3) -> Optional[dict]:
-    headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
-    url = YAHOO_CHART.format(ticker=ticker)
+# ─── Finviz scraping ───────────────────────────────────────────────────
+
+def fetch_html(url: str, retries: int = 3, delay: float = 2.0) -> str:
+    headers = {
+        "User-Agent":      USER_AGENT,
+        "Accept":          "text/html,application/xhtml+xml",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    last_err: Optional[Exception] = None
     for attempt in range(1, retries + 1):
         try:
-            r = requests.get(url, headers=headers, timeout=20)
+            r = requests.get(url, headers=headers, timeout=30)
             r.raise_for_status()
-            j = r.json()
-            res = j.get("chart", {}).get("result")
-            if not res:
-                return None
-            return res[0]
+            return r.text
         except Exception as e:
-            print(f"[yf] {ticker} attempt {attempt}: {e}", file=sys.stderr)
+            last_err = e
+            print(f"[fetch] attempt {attempt} failed: {e}", file=sys.stderr)
             if attempt < retries:
-                time.sleep(1.5 * attempt)
-    return None
+                time.sleep(delay * attempt)
+    raise RuntimeError(f"failed to fetch {url}: {last_err}")
 
 
-def closes_from_chart(chart: dict) -> List[tuple]:
-    ts = chart.get("timestamp", []) or []
-    quotes = chart.get("indicators", {}).get("quote", [{}])[0]
-    closes = quotes.get("close", []) or []
-    out = []
-    for t, c in zip(ts, closes):
-        if c is not None:
-            out.append((int(t), float(c)))
+def parse_pct(cell: str) -> Optional[float]:
+    if not cell or cell.strip() in ("-", "", "—"):
+        return None
+    m = re.search(r"-?\d+\.?\d*", cell.replace(",", ""))
+    if not m:
+        return None
+    try:
+        return float(m.group(0))
+    except ValueError:
+        return None
+
+
+def parse_screener_html(html: str) -> Dict[str, Dict[str, Optional[float]]]:
+    soup = BeautifulSoup(html, "html.parser")
+    target_table = None
+    for tbl in soup.find_all("table"):
+        head_text = tbl.get_text(" ", strip=True)[:300].lower()
+        if "ticker" in head_text and ("perf week" in head_text or "perf month" in head_text):
+            target_table = tbl
+            break
+
+    if target_table is None:
+        raise RuntimeError("could not locate Finviz screener table")
+
+    rows = target_table.find_all("tr")
+    if len(rows) < 2:
+        raise RuntimeError("screener table has no data rows")
+
+    header_cells = [c.get_text(strip=True) for c in rows[0].find_all(["th", "td"])]
+
+    def col_index(*candidates: str) -> Optional[int]:
+        for i, h in enumerate(header_cells):
+            for c in candidates:
+                if c.lower() in h.lower():
+                    return i
+        return None
+
+    idx = {
+        "ticker": col_index("Ticker"),
+        "1D":     col_index("Perf Day", "Change"),
+        "1W":     col_index("Perf Week"),
+        "1M":     col_index("Perf Month"),
+        "3M":     col_index("Perf Quart"),
+        "YTD":    col_index("Perf YTD"),
+    }
+    if idx["ticker"] is None:
+        raise RuntimeError(f"could not find Ticker column in headers: {header_cells}")
+
+    out: Dict[str, Dict[str, Optional[float]]] = {}
+    for tr in rows[1:]:
+        cells = [c.get_text(strip=True) for c in tr.find_all(["td", "th"])]
+        if not cells or idx["ticker"] >= len(cells):
+            continue
+        ticker = cells[idx["ticker"]].upper()
+        if not ticker or not re.match(r"^[A-Z][A-Z0-9.\-]*$", ticker):
+            continue
+
+        perfs: Dict[str, Optional[float]] = {}
+        for tf in ("1D", "1W", "1M", "3M", "YTD"):
+            ci = idx.get(tf)
+            perfs[tf] = parse_pct(cells[ci]) if (ci is not None and ci < len(cells)) else None
+        out[ticker] = perfs
+
     return out
 
 
-def perf_pct(closes: List[tuple], days: int) -> Optional[float]:
-    if not closes:
-        return None
-    latest_ts, latest_close = closes[-1]
-    target_ts = latest_ts - days * 86400
-    past = None
-    for t, c in closes:
-        if t <= target_ts:
-            past = c
-        else:
-            break
-    if past is None or past == 0:
-        return None
-    return (latest_close - past) / past * 100.0
+def scrape_finviz_etfs(tickers: List[str]) -> Dict[str, Dict[str, Optional[float]]]:
+    if not tickers:
+        return {}
 
-
-def perf_ytd(closes: List[tuple]) -> Optional[float]:
-    if not closes:
-        return None
-    latest_ts, latest_close = closes[-1]
-    year = dt.datetime.fromtimestamp(latest_ts, dt.timezone.utc).year
-    jan1 = dt.datetime(year, 1, 1, tzinfo=dt.timezone.utc).timestamp()
-    base = None
-    for t, c in closes:
-        if t >= jan1:
-            base = c
-            break
-    if base is None or base == 0:
-        return None
-    return (latest_close - base) / base * 100.0
-
-
-def perf_1d(closes: List[tuple]) -> Optional[float]:
-    if len(closes) < 2:
-        return None
-    prev = closes[-2][1]
-    last = closes[-1][1]
-    if prev == 0:
-        return None
-    return (last - prev) / prev * 100.0
+    BATCH_SIZE = 100
+    out: Dict[str, Dict[str, Optional[float]]] = {}
+    for i in range(0, len(tickers), BATCH_SIZE):
+        batch = tickers[i : i + BATCH_SIZE]
+        url = FINVIZ_SCREENER.format(tickers=",".join(batch))
+        html = fetch_html(url)
+        out.update(parse_screener_html(html))
+        if i + BATCH_SIZE < len(tickers):
+            time.sleep(1.0)
+    return out
 
 
 def rank_lookup(values: List[Optional[float]]) -> List[Optional[int]]:
@@ -222,28 +258,21 @@ def rank_lookup(values: List[Optional[float]]) -> List[Optional[int]]:
 
 
 def main() -> None:
+    tickers = [spec["ticker"] for spec in ETF_UNIVERSE]
+    print(f"[scrape] fetching {len(tickers)} ETFs from Finviz")
+    perfs_by_ticker = scrape_finviz_etfs(tickers)
+    print(f"[scrape] got data for {len(perfs_by_ticker)}/{len(tickers)} tickers")
+
     rows: List[dict] = []
     for spec in ETF_UNIVERSE:
-        chart = fetch_chart(spec["ticker"])
-        time.sleep(0.25)
-        if not chart:
-            print(f"[etf] skipped {spec['ticker']} (no data)", file=sys.stderr)
+        perfs = perfs_by_ticker.get(spec["ticker"].upper())
+        if not perfs:
+            print(f"[etf] missing {spec['ticker']}", file=sys.stderr)
             continue
-        closes = closes_from_chart(chart)
-        if not closes:
-            print(f"[etf] skipped {spec['ticker']} (no closes)", file=sys.stderr)
-            continue
-        perfs = {
-            "1D":  perf_1d(closes),
-            "1W":  perf_pct(closes, 7),
-            "1M":  perf_pct(closes, 30),
-            "3M":  perf_pct(closes, 91),
-            "YTD": perf_ytd(closes),
-        }
         rows.append({**spec, "perfs": perfs})
 
     if not rows:
-        raise RuntimeError("no ETF data fetched")
+        raise RuntimeError("no ETF data parsed")
 
     for tf in ("1M", "1W", "3M"):
         vals = [r["perfs"].get(tf) for r in rows]
@@ -271,9 +300,9 @@ def main() -> None:
             avg_perfs[tf] = (sum(xs) / len(xs)) if xs else None
         avg_score = sum(m["score"] for m in pool) / len(pool)
         theme_out[theme] = {
-            "perfs":    avg_perfs,
-            "score":    avg_score,
-            "etfs_p1":  [m["ticker"] for m in info["p1"]],
+            "perfs":   avg_perfs,
+            "score":   avg_score,
+            "etfs_p1": [m["ticker"] for m in info["p1"]],
         }
 
     etf_out: Dict[str, dict] = {}
