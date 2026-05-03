@@ -20,6 +20,7 @@
   <button class="tab-btn"        data-tab="picks"   data-i18n="tabPicks">★ Setup Picks</button>
   <button class="tab-btn"        data-tab="top10"   data-i18n="tabTop10">Top 10</button>
   <button class="tab-btn"        data-tab="etfs"    data-i18n="tabEtfs">📈 ETF Themes</button>
+  <button class="tab-btn"        data-tab="euetfs"  data-i18n="tabEuEtfs">🇪🇺 EU ETFs</button>
 </nav>
 
 <div id="error-msg" class="error-msg hidden"></div>
@@ -159,6 +160,61 @@
         </tr>
       </thead>
       <tbody id="etf-list-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- EU ETFs -->
+<section class="tab-panel hidden" data-panel="euetfs">
+  <div class="section-header">
+    <h2 data-i18n="euEtfTitle">🇪🇺 EU Thematic ETF Heatmap</h2>
+    <span class="section-hint" data-hint-key="hintEuEtfs">i</span>
+    <div class="view-toggle">
+      <button class="eu-etf-view-btn active" data-euetfview="themes" data-i18n="etfViewThemes">🎨 Themes</button>
+      <button class="eu-etf-view-btn"        data-euetfview="etfs"   data-i18n="etfViewEtfs">📊 Individual ETFs</button>
+    </div>
+  </div>
+  <div id="eu-etf-csv-date" class="section-sub"></div>
+
+  <div id="eu-etf-loading" class="loading-msg" data-i18n="loading">Loading data…</div>
+  <div id="eu-etf-error"   class="error-msg hidden"></div>
+
+  <div id="eu-etf-themes-view" class="table-wrap">
+    <table id="eu-etf-themes-table" class="heatmap-table">
+      <thead>
+        <tr>
+          <th class="rank-col">#</th>
+          <th data-euetfcol="theme">Theme</th>
+          <th data-euetfcol="1D">1D</th>
+          <th data-euetfcol="1W">1W</th>
+          <th data-euetfcol="1M">1M</th>
+          <th data-euetfcol="3M">3M</th>
+          <th data-euetfcol="1Y">1Y</th>
+          <th data-euetfcol="score" class="sort-active">Score</th>
+          <th data-i18n="etfColEtfs">ETFs (P1)</th>
+        </tr>
+      </thead>
+      <tbody id="eu-etf-themes-body"></tbody>
+    </table>
+  </div>
+
+  <div id="eu-etf-etfs-view" class="table-wrap hidden">
+    <table id="eu-etf-list-table" class="heatmap-table">
+      <thead>
+        <tr>
+          <th class="rank-col">#</th>
+          <th data-euetflistcol="ticker">Ticker</th>
+          <th data-euetflistcol="name">Name</th>
+          <th data-euetflistcol="theme">Theme</th>
+          <th data-euetflistcol="1D">1D</th>
+          <th data-euetflistcol="1W">1W</th>
+          <th data-euetflistcol="1M">1M</th>
+          <th data-euetflistcol="3M">3M</th>
+          <th data-euetflistcol="1Y">1Y</th>
+          <th data-euetflistcol="score" class="sort-active">Score</th>
+        </tr>
+      </thead>
+      <tbody id="eu-etf-list-body"></tbody>
     </table>
   </div>
 </section>
