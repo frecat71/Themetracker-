@@ -54,6 +54,10 @@ const STR = {
   hintTop10:    "Top 10 performers per timeframe — shows current market leaders.\nCards: compact overview per timeframe.\nBar chart: all industries sorted by 1M and 3M performance.\nINST badge shows institutional interest.",
   hintMovers:   "Rank change since the selected period.\nRising: industries that climbed most in ranking — fresh capital flowing in. Look here!\nFading: industries that lost ranks — capital leaving. Avoid.\nSelect period: 1W / 2W / 1M / 3M (greyed out = not enough data yet).",
   hintEtfs:     "Thematic ETF performance across all timeframes.\nThemes view: aggregated from Priority-1 ETFs per theme. Score = weighted rank (1M×70%+1W×20%+3M×10%).\nETFs view: all individual ETFs, sortable. Priority 1 = core ETF for the theme.\nUsage: themes with strong 1M AND 3M score = institutionally confirmed momentum.",
+  tabEuEtfs:    "🇪🇺 EU ETFs",
+  euEtfTitle:   "🇪🇺 EU Thematic ETF Heatmap",
+  euEtfDate:    (date) => `CSV data from ${date}. Upload a new CSV to data/eu_etfs/ to update.`,
+  hintEuEtfs:   "European UCITS ETFs (>500M AUM, EUR-listed, non-leveraged).\nData source: TradingView CSV export, manually uploaded to the repo.\nSame scoring as US ETFs: 1M×70% + 1W×20% + 3M×10%.\nUpload schedule: Wednesday + Saturday recommended.\nNote: 1Y replaces YTD here since CSV export doesn't include YTD.",
 };
 
 const t = (key, ...args) => {
@@ -668,6 +672,152 @@ function initEtfSortHeaders() {
   });
 }
 
+// ─── EU ETFs Tab ───────────────────────────────────────────────────────
+const EU_TIMEFRAMES = ["1D", "1W", "1M", "3M", "1Y"];
+
+let _euEtfData      = null;
+let _euEtfView      = "themes";
+let _euEtfThemeSort = { col: "score", dir: 1 };
+let _euEtfListSort  = { col: "score", dir: 1 };
+
+function renderEuEtfThemes(data) {
+  const tbody = document.getElementById("eu-etf-themes-body");
+  if (!data || !data.themes) {
+    tbody.innerHTML = `<tr><td colspan="9" class="empty-msg">${t("etfNoData")}</td></tr>`;
+    return;
+  }
+  document.querySelectorAll("#eu-etf-themes-table thead th[data-euetfcol]").forEach(th => {
+    const col = th.dataset.euetfcol;
+    const isActive = col === _euEtfThemeSort.col;
+    th.classList.toggle("sort-active", isActive);
+    const arrow = isActive ? (_euEtfThemeSort.dir === 1 ? " ▲" : " ▼") : "";
+    if (col === "score")      th.innerHTML = t("colScore") + arrow;
+    else if (col === "theme") th.textContent = "Theme" + arrow;
+    else                       th.textContent = col + arrow;
+  });
+
+  let entries = Object.entries(data.themes);
+  const { col, dir } = _euEtfThemeSort;
+  entries.sort(([na, a], [nb, b]) => {
+    if (col === "theme") return dir * na.localeCompare(nb);
+    if (col === "score") return dir * (a.score - b.score);
+    const va = a.perfs[col] ?? -Infinity;
+    const vb = b.perfs[col] ?? -Infinity;
+    return dir * (va - vb);
+  });
+
+  const rows = entries.map(([theme, row], idx) => {
+    const perfCells = EU_TIMEFRAMES.map(tf =>
+      `<td class="${perfClass(row.perfs[tf])}">${fmtPct(row.perfs[tf])}</td>`
+    ).join("");
+    const etfChips = (row.etfs_p1 || []).map(tk =>
+      `<a class="etf-ticker-chip" href="https://www.tradingview.com/symbols/${tk}/" target="_blank" rel="noopener">${tk}</a>`
+    ).join(" ");
+    const c = THEME_COLORS[theme] || { bg: "#1a1a2a", fg: "#8b949e" };
+    return `<tr>
+      <td class="rank-col">${idx + 1}</td>
+      <td class="theme-col"><span class="etf-theme-badge" style="background:${c.bg};color:${c.fg}">${theme}</span></td>
+      ${perfCells}
+      <td class="score-col">${row.score.toFixed(1)}</td>
+      <td class="etfs-col">${etfChips}</td>
+    </tr>`;
+  });
+  tbody.innerHTML = rows.join("") || `<tr><td colspan="9" class="empty-msg">${t("etfNoData")}</td></tr>`;
+}
+
+function renderEuEtfList(data) {
+  const tbody = document.getElementById("eu-etf-list-body");
+  if (!data || !data.etfs) {
+    tbody.innerHTML = `<tr><td colspan="10" class="empty-msg">${t("etfNoData")}</td></tr>`;
+    return;
+  }
+  document.querySelectorAll("#eu-etf-list-table thead th[data-euetflistcol]").forEach(th => {
+    const col = th.dataset.euetflistcol;
+    const isActive = col === _euEtfListSort.col;
+    th.classList.toggle("sort-active", isActive);
+    const arrow = isActive ? (_euEtfListSort.dir === 1 ? " ▲" : " ▼") : "";
+    const labelMap = { ticker: "Ticker", name: "Name", theme: "Theme", score: t("colScore") };
+    th.innerHTML = (labelMap[col] ?? col) + arrow;
+  });
+
+  let entries = Object.entries(data.etfs);
+  const { col, dir } = _euEtfListSort;
+  entries.sort(([ta, a], [tb, b]) => {
+    if (col === "ticker") return dir * ta.localeCompare(tb);
+    if (col === "name")   return dir * a.name.localeCompare(b.name);
+    if (col === "theme")  return dir * a.theme.localeCompare(b.theme);
+    if (col === "score")  return dir * (a.score - b.score);
+    const va = a.perfs[col] ?? -Infinity;
+    const vb = b.perfs[col] ?? -Infinity;
+    return dir * (va - vb);
+  });
+
+  const rows = entries.map(([ticker, row], idx) => {
+    const perfCells = EU_TIMEFRAMES.map(tf =>
+      `<td class="${perfClass(row.perfs[tf])}">${fmtPct(row.perfs[tf])}</td>`
+    ).join("");
+    const url = `https://www.tradingview.com/symbols/${ticker}/`;
+    return `<tr>
+      <td class="rank-col">${idx + 1}</td>
+      <td class="ticker-col">${priorityDot(row.priority)}<a class="pick-link" href="${url}" target="_blank" rel="noopener">${ticker}</a></td>
+      <td class="name-col" title="${row.name}">${row.name}</td>
+      <td class="theme-col">${themeBadge(row.theme)}</td>
+      ${perfCells}
+      <td class="score-col">${row.score.toFixed(1)}</td>
+    </tr>`;
+  });
+  tbody.innerHTML = rows.join("") || `<tr><td colspan="10" class="empty-msg">${t("etfNoData")}</td></tr>`;
+}
+
+function renderEuEtfTab() {
+  if (!_euEtfData) return;
+  // Show CSV date
+  const dateEl = document.getElementById("eu-etf-csv-date");
+  if (dateEl && _euEtfData.csv_date) dateEl.textContent = t("euEtfDate", _euEtfData.csv_date);
+
+  if (_euEtfView === "themes") {
+    document.getElementById("eu-etf-themes-view").classList.remove("hidden");
+    document.getElementById("eu-etf-etfs-view").classList.add("hidden");
+    renderEuEtfThemes(_euEtfData);
+  } else {
+    document.getElementById("eu-etf-themes-view").classList.add("hidden");
+    document.getElementById("eu-etf-etfs-view").classList.remove("hidden");
+    renderEuEtfList(_euEtfData);
+  }
+}
+
+function initEuEtfViewToggle() {
+  document.querySelectorAll(".eu-etf-view-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".eu-etf-view-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      _euEtfView = btn.dataset.euetfview;
+      renderEuEtfTab();
+    });
+  });
+}
+
+function initEuEtfSortHeaders() {
+  document.querySelectorAll("#eu-etf-themes-table thead th[data-euetfcol]").forEach(th => {
+    th.style.cursor = "pointer";
+    th.addEventListener("click", () => {
+      const col = th.dataset.euetfcol;
+      if (_euEtfThemeSort.col === col) _euEtfThemeSort.dir *= -1;
+      else { _euEtfThemeSort.col = col; _euEtfThemeSort.dir = (col === "score" || col === "theme") ? 1 : -1; }
+      renderEuEtfThemes(_euEtfData);
+    });
+  });
+  document.querySelectorAll("#eu-etf-list-table thead th[data-euetflistcol]").forEach(th => {
+    th.style.cursor = "pointer";
+    th.addEventListener("click", () => {
+      const col = th.dataset.euetflistcol;
+      if (_euEtfListSort.col === col) _euEtfListSort.dir *= -1;
+      else { _euEtfListSort.col = col; _euEtfListSort.dir = (col === "score" || col === "ticker" || col === "name" || col === "theme") ? 1 : -1; }
+      renderEuEtfList(_euEtfData);
+    });
+  });
+}
+
 // ─── Boot ──────────────────────────────────────────────────────────────
 applyStaticText();
 initTabs();
@@ -677,15 +827,18 @@ initPeriodSelector();
 initViewToggle();
 initEtfViewToggle();
 initEtfSortHeaders();
+initEuEtfViewToggle();
+initEuEtfSortHeaders();
 
 (async () => {
   const loading = document.getElementById("loading");
   const errorEl = document.getElementById("error-msg");
   try {
-    const [dataRes, histRes, etfRes] = await Promise.all([
+    const [dataRes, histRes, etfRes, euEtfRes] = await Promise.all([
       fetch("data.json"),
       fetch("history.json"),
       fetch("etf_data.json"),
+      fetch("eu_etf_data.json"),
     ]);
     if (!dataRes.ok) throw new Error(`data.json: HTTP ${dataRes.status}`);
     const payload = await dataRes.json();
@@ -705,6 +858,15 @@ initEtfSortHeaders();
       document.getElementById("etf-loading").classList.add("hidden");
       document.getElementById("etf-error").textContent = t("etfNoData");
       document.getElementById("etf-error").classList.remove("hidden");
+    }
+    if (euEtfRes.ok) {
+      _euEtfData = await euEtfRes.json();
+      document.getElementById("eu-etf-loading").classList.add("hidden");
+      renderEuEtfTab();
+    } else {
+      document.getElementById("eu-etf-loading").classList.add("hidden");
+      document.getElementById("eu-etf-error").textContent = t("etfNoData");
+      document.getElementById("eu-etf-error").classList.remove("hidden");
     }
   } catch (err) {
     loading.classList.add("hidden");
