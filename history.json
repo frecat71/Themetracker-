@@ -12780,5 +12780,586 @@
         "t": "wastemanagement"
       }
     }
+  },
+  {
+    "date": "2026-06-04",
+    "scores": {
+      "Advertising Agencies": {
+        "c": 24.499999999999996,
+        "t": "advertisingagencies"
+      },
+      "Aerospace & Defense": {
+        "c": 64.0,
+        "t": "aerospacedefense"
+      },
+      "Agricultural Inputs": {
+        "c": 106.69999999999999,
+        "t": "agriculturalinputs"
+      },
+      "Airlines": {
+        "c": 45.5,
+        "t": "airlines"
+      },
+      "Airports & Air Services": {
+        "c": 44.5,
+        "t": "airportsairservices"
+      },
+      "Aluminum": {
+        "c": 7.6,
+        "t": "aluminum"
+      },
+      "Apparel Manufacturing": {
+        "c": 74.6,
+        "t": "apparelmanufacturing"
+      },
+      "Apparel Retail": {
+        "c": 52.9,
+        "t": "apparelretail"
+      },
+      "Asset Management": {
+        "c": 107.80000000000001,
+        "t": "assetmanagement"
+      },
+      "Auto & Truck Dealerships": {
+        "c": 124.89999999999999,
+        "t": "autotruckdealerships"
+      },
+      "Auto Manufacturers": {
+        "c": 51.3,
+        "t": "automanufacturers"
+      },
+      "Auto Parts": {
+        "c": 50.2,
+        "t": "autoparts"
+      },
+      "Banks - Diversified": {
+        "c": 44.49999999999999,
+        "t": "banksdiversified"
+      },
+      "Banks - Regional": {
+        "c": 88.69999999999999,
+        "t": "banksregional"
+      },
+      "Beverages - Brewers": {
+        "c": 59.2,
+        "t": "beveragesbrewers"
+      },
+      "Beverages - Non-Alcoholic": {
+        "c": 77.5,
+        "t": "beveragesnonalcoholic"
+      },
+      "Beverages - Wineries & Distilleries": {
+        "c": 90.2,
+        "t": "beverageswineriesdistilleries"
+      },
+      "Biotechnology": {
+        "c": 111.3,
+        "t": "biotechnology"
+      },
+      "Broadcasting": {
+        "c": 131.4,
+        "t": "broadcasting"
+      },
+      "Building Materials": {
+        "c": 70.1,
+        "t": "buildingmaterials"
+      },
+      "Building Products & Equipment": {
+        "c": 51.19999999999999,
+        "t": "buildingproductsequipment"
+      },
+      "Business Equipment & Supplies": {
+        "c": 62.3,
+        "t": "businessequipmentsupplies"
+      },
+      "Capital Markets": {
+        "c": 32.199999999999996,
+        "t": "capitalmarkets"
+      },
+      "Chemicals": {
+        "c": 108.69999999999999,
+        "t": "chemicals"
+      },
+      "Coking Coal": {
+        "c": 6.3999999999999995,
+        "t": "cokingcoal"
+      },
+      "Communication Equipment": {
+        "c": 9.5,
+        "t": "communicationequipment"
+      },
+      "Computer Hardware": {
+        "c": 1.7,
+        "t": "computerhardware"
+      },
+      "Confectioners": {
+        "c": 83.7,
+        "t": "confectioners"
+      },
+      "Conglomerates": {
+        "c": 56.2,
+        "t": "conglomerates"
+      },
+      "Consulting Services": {
+        "c": 87.2,
+        "t": "consultingservices"
+      },
+      "Consumer Electronics": {
+        "c": 25.2,
+        "t": "consumerelectronics"
+      },
+      "Copper": {
+        "c": 10.700000000000001,
+        "t": "copper"
+      },
+      "Credit Services": {
+        "c": 118.3,
+        "t": "creditservices"
+      },
+      "Department Stores": {
+        "c": 22.700000000000003,
+        "t": "departmentstores"
+      },
+      "Diagnostics & Research": {
+        "c": 32.8,
+        "t": "diagnosticsresearch"
+      },
+      "Discount Stores": {
+        "c": 124.9,
+        "t": "discountstores"
+      },
+      "Drug Manufacturers - General": {
+        "c": 64.9,
+        "t": "drugmanufacturersgeneral"
+      },
+      "Drug Manufacturers - Specialty & Generic": {
+        "c": 127.1,
+        "t": "drugmanufacturersspecialtygeneric"
+      },
+      "Education & Training Services": {
+        "c": 62.9,
+        "t": "educationtrainingservices"
+      },
+      "Electrical Equipment & Parts": {
+        "c": 38.3,
+        "t": "electricalequipmentparts"
+      },
+      "Electronic Components": {
+        "c": 10.7,
+        "t": "electroniccomponents"
+      },
+      "Electronic Gaming & Multimedia": {
+        "c": 80.2,
+        "t": "electronicgamingmultimedia"
+      },
+      "Electronics & Computer Distribution": {
+        "c": 3.4,
+        "t": "electronicscomputerdistribution"
+      },
+      "Engineering & Construction": {
+        "c": 84.6,
+        "t": "engineeringconstruction"
+      },
+      "Entertainment": {
+        "c": 116.60000000000001,
+        "t": "entertainment"
+      },
+      "Farm & Heavy Construction Machinery": {
+        "c": 35.9,
+        "t": "farmheavyconstructionmachinery"
+      },
+      "Farm Products": {
+        "c": 62.99999999999999,
+        "t": "farmproducts"
+      },
+      "Financial Conglomerates": {
+        "c": 15.2,
+        "t": "financialconglomerates"
+      },
+      "Financial Data & Stock Exchanges": {
+        "c": 126.5,
+        "t": "financialdatastockexchanges"
+      },
+      "Food Distribution": {
+        "c": 63.5,
+        "t": "fooddistribution"
+      },
+      "Footwear & Accessories": {
+        "c": 62.5,
+        "t": "footwearaccessories"
+      },
+      "Furnishings, Fixtures & Appliances": {
+        "c": 91.30000000000001,
+        "t": "furnishingsfixturesappliances"
+      },
+      "Gambling": {
+        "c": 83.6,
+        "t": "gambling"
+      },
+      "Gold": {
+        "c": 88.29999999999998,
+        "t": "gold"
+      },
+      "Grocery Stores": {
+        "c": 126.69999999999999,
+        "t": "grocerystores"
+      },
+      "Health Information Services": {
+        "c": 40.6,
+        "t": "healthinformationservices"
+      },
+      "Healthcare Plans": {
+        "c": 44.6,
+        "t": "healthcareplans"
+      },
+      "Home Improvement Retail": {
+        "c": 98.60000000000001,
+        "t": "homeimprovementretail"
+      },
+      "Household & Personal Products": {
+        "c": 111.8,
+        "t": "householdpersonalproducts"
+      },
+      "Industrial Distribution": {
+        "c": 71.3,
+        "t": "industrialdistribution"
+      },
+      "Information Technology Services": {
+        "c": 23.499999999999996,
+        "t": "informationtechnologyservices"
+      },
+      "Insurance - Diversified": {
+        "c": 67.6,
+        "t": "insurancediversified"
+      },
+      "Insurance - Life": {
+        "c": 77.69999999999999,
+        "t": "insurancelife"
+      },
+      "Insurance - Property & Casualty": {
+        "c": 103.0,
+        "t": "insurancepropertycasualty"
+      },
+      "Insurance - Reinsurance": {
+        "c": 131.79999999999998,
+        "t": "insurancereinsurance"
+      },
+      "Insurance - Specialty": {
+        "c": 122.9,
+        "t": "insurancespecialty"
+      },
+      "Insurance Brokers": {
+        "c": 104.79999999999998,
+        "t": "insurancebrokers"
+      },
+      "Integrated Freight & Logistics": {
+        "c": 26.2,
+        "t": "integratedfreightlogistics"
+      },
+      "Internet Content & Information": {
+        "c": 106.29999999999998,
+        "t": "internetcontentinformation"
+      },
+      "Internet Retail": {
+        "c": 125.5,
+        "t": "internetretail"
+      },
+      "Leisure": {
+        "c": 82.0,
+        "t": "leisure"
+      },
+      "Lodging": {
+        "c": 41.0,
+        "t": "lodging"
+      },
+      "Lumber & Wood Production": {
+        "c": 57.8,
+        "t": "lumberwoodproduction"
+      },
+      "Luxury Goods": {
+        "c": 79.0,
+        "t": "luxurygoods"
+      },
+      "Marine Shipping": {
+        "c": 87.79999999999998,
+        "t": "marineshipping"
+      },
+      "Medical Care Facilities": {
+        "c": 131.3,
+        "t": "medicalcarefacilities"
+      },
+      "Medical Devices": {
+        "c": 89.1,
+        "t": "medicaldevices"
+      },
+      "Medical Distribution": {
+        "c": 126.1,
+        "t": "medicaldistribution"
+      },
+      "Medical Instruments & Supplies": {
+        "c": 120.6,
+        "t": "medicalinstrumentssupplies"
+      },
+      "Metal Fabrication": {
+        "c": 28.3,
+        "t": "metalfabrication"
+      },
+      "Mortgage Finance": {
+        "c": 139.6,
+        "t": "mortgagefinance"
+      },
+      "Oil & Gas Drilling": {
+        "c": 111.8,
+        "t": "oilgasdrilling"
+      },
+      "Oil & Gas E&P": {
+        "c": 86.5,
+        "t": "oilgasep"
+      },
+      "Oil & Gas Equipment & Services": {
+        "c": 79.0,
+        "t": "oilgasequipmentservices"
+      },
+      "Oil & Gas Integrated": {
+        "c": 82.3,
+        "t": "oilgasintegrated"
+      },
+      "Oil & Gas Midstream": {
+        "c": 88.7,
+        "t": "oilgasmidstream"
+      },
+      "Oil & Gas Refining & Marketing": {
+        "c": 42.6,
+        "t": "oilgasrefiningmarketing"
+      },
+      "Other Industrial Metals & Mining": {
+        "c": 24.9,
+        "t": "otherindustrialmetalsmining"
+      },
+      "Other Precious Metals & Mining": {
+        "c": 97.69999999999999,
+        "t": "otherpreciousmetalsmining"
+      },
+      "Packaged Foods": {
+        "c": 112.69999999999999,
+        "t": "packagedfoods"
+      },
+      "Packaging & Containers": {
+        "c": 68.4,
+        "t": "packagingcontainers"
+      },
+      "Paper & Paper Products": {
+        "c": 122.1,
+        "t": "paperpaperproducts"
+      },
+      "Personal Services": {
+        "c": 141.6,
+        "t": "personalservices"
+      },
+      "Pharmaceutical Retailers": {
+        "c": 132.29999999999998,
+        "t": "pharmaceuticalretailers"
+      },
+      "Pollution & Treatment Controls": {
+        "c": 80.2,
+        "t": "pollutiontreatmentcontrols"
+      },
+      "Publishing": {
+        "c": 67.89999999999999,
+        "t": "publishing"
+      },
+      "Railroads": {
+        "c": 62.5,
+        "t": "railroads"
+      },
+      "Real Estate - Development": {
+        "c": 72.3,
+        "t": "realestatedevelopment"
+      },
+      "Real Estate - Diversified": {
+        "c": 70.4,
+        "t": "realestatediversified"
+      },
+      "Real Estate Services": {
+        "c": 111.59999999999998,
+        "t": "realestateservices"
+      },
+      "Recreational Vehicles": {
+        "c": 42.400000000000006,
+        "t": "recreationalvehicles"
+      },
+      "REIT - Diversified": {
+        "c": 86.8,
+        "t": "reitdiversified"
+      },
+      "REIT - Healthcare Facilities": {
+        "c": 124.4,
+        "t": "reithealthcarefacilities"
+      },
+      "REIT - Hotel & Motel": {
+        "c": 19.599999999999998,
+        "t": "reithotelmotel"
+      },
+      "REIT - Industrial": {
+        "c": 65.2,
+        "t": "reitindustrial"
+      },
+      "REIT - Mortgage": {
+        "c": 111.4,
+        "t": "reitmortgage"
+      },
+      "REIT - Office": {
+        "c": 29.299999999999997,
+        "t": "reitoffice"
+      },
+      "REIT - Residential": {
+        "c": 66.3,
+        "t": "reitresidential"
+      },
+      "REIT - Retail": {
+        "c": 89.2,
+        "t": "reitretail"
+      },
+      "REIT - Specialty": {
+        "c": 86.1,
+        "t": "reitspecialty"
+      },
+      "Rental & Leasing Services": {
+        "c": 34.4,
+        "t": "rentalleasingservices"
+      },
+      "Residential Construction": {
+        "c": 61.4,
+        "t": "residentialconstruction"
+      },
+      "Resorts & Casinos": {
+        "c": 35.4,
+        "t": "resortscasinos"
+      },
+      "Restaurants": {
+        "c": 124.3,
+        "t": "restaurants"
+      },
+      "Scientific & Technical Instruments": {
+        "c": 28.099999999999998,
+        "t": "scientifictechnicalinstruments"
+      },
+      "Security & Protection Services": {
+        "c": 75.8,
+        "t": "securityprotectionservices"
+      },
+      "Semiconductor Equipment & Materials": {
+        "c": 3.5999999999999996,
+        "t": "semiconductorequipmentmaterials"
+      },
+      "Semiconductors": {
+        "c": 9.3,
+        "t": "semiconductors"
+      },
+      "Shell Companies": {
+        "c": 88.99999999999999,
+        "t": "shellcompanies"
+      },
+      "Silver": {
+        "c": 70.1,
+        "t": "silver"
+      },
+      "Software - Application": {
+        "c": 39.0,
+        "t": "softwareapplication"
+      },
+      "Software - Infrastructure": {
+        "c": 17.900000000000002,
+        "t": "softwareinfrastructure"
+      },
+      "Solar": {
+        "c": 1.6,
+        "t": "solar"
+      },
+      "Specialty Business Services": {
+        "c": 100.19999999999999,
+        "t": "specialtybusinessservices"
+      },
+      "Specialty Chemicals": {
+        "c": 84.69999999999999,
+        "t": "specialtychemicals"
+      },
+      "Specialty Industrial Machinery": {
+        "c": 88.0,
+        "t": "specialtyindustrialmachinery"
+      },
+      "Specialty Retail": {
+        "c": 78.6,
+        "t": "specialtyretail"
+      },
+      "Staffing & Employment Services": {
+        "c": 24.4,
+        "t": "staffingemploymentservices"
+      },
+      "Steel": {
+        "c": 14.9,
+        "t": "steel"
+      },
+      "Telecom Services": {
+        "c": 119.0,
+        "t": "telecomservices"
+      },
+      "Textile Manufacturing": {
+        "c": 24.3,
+        "t": "textilemanufacturing"
+      },
+      "Thermal Coal": {
+        "c": 39.3,
+        "t": "thermalcoal"
+      },
+      "Tobacco": {
+        "c": 73.7,
+        "t": "tobacco"
+      },
+      "Tools & Accessories": {
+        "c": 56.3,
+        "t": "toolsaccessories"
+      },
+      "Travel Services": {
+        "c": 58.9,
+        "t": "travelservices"
+      },
+      "Trucking": {
+        "c": 13.0,
+        "t": "trucking"
+      },
+      "Uranium": {
+        "c": 95.79999999999998,
+        "t": "uranium"
+      },
+      "Utilities - Diversified": {
+        "c": 96.29999999999998,
+        "t": "utilitiesdiversified"
+      },
+      "Utilities - Independent Power Producers": {
+        "c": 138.1,
+        "t": "utilitiesindependentpowerproducers"
+      },
+      "Utilities - Regulated Electric": {
+        "c": 115.39999999999999,
+        "t": "utilitiesregulatedelectric"
+      },
+      "Utilities - Regulated Gas": {
+        "c": 126.39999999999999,
+        "t": "utilitiesregulatedgas"
+      },
+      "Utilities - Regulated Water": {
+        "c": 133.7,
+        "t": "utilitiesregulatedwater"
+      },
+      "Utilities - Renewable": {
+        "c": 48.3,
+        "t": "utilitiesrenewable"
+      },
+      "Waste Management": {
+        "c": 99.5,
+        "t": "wastemanagement"
+      }
+    }
   }
 ]
