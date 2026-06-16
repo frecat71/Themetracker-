@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-06-12T23:59:07Z",
+  "fetched_at": "2026-06-16T00:10:26Z",
   "themes": {
     "AI & Tech": {
       "perfs": {
-        "1D": 0.3833333333333333,
-        "1W": 2.1766666666666667,
-        "1M": 0.6766666666666666,
-        "3M": 33.348333333333336,
-        "YTD": 30.465
+        "1D": 4.326666666666667,
+        "1W": 3.6833333333333336,
+        "1M": 4.87,
+        "3M": 36.266666666666666,
+        "YTD": 36.305
       },
-      "score": 34.166666666666664,
+      "score": 30.599999999999998,
       "etfs_p1": [
         "BOTZ",
         "AIQ",
@@ -21,13 +21,13 @@
     },
     "Semiconductors": {
       "perfs": {
-        "1D": 2.022,
-        "1W": 10.976,
-        "1M": 10.602,
-        "3M": 75.914,
-        "YTD": 96.05600000000001
+        "1D": 4.998,
+        "1W": 10.516,
+        "1M": 15.725999999999999,
+        "3M": 80.84400000000001,
+        "YTD": 105.874
       },
-      "score": 6.9,
+      "score": 5.159999999999999,
       "etfs_p1": [
         "SOXX",
         "SMH",
@@ -38,13 +38,13 @@
     },
     "Cybersecurity": {
       "perfs": {
-        "1D": -0.375,
-        "1W": -1.4300000000000002,
-        "1M": 12.65,
-        "3M": 27.125,
-        "YTD": 19.47
+        "1D": 1.24,
+        "1W": 0.39,
+        "1M": 10.625,
+        "3M": 30.215,
+        "YTD": 20.95
       },
-      "score": 17.6,
+      "score": 24.5,
       "etfs_p1": [
         "HACK",
         "CIBR"
@@ -52,13 +52,13 @@
     },
     "Cloud & SaaS": {
       "perfs": {
-        "1D": -0.010000000000000009,
-        "1W": -4.865,
-        "1M": 9.02,
-        "3M": 14.14,
-        "YTD": -4.7700000000000005
+        "1D": 1.4,
+        "1W": -2.6799999999999997,
+        "1M": 8.635,
+        "3M": 15.334999999999999,
+        "YTD": -3.3850000000000002
       },
-      "score": 27.1,
+      "score": 31.549999999999997,
       "etfs_p1": [
         "WCLD",
         "SKYY"
@@ -66,26 +66,26 @@
     },
     "Digital Infra": {
       "perfs": {
-        "1D": 0.23,
-        "1W": 1.7,
-        "1M": 1.37,
-        "3M": 24.64,
-        "YTD": 47.68
+        "1D": 2.44,
+        "1W": 3.03,
+        "1M": 4.28,
+        "3M": 26.42,
+        "YTD": 51.28
       },
-      "score": 31.3,
+      "score": 29.7,
       "etfs_p1": [
         "DTCR"
       ]
     },
     "Nuclear": {
       "perfs": {
-        "1D": 1.125,
-        "1W": -0.225,
-        "1M": -11.2075,
-        "3M": -7.94,
-        "YTD": 2.9325
+        "1D": 4.4475,
+        "1W": 3.3449999999999998,
+        "1M": -6.0525,
+        "3M": -5.055,
+        "YTD": 7.4975000000000005
       },
-      "score": 62.699999999999996,
+      "score": 58.949999999999996,
       "etfs_p1": [
         "URA",
         "URNM",
@@ -95,13 +95,13 @@
     },
     "Clean Energy": {
       "perfs": {
-        "1D": 1.2366666666666666,
-        "1W": -1.1033333333333333,
-        "1M": -2.483333333333333,
-        "3M": 19.970000000000002,
-        "YTD": 31.179999999999996
+        "1D": 1.1033333333333333,
+        "1W": 0.6633333333333334,
+        "1M": -2.5666666666666664,
+        "3M": 19.46,
+        "YTD": 32.699999999999996
       },
-      "score": 45.96666666666666,
+      "score": 51.79999999999999,
       "etfs_p1": [
         "ICLN",
         "QCLN",
@@ -110,13 +110,13 @@
     },
     "Infrastructure": {
       "perfs": {
-        "1D": 0.7066666666666667,
-        "1W": 1.3133333333333332,
-        "1M": -0.24666666666666667,
-        "3M": 12.466666666666667,
-        "YTD": 20.766666666666666
+        "1D": 0.8933333333333334,
+        "1W": 2.36,
+        "1M": 0.11999999999999988,
+        "3M": 12.29,
+        "YTD": 21.86
       },
-      "score": 38.96666666666667,
+      "score": 43.166666666666664,
       "etfs_p1": [
         "PAVE",
         "IFRA",
@@ -125,13 +125,13 @@
     },
     "Defense": {
       "perfs": {
-        "1D": -1.445,
-        "1W": 1.9874999999999998,
-        "1M": 2.5025,
-        "3M": -1.89,
-        "YTD": 8.655000000000001
+        "1D": 0.665,
+        "1W": 3.165,
+        "1M": 3.1025,
+        "3M": -2.695,
+        "YTD": 9.43
       },
-      "score": 33.074999999999996,
+      "score": 37.15,
       "etfs_p1": [
         "ITA",
         "PPA",
@@ -141,13 +141,13 @@
     },
     "Biotech": {
       "perfs": {
-        "1D": 0.445,
-        "1W": 2.65,
-        "1M": -1.335,
-        "3M": 6.465,
-        "YTD": 5.425000000000001
+        "1D": 1.415,
+        "1W": 4.68,
+        "1M": 0.82,
+        "3M": 6.545,
+        "YTD": 6.9399999999999995
       },
-      "score": 39.150000000000006,
+      "score": 35.7,
       "etfs_p1": [
         "XBI",
         "IBB"
@@ -155,13 +155,13 @@
     },
     "EV & Mobility": {
       "perfs": {
-        "1D": 2.025,
-        "1W": 4.075,
-        "1M": -5.24,
-        "3M": 24.46,
-        "YTD": 30.7
+        "1D": 2.175,
+        "1W": 6.49,
+        "1M": -1.63,
+        "3M": 24.925,
+        "YTD": 33.54
       },
-      "score": 43.3,
+      "score": 41.3,
       "etfs_p1": [
         "DRIV",
         "LIT"
@@ -169,13 +169,13 @@
     },
     "Fintech": {
       "perfs": {
-        "1D": 0.355,
-        "1W": 2.155,
-        "1M": -4.495,
-        "3M": -1.095,
-        "YTD": -18.005
+        "1D": 3.3099999999999996,
+        "1W": 3.98,
+        "1M": -2.8899999999999997,
+        "3M": 0.015000000000000013,
+        "YTD": -15.295
       },
-      "score": 49.25,
+      "score": 51.7,
       "etfs_p1": [
         "FINX",
         "ARKF"
@@ -183,13 +183,13 @@
     },
     "Materials": {
       "perfs": {
-        "1D": 2.5780000000000003,
-        "1W": 4.561999999999999,
-        "1M": -7.867999999999999,
-        "3M": 6.614,
-        "YTD": 17.05
+        "1D": 2.756,
+        "1W": 7.506,
+        "1M": -2.536,
+        "3M": 7.55,
+        "YTD": 20.044
       },
-      "score": 49.08,
+      "score": 43.239999999999995,
       "etfs_p1": [
         "XME",
         "PICK",
@@ -200,26 +200,26 @@
     },
     "Momentum": {
       "perfs": {
-        "1D": 1.69,
-        "1W": 5.85,
-        "1M": 6.22,
-        "3M": 33.26,
-        "YTD": 29.6
+        "1D": 2.85,
+        "1W": 5.89,
+        "1M": 8.59,
+        "3M": 35.19,
+        "YTD": 33.29
       },
-      "score": 16.8,
+      "score": 17.900000000000002,
       "etfs_p1": [
         "MTUM"
       ]
     },
     "Crypto": {
       "perfs": {
-        "1D": 0.04,
-        "1W": 5.503333333333333,
-        "1M": -20.153333333333332,
-        "3M": -10.826666666666668,
-        "YTD": -27.540000000000003
+        "1D": 4.706666666666666,
+        "1W": 5.083333333333333,
+        "1M": -18.290000000000003,
+        "3M": -10.153333333333334,
+        "YTD": -24.133333333333336
       },
-      "score": 61.833333333333336,
+      "score": 64.7,
       "etfs_p1": [
         "IBIT",
         "FBTC",
@@ -233,364 +233,364 @@
       "theme": "AI & Tech",
       "priority": 1,
       "perfs": {
-        "1D": -0.38,
-        "1W": -2.26,
-        "1M": -10.83,
-        "3M": 6.57,
-        "YTD": 2.46
+        "1D": 3.04,
+        "1W": -0.18,
+        "1M": -6.98,
+        "3M": 8.08,
+        "YTD": 5.58
       },
-      "score": 66.2
+      "score": 65.1
     },
     "AIQ": {
       "name": "Global X Artificial Intelligence & Tech",
       "theme": "AI & Tech",
       "priority": 1,
       "perfs": {
-        "1D": 0.08,
-        "1W": 2.37,
-        "1M": 3.04,
-        "3M": 32.37,
-        "YTD": 25.84
+        "1D": 3.98,
+        "1W": 3.27,
+        "1M": 6.6,
+        "3M": 34.88,
+        "YTD": 30.85
       },
-      "score": 25.8
+      "score": 25.199999999999996
     },
     "ROBO": {
       "name": "ROBO Global Robotics & Automation",
       "theme": "AI & Tech",
       "priority": 1,
       "perfs": {
-        "1D": 0.69,
-        "1W": -0.46,
-        "1M": -4.88,
-        "3M": 18.81,
-        "YTD": 19.75
+        "1D": 2.66,
+        "1W": 1.04,
+        "1M": -1.99,
+        "3M": 19.83,
+        "YTD": 22.94
       },
-      "score": 52.3
+      "score": 47.7
     },
     "IRBO": {
       "name": "iShares Robotics & AI Multisector",
       "theme": "AI & Tech",
       "priority": 2,
       "perfs": {
-        "1D": 1.08,
-        "1W": 3.74,
-        "1M": 8.12,
-        "3M": 51.35,
-        "YTD": 52.08
+        "1D": 5.6,
+        "1W": 4.71,
+        "1M": 12.83,
+        "3M": 55.42,
+        "YTD": 60.59
       },
-      "score": 14.5
+      "score": 11.5
     },
     "ARTY": {
       "name": "iShares Future AI & Tech Active",
       "theme": "AI & Tech",
       "priority": 1,
       "perfs": {
-        "1D": 1.08,
-        "1W": 3.74,
-        "1M": 8.12,
-        "3M": 51.35,
-        "YTD": 52.08
+        "1D": 5.6,
+        "1W": 4.71,
+        "1M": 12.83,
+        "3M": 55.42,
+        "YTD": 60.59
       },
-      "score": 15.5
+      "score": 12.5
     },
     "BAI": {
       "name": "iShares A.I. Innovation & Tech Active",
       "theme": "AI & Tech",
       "priority": 1,
       "perfs": {
-        "1D": 0.2,
-        "1W": 7.44,
-        "1M": 1.07,
-        "3M": 47.41,
-        "YTD": 46.97
+        "1D": 6.46,
+        "1W": 8.9,
+        "1M": 7.11,
+        "3M": 52.83,
+        "YTD": 56.46
       },
-      "score": 26.5
+      "score": 17.2
     },
     "CHAT": {
       "name": "Roundhill Generative AI & Tech",
       "theme": "AI & Tech",
       "priority": 2,
       "perfs": {
-        "1D": 0.77,
-        "1W": 2.75,
-        "1M": 5.15,
-        "3M": 48.41,
-        "YTD": 57.97
+        "1D": 5.81,
+        "1W": 5.29,
+        "1M": 11.0,
+        "3M": 51.5,
+        "YTD": 67.15
       },
-      "score": 21.0
+      "score": 14.799999999999999
     },
     "HUMN": {
       "name": "Tema Humanoid Robotics & AI",
       "theme": "AI & Tech",
       "priority": 2,
       "perfs": {
-        "1D": 1.32,
-        "1W": -0.42,
-        "1M": -8.35,
-        "3M": 17.32,
-        "YTD": 18.42
+        "1D": 3.31,
+        "1W": 0.11,
+        "1M": -2.72,
+        "3M": 18.99,
+        "YTD": 22.34
       },
-      "score": 58.5
+      "score": 53.9
     },
     "THNQ": {
       "name": "ROBO Global Artificial Intelligence",
       "theme": "AI & Tech",
       "priority": 1,
       "perfs": {
-        "1D": 0.63,
-        "1W": 2.23,
-        "1M": 7.54,
-        "3M": 43.58,
-        "YTD": 35.69
+        "1D": 4.22,
+        "1W": 4.36,
+        "1M": 11.65,
+        "3M": 46.56,
+        "YTD": 41.41
       },
-      "score": 18.7
+      "score": 15.899999999999999
     },
     "AIVL": {
       "name": "WisdomTree US AI Enhanced Value",
       "theme": "AI & Tech",
       "priority": 3,
       "perfs": {
-        "1D": 0.95,
-        "1W": 2.56,
-        "1M": 3.65,
-        "3M": 9.43,
-        "YTD": 11.68
+        "1D": 1.18,
+        "1W": 3.97,
+        "1M": 4.71,
+        "3M": 9.34,
+        "YTD": 12.99
       },
-      "score": 26.499999999999996
+      "score": 29.5
     },
     "SOXX": {
       "name": "iShares Semiconductor",
       "theme": "Semiconductors",
       "priority": 1,
       "perfs": {
-        "1D": 1.59,
-        "1W": 10.46,
-        "1M": 12.86,
-        "3M": 79.96,
-        "YTD": 97.99
+        "1D": 5.4,
+        "1W": 9.97,
+        "1M": 18.57,
+        "3M": 86.03,
+        "YTD": 108.68
       },
-      "score": 2.6
+      "score": 3.0999999999999996
     },
     "SMH": {
       "name": "VanEck Semiconductor",
       "theme": "Semiconductors",
       "priority": 1,
       "perfs": {
-        "1D": 1.72,
-        "1W": 8.82,
-        "1M": 8.3,
-        "3M": 60.06,
-        "YTD": 72.15
+        "1D": 4.38,
+        "1W": 8.18,
+        "1M": 11.89,
+        "3M": 64.27,
+        "YTD": 79.69
       },
-      "score": 10.199999999999998
+      "score": 9.799999999999999
     },
     "PSI": {
       "name": "Invesco Dynamic Semiconductors",
       "theme": "Semiconductors",
       "priority": 1,
       "perfs": {
-        "1D": 3.0,
-        "1W": 15.76,
-        "1M": 10.45,
-        "3M": 82.33,
-        "YTD": 112.9
+        "1D": 4.59,
+        "1W": 15.14,
+        "1M": 14.84,
+        "3M": 85.06,
+        "YTD": 122.67
       },
-      "score": 6.8
+      "score": 4.3
     },
     "FTXL": {
       "name": "First Trust Nasdaq Semiconductor",
       "theme": "Semiconductors",
       "priority": 1,
       "perfs": {
-        "1D": 2.27,
-        "1W": 10.49,
-        "1M": 10.09,
-        "3M": 82.41,
-        "YTD": 108.45
+        "1D": 5.24,
+        "1W": 10.1,
+        "1M": 16.54,
+        "3M": 88.19,
+        "YTD": 119.39
       },
-      "score": 7.8
+      "score": 4.2
     },
     "SOXQ": {
       "name": "Invesco PHLX Semiconductor",
       "theme": "Semiconductors",
       "priority": 1,
       "perfs": {
-        "1D": 1.53,
-        "1W": 9.35,
-        "1M": 11.31,
-        "3M": 74.81,
-        "YTD": 88.79
+        "1D": 5.38,
+        "1W": 9.19,
+        "1M": 16.79,
+        "3M": 80.67,
+        "YTD": 98.94
       },
-      "score": 7.1
+      "score": 4.3999999999999995
     },
     "XSD": {
       "name": "SPDR S&P Semiconductor",
       "theme": "Semiconductors",
       "priority": 2,
       "perfs": {
-        "1D": 1.37,
-        "1W": 5.96,
-        "1M": 7.35,
-        "3M": 85.02,
-        "YTD": 88.36
+        "1D": 4.35,
+        "1W": 5.98,
+        "1M": 11.84,
+        "3M": 89.46,
+        "YTD": 96.55
       },
-      "score": 13.7
+      "score": 10.9
     },
     "HACK": {
       "name": "Amplify Cybersecurity",
       "theme": "Cybersecurity",
       "priority": 1,
       "perfs": {
-        "1D": -0.59,
-        "1W": -1.28,
-        "1M": 12.8,
-        "3M": 23.28,
-        "YTD": 19.51
+        "1D": 1.38,
+        "1W": 0.62,
+        "1M": 11.16,
+        "3M": 26.68,
+        "YTD": 21.16
       },
-      "score": 17.4
+      "score": 22.8
     },
     "CIBR": {
       "name": "First Trust NASDAQ Cybersecurity",
       "theme": "Cybersecurity",
       "priority": 1,
       "perfs": {
-        "1D": -0.16,
-        "1W": -1.58,
-        "1M": 12.5,
-        "3M": 30.97,
-        "YTD": 19.43
+        "1D": 1.1,
+        "1W": 0.16,
+        "1M": 10.09,
+        "3M": 33.75,
+        "YTD": 20.74
       },
-      "score": 17.8
+      "score": 26.2
     },
     "BUG": {
       "name": "Global X Cybersecurity",
       "theme": "Cybersecurity",
       "priority": 2,
       "perfs": {
-        "1D": -0.12,
-        "1W": -3.15,
-        "1M": 11.84,
-        "3M": 28.57,
-        "YTD": 11.98
+        "1D": 1.03,
+        "1W": -0.78,
+        "1M": 10.77,
+        "3M": 31.33,
+        "YTD": 13.13
       },
-      "score": 19.799999999999997
+      "score": 26.5
     },
     "WCBR": {
       "name": "WisdomTree Cybersecurity",
       "theme": "Cybersecurity",
       "priority": 2,
       "perfs": {
-        "1D": -0.33,
-        "1W": -3.11,
-        "1M": 11.48,
-        "3M": 22.86,
-        "YTD": 16.67
+        "1D": 1.11,
+        "1W": -0.99,
+        "1M": 10.87,
+        "3M": 26.41,
+        "YTD": 17.96
       },
-      "score": 21.0
+      "score": 26.5
     },
     "IHAK": {
       "name": "iShares Cybersecurity & Tech",
       "theme": "Cybersecurity",
       "priority": 2,
       "perfs": {
-        "1D": -0.36,
-        "1W": -1.93,
-        "1M": 9.6,
-        "3M": 25.52,
-        "YTD": 16.23
+        "1D": 0.72,
+        "1W": -0.55,
+        "1M": 7.77,
+        "3M": 26.9,
+        "YTD": 17.06
       },
-      "score": 23.6
+      "score": 29.0
     },
     "WCLD": {
       "name": "WisdomTree Cloud Computing",
       "theme": "Cloud & SaaS",
       "priority": 1,
       "perfs": {
-        "1D": -0.2,
-        "1W": -4.94,
-        "1M": 11.35,
-        "3M": 8.24,
-        "YTD": -12.57
+        "1D": 0.78,
+        "1W": -3.06,
+        "1M": 10.53,
+        "3M": 9.2,
+        "YTD": -11.88
       },
-      "score": 24.7
+      "score": 31.099999999999998
     },
     "SKYY": {
       "name": "First Trust Cloud Computing",
       "theme": "Cloud & SaaS",
       "priority": 1,
       "perfs": {
-        "1D": 0.18,
-        "1W": -4.79,
-        "1M": 6.69,
-        "3M": 20.04,
-        "YTD": 3.03
+        "1D": 2.02,
+        "1W": -2.3,
+        "1M": 6.74,
+        "3M": 21.47,
+        "YTD": 5.11
       },
-      "score": 29.5
+      "score": 32.0
     },
     "CLOU": {
       "name": "Global X Cloud Computing",
       "theme": "Cloud & SaaS",
       "priority": 2,
       "perfs": {
-        "1D": -0.22,
-        "1W": -4.94,
-        "1M": 3.94,
-        "3M": 15.52,
-        "YTD": 0.35
+        "1D": 1.28,
+        "1W": -2.58,
+        "1M": 5.31,
+        "3M": 17.48,
+        "YTD": 1.64
       },
-      "score": 33.4
+      "score": 34.8
     },
     "IGV": {
       "name": "iShares Expanded Tech-Software",
       "theme": "Cloud & SaaS",
       "priority": 2,
       "perfs": {
-        "1D": -0.24,
-        "1W": -5.37,
-        "1M": 2.37,
-        "3M": 7.73,
-        "YTD": -14.18
+        "1D": 2.18,
+        "1W": -3.11,
+        "1M": 2.25,
+        "3M": 9.1,
+        "YTD": -12.31
       },
-      "score": 40.0
+      "score": 42.699999999999996
     },
     "PSJ": {
       "name": "Invesco Dynamic Software",
       "theme": "Cloud & SaaS",
       "priority": 3,
       "perfs": {
-        "1D": 0.39,
-        "1W": 7.01,
-        "1M": 6.2,
-        "3M": 59.94,
-        "YTD": 63.54
+        "1D": 5.87,
+        "1W": 8.23,
+        "1M": 13.39,
+        "3M": 64.73,
+        "YTD": 73.15
       },
-      "score": 15.799999999999999
+      "score": 7.399999999999999
     },
     "DTCR": {
       "name": "Global X Data Center & Digital Infra",
       "theme": "Digital Infra",
       "priority": 1,
       "perfs": {
-        "1D": 0.23,
-        "1W": 1.7,
-        "1M": 1.37,
-        "3M": 24.64,
-        "YTD": 47.68
+        "1D": 2.44,
+        "1W": 3.03,
+        "1M": 4.28,
+        "3M": 26.42,
+        "YTD": 51.28
       },
-      "score": 31.3
+      "score": 29.7
     },
     "VPN": {
       "name": "Global X Data Center REITs & Digital Infra",
       "theme": "Digital Infra",
       "priority": 2,
       "perfs": {
-        "1D": 0.23,
-        "1W": 1.7,
-        "1M": 1.37,
-        "3M": 24.64,
-        "YTD": 47.68
+        "1D": 2.44,
+        "1W": 3.03,
+        "1M": 4.28,
+        "3M": 26.42,
+        "YTD": 51.28
       },
-      "score": 32.3
+      "score": 30.699999999999996
     },
     "SRVR": {
       "name": "Pacer Benchmark Data & Infrastructure",
@@ -598,426 +598,426 @@
       "priority": 2,
       "perfs": {
         "1D": 0.42,
-        "1W": -0.44,
-        "1M": -3.05,
-        "3M": 4.41,
-        "YTD": 17.53
+        "1W": 0.87,
+        "1M": -2.26,
+        "3M": 3.78,
+        "YTD": 18.02
       },
-      "score": 49.1
+      "score": 52.6
     },
     "URA": {
       "name": "Global X Uranium",
       "theme": "Nuclear",
       "priority": 1,
       "perfs": {
-        "1D": 1.54,
-        "1W": 0.46,
-        "1M": -14.61,
-        "3M": -7.65,
-        "YTD": 6.53
+        "1D": 5.58,
+        "1W": 4.66,
+        "1M": -8.46,
+        "3M": -3.78,
+        "YTD": 12.47
       },
-      "score": 65.1
+      "score": 61.3
     },
     "URNM": {
       "name": "Sprott Uranium Miners",
       "theme": "Nuclear",
       "priority": 1,
       "perfs": {
-        "1D": 0.53,
-        "1W": -1.27,
-        "1M": -14.56,
-        "3M": -14.48,
-        "YTD": -0.56
+        "1D": 6.08,
+        "1W": 3.8,
+        "1M": -7.36,
+        "3M": -9.78,
+        "YTD": 5.48
       },
-      "score": 67.5
+      "score": 62.39999999999999
     },
     "NLR": {
       "name": "VanEck Uranium and Nuclear",
       "theme": "Nuclear",
       "priority": 1,
       "perfs": {
-        "1D": 0.84,
-        "1W": -0.13,
-        "1M": -10.59,
-        "3M": -10.74,
-        "YTD": -1.81
+        "1D": 3.33,
+        "1W": 2.26,
+        "1M": -6.38,
+        "3M": -8.62,
+        "YTD": 1.46
       },
-      "score": 63.6
+      "score": 62.3
     },
     "URNJ": {
       "name": "Sprott Junior Uranium Miners",
       "theme": "Nuclear",
       "priority": 2,
       "perfs": {
-        "1D": 0.7,
-        "1W": 0.0,
-        "1M": -17.47,
-        "3M": -19.0,
-        "YTD": -2.54
+        "1D": 5.54,
+        "1W": 4.56,
+        "1M": -10.56,
+        "3M": -13.69,
+        "YTD": 2.86
       },
-      "score": 68.3
+      "score": 63.8
     },
     "NUKZ": {
       "name": "Range Nuclear Renaissance",
       "theme": "Nuclear",
       "priority": 1,
       "perfs": {
-        "1D": 1.59,
-        "1W": 0.04,
-        "1M": -5.07,
-        "3M": 1.11,
-        "YTD": 7.57
+        "1D": 2.8,
+        "1W": 2.66,
+        "1M": -2.01,
+        "3M": 1.96,
+        "YTD": 10.58
       },
-      "score": 54.599999999999994
+      "score": 49.8
     },
     "ICLN": {
       "name": "iShares Global Clean Energy",
       "theme": "Clean Energy",
       "priority": 1,
       "perfs": {
-        "1D": 0.87,
-        "1W": -1.88,
-        "1M": -4.39,
-        "3M": 13.82,
-        "YTD": 27.33
+        "1D": 0.53,
+        "1W": 0.14,
+        "1M": -4.97,
+        "3M": 13.55,
+        "YTD": 28.0
       },
-      "score": 52.4
+      "score": 60.1
     },
     "QCLN": {
       "name": "First Trust Nasdaq Clean Edge Energy",
       "theme": "Clean Energy",
       "priority": 1,
       "perfs": {
-        "1D": 1.67,
-        "1W": 0.16,
-        "1M": -1.84,
-        "3M": 32.28,
-        "YTD": 37.89
+        "1D": 3.3,
+        "1W": 3.23,
+        "1M": 0.73,
+        "3M": 34.35,
+        "YTD": 42.45
       },
-      "score": 40.9
+      "score": 35.3
     },
     "TAN": {
       "name": "Invesco Solar",
       "theme": "Clean Energy",
       "priority": 1,
       "perfs": {
-        "1D": 1.17,
-        "1W": -1.59,
-        "1M": -1.22,
-        "3M": 13.81,
-        "YTD": 28.32
+        "1D": -0.52,
+        "1W": -1.38,
+        "1M": -3.46,
+        "3M": 10.48,
+        "YTD": 27.65
       },
-      "score": 44.599999999999994
+      "score": 59.99999999999999
     },
     "FAN": {
       "name": "First Trust Global Wind Energy",
       "theme": "Clean Energy",
       "priority": 2,
       "perfs": {
-        "1D": -0.24,
-        "1W": -0.64,
-        "1M": -7.02,
-        "3M": 6.18,
-        "YTD": 21.64
+        "1D": 0.08,
+        "1W": -0.72,
+        "1M": -6.07,
+        "3M": 4.22,
+        "YTD": 21.74
       },
-      "score": 58.39999999999999
+      "score": 63.39999999999999
     },
     "PBW": {
       "name": "Invesco WilderHill Clean Energy",
       "theme": "Clean Energy",
       "priority": 2,
       "perfs": {
-        "1D": 1.11,
-        "1W": -1.54,
-        "1M": -4.45,
-        "3M": 24.65,
-        "YTD": 31.47
+        "1D": 1.72,
+        "1W": -0.22,
+        "1M": -2.48,
+        "3M": 25.16,
+        "YTD": 33.73
       },
-      "score": 50.9
+      "score": 53.099999999999994
     },
     "ACES": {
       "name": "ALPS Clean Energy",
       "theme": "Clean Energy",
       "priority": 2,
       "perfs": {
-        "1D": 0.93,
-        "1W": -3.2,
-        "1M": -3.86,
-        "3M": 11.75,
-        "YTD": 13.85
+        "1D": 0.16,
+        "1W": -2.68,
+        "1M": -3.95,
+        "3M": 10.1,
+        "YTD": 14.03
       },
-      "score": 52.4
+      "score": 62.099999999999994
     },
     "PAVE": {
       "name": "Global X U.S. Infrastructure Development",
       "theme": "Infrastructure",
       "priority": 1,
       "perfs": {
-        "1D": 1.01,
-        "1W": 1.91,
-        "1M": 2.28,
-        "3M": 15.13,
-        "YTD": 20.86
+        "1D": 0.71,
+        "1W": 2.94,
+        "1M": 2.36,
+        "3M": 14.78,
+        "YTD": 21.72
       },
-      "score": 31.299999999999997
+      "score": 35.2
     },
     "IFRA": {
       "name": "iShares U.S. Infrastructure",
       "theme": "Infrastructure",
       "priority": 1,
       "perfs": {
-        "1D": 1.29,
-        "1W": 1.26,
-        "1M": 1.16,
-        "3M": 7.88,
-        "YTD": 17.92
+        "1D": 0.15,
+        "1W": 2.49,
+        "1M": 0.47,
+        "3M": 7.29,
+        "YTD": 18.09
       },
-      "score": 37.6
+      "score": 42.9
     },
     "GRID": {
       "name": "First Trust Nasdaq Clean Edge Smart Grid",
       "theme": "Infrastructure",
       "priority": 1,
       "perfs": {
-        "1D": -0.18,
-        "1W": 0.77,
-        "1M": -4.18,
-        "3M": 14.39,
-        "YTD": 23.52
+        "1D": 1.82,
+        "1W": 1.65,
+        "1M": -2.47,
+        "3M": 14.8,
+        "YTD": 25.77
       },
-      "score": 48.0
+      "score": 51.4
     },
     "NFRA": {
       "name": "FlexShares Global Infrastructure",
       "theme": "Infrastructure",
       "priority": 2,
       "perfs": {
-        "1D": 0.72,
-        "1W": 1.41,
-        "1M": 1.22,
-        "3M": 2.85,
-        "YTD": 9.27
+        "1D": 0.05,
+        "1W": 1.78,
+        "1M": 0.8,
+        "3M": 1.99,
+        "YTD": 9.32
       },
-      "score": 37.400000000000006
+      "score": 41.3
     },
     "ITA": {
       "name": "iShares U.S. Aerospace & Defense",
       "theme": "Defense",
       "priority": 1,
       "perfs": {
-        "1D": -0.95,
-        "1W": 1.89,
-        "1M": 3.58,
-        "3M": 1.94,
-        "YTD": 8.9
+        "1D": 1.54,
+        "1W": 4.46,
+        "1M": 5.76,
+        "3M": 1.97,
+        "YTD": 10.58
       },
-      "score": 30.5
+      "score": 28.799999999999997
     },
     "PPA": {
       "name": "Invesco Aerospace & Defense",
       "theme": "Defense",
       "priority": 1,
       "perfs": {
-        "1D": -1.24,
-        "1W": 2.13,
-        "1M": 2.73,
-        "3M": 0.52,
-        "YTD": 11.17
+        "1D": 0.96,
+        "1W": 3.56,
+        "1M": 3.71,
+        "3M": 0.28,
+        "YTD": 12.25
       },
-      "score": 31.599999999999998
+      "score": 35.4
     },
     "XAR": {
       "name": "SPDR S&P Aerospace & Defense",
       "theme": "Defense",
       "priority": 1,
       "perfs": {
-        "1D": -1.55,
-        "1W": 2.71,
-        "1M": 3.65,
-        "3M": 5.57,
-        "YTD": 16.05
+        "1D": 1.01,
+        "1W": 4.31,
+        "1M": 4.22,
+        "3M": 4.42,
+        "YTD": 17.22
       },
-      "score": 27.799999999999997
+      "score": 32.9
     },
     "SHLD": {
       "name": "Global X Defense Tech",
       "theme": "Defense",
       "priority": 1,
       "perfs": {
-        "1D": -2.04,
-        "1W": 1.22,
-        "1M": 0.05,
-        "3M": -15.59,
-        "YTD": -1.5
+        "1D": -0.85,
+        "1W": 0.33,
+        "1M": -1.28,
+        "3M": -17.45,
+        "YTD": -2.33
       },
-      "score": 42.4
+      "score": 51.5
     },
     "ARKQ": {
       "name": "ARK Autonomous Tech & Robotics",
       "theme": "Defense",
       "priority": 3,
       "perfs": {
-        "1D": -0.64,
-        "1W": -0.15,
-        "1M": -5.27,
-        "3M": 10.35,
-        "YTD": 12.86
+        "1D": 4.08,
+        "1W": 2.29,
+        "1M": -2.1,
+        "3M": 12.95,
+        "YTD": 17.47
       },
-      "score": 54.4
+      "score": 49.0
     },
     "XBI": {
       "name": "SPDR S&P Biotech",
       "theme": "Biotech",
       "priority": 1,
       "perfs": {
-        "1D": 0.79,
-        "1W": 3.98,
-        "1M": -1.52,
-        "3M": 9.82,
-        "YTD": 9.73
+        "1D": 1.95,
+        "1W": 6.21,
+        "1M": 1.15,
+        "3M": 10.08,
+        "YTD": 11.87
       },
-      "score": 36.6
+      "score": 31.0
     },
     "IBB": {
       "name": "iShares Biotechnology",
       "theme": "Biotech",
       "priority": 1,
       "perfs": {
-        "1D": 0.1,
-        "1W": 1.32,
-        "1M": -1.15,
-        "3M": 3.11,
-        "YTD": 1.12
+        "1D": 0.88,
+        "1W": 3.15,
+        "1M": 0.49,
+        "3M": 3.01,
+        "YTD": 2.01
       },
-      "score": 41.7
+      "score": 40.400000000000006
     },
     "ARKG": {
       "name": "ARK Genomic Revolution",
       "theme": "Biotech",
       "priority": 2,
       "perfs": {
-        "1D": -0.53,
-        "1W": 0.18,
-        "1M": 12.96,
-        "3M": 26.97,
-        "YTD": 15.53
+        "1D": 4.87,
+        "1W": 5.88,
+        "1M": 20.29,
+        "3M": 32.2,
+        "YTD": 21.16
       },
-      "score": 13.1
+      "score": 6.800000000000001
     },
     "LABU": {
       "name": "Direxion Daily S&P Biotech Bull 3X",
       "theme": "Biotech",
       "priority": 3,
       "perfs": {
-        "1D": 2.37,
-        "1W": 11.46,
-        "1M": -8.14,
-        "3M": 20.0,
-        "YTD": 12.06
+        "1D": 5.55,
+        "1W": 18.46,
+        "1M": -0.96,
+        "3M": 20.67,
+        "YTD": 18.28
       },
-      "score": 45.3
+      "score": 33.9
     },
     "BBH": {
       "name": "VanEck Biotech",
       "theme": "Biotech",
       "priority": 2,
       "perfs": {
-        "1D": -0.17,
-        "1W": -0.23,
-        "1M": 0.09,
-        "3M": 0.52,
-        "YTD": -0.9
+        "1D": 0.3,
+        "1W": 1.11,
+        "1M": 1.15,
+        "3M": 0.33,
+        "YTD": -0.6
       },
-      "score": 42.400000000000006
+      "score": 41.7
     },
     "DRIV": {
       "name": "Global X Autonomous & Electric Vehicles",
       "theme": "EV & Mobility",
       "priority": 1,
       "perfs": {
-        "1D": 2.03,
-        "1W": 2.95,
-        "1M": -2.43,
-        "3M": 31.92,
-        "YTD": 34.4
+        "1D": 2.27,
+        "1W": 3.91,
+        "1M": 0.04,
+        "3M": 32.45,
+        "YTD": 37.45
       },
-      "score": 38.1
+      "score": 37.4
     },
     "LIT": {
       "name": "Global X Lithium & Battery Tech",
       "theme": "EV & Mobility",
       "priority": 1,
       "perfs": {
-        "1D": 2.02,
-        "1W": 5.2,
-        "1M": -8.05,
-        "3M": 17.0,
-        "YTD": 27.0
+        "1D": 2.08,
+        "1W": 9.07,
+        "1M": -3.3,
+        "3M": 17.4,
+        "YTD": 29.63
       },
-      "score": 48.49999999999999
+      "score": 45.199999999999996
     },
     "IDRV": {
       "name": "iShares Self-Driving EV and Tech",
       "theme": "EV & Mobility",
       "priority": 2,
       "perfs": {
-        "1D": 1.79,
-        "1W": 1.59,
-        "1M": -8.28,
-        "3M": 11.64,
-        "YTD": 9.5
+        "1D": 1.37,
+        "1W": 3.11,
+        "1M": -6.38,
+        "3M": 10.8,
+        "YTD": 11.0
       },
-      "score": 55.39999999999999
+      "score": 58.7
     },
     "KARS": {
       "name": "KraneShares Electric Vehicles",
       "theme": "EV & Mobility",
       "priority": 2,
       "perfs": {
-        "1D": 1.64,
-        "1W": 3.21,
-        "1M": -10.72,
-        "3M": 6.74,
-        "YTD": 10.65
+        "1D": 2.47,
+        "1W": 4.84,
+        "1M": -6.41,
+        "3M": 6.98,
+        "YTD": 13.39
       },
-      "score": 56.5
+      "score": 56.89999999999999
     },
     "BATT": {
       "name": "Amplify Lithium & Battery Technology",
       "theme": "EV & Mobility",
       "priority": 2,
       "perfs": {
-        "1D": 3.19,
-        "1W": 3.97,
-        "1M": -8.54,
-        "3M": 12.64,
-        "YTD": 19.49
+        "1D": 2.79,
+        "1W": 7.21,
+        "1M": -3.69,
+        "3M": 13.45,
+        "YTD": 22.83
       },
-      "score": 52.3
+      "score": 49.2
     },
     "FINX": {
       "name": "Global X FinTech",
       "theme": "Fintech",
       "priority": 1,
       "perfs": {
-        "1D": 0.71,
-        "1W": 2.4,
-        "1M": -3.23,
-        "3M": 0.17,
-        "YTD": -17.7
+        "1D": 2.35,
+        "1W": 3.29,
+        "1M": -2.4,
+        "3M": 1.1,
+        "YTD": -15.77
       },
-      "score": 45.199999999999996
+      "score": 50.1
     },
     "ARKF": {
       "name": "ARK Fintech Innovation",
       "theme": "Fintech",
       "priority": 1,
       "perfs": {
-        "1D": 0.0,
-        "1W": 1.91,
-        "1M": -5.76,
-        "3M": -2.36,
-        "YTD": -18.31
+        "1D": 4.27,
+        "1W": 4.67,
+        "1M": -3.38,
+        "3M": -1.07,
+        "YTD": -14.82
       },
       "score": 53.3
     },
@@ -1026,208 +1026,208 @@
       "theme": "Fintech",
       "priority": 2,
       "perfs": {
-        "1D": 1.45,
-        "1W": 1.43,
-        "1M": -1.98,
-        "3M": 0.96,
-        "YTD": -15.86
+        "1D": 1.24,
+        "1W": 2.84,
+        "1M": -1.64,
+        "3M": 1.46,
+        "YTD": -14.81
       },
-      "score": 44.5
+      "score": 48.3
     },
     "XME": {
       "name": "SPDR S&P Metals & Mining",
       "theme": "Materials",
       "priority": 1,
       "perfs": {
-        "1D": 1.77,
-        "1W": 1.55,
-        "1M": -2.35,
-        "3M": 10.47,
-        "YTD": 16.24
+        "1D": 0.16,
+        "1W": 1.72,
+        "1M": -0.28,
+        "3M": 9.19,
+        "YTD": 16.43
       },
-      "score": 43.099999999999994
+      "score": 44.7
     },
     "PICK": {
       "name": "iShares MSCI Global Metals & Mining",
       "theme": "Materials",
       "priority": 1,
       "perfs": {
-        "1D": 2.04,
-        "1W": 5.34,
-        "1M": -3.57,
-        "3M": 17.56,
-        "YTD": 26.76
+        "1D": 1.14,
+        "1W": 6.11,
+        "1M": -0.68,
+        "3M": 16.5,
+        "YTD": 28.2
       },
-      "score": 39.7
+      "score": 37.099999999999994
     },
     "REMX": {
       "name": "VanEck Rare Earth/Strategic Metals",
       "theme": "Materials",
       "priority": 1,
       "perfs": {
-        "1D": 2.73,
-        "1W": 7.8,
-        "1M": -10.13,
-        "3M": 6.69,
-        "YTD": 29.19
+        "1D": 1.46,
+        "1W": 10.83,
+        "1M": -2.96,
+        "3M": 7.54,
+        "YTD": 31.07
       },
-      "score": 51.4
+      "score": 44.9
     },
     "COPX": {
       "name": "Global X Copper Miners",
       "theme": "Materials",
       "priority": 1,
       "perfs": {
-        "1D": 3.38,
-        "1W": 6.61,
-        "1M": -6.46,
-        "3M": 12.54,
-        "YTD": 19.75
+        "1D": 4.47,
+        "1W": 10.48,
+        "1M": 0.48,
+        "3M": 14.17,
+        "YTD": 25.1
       },
-      "score": 46.2
+      "score": 31.2
     },
     "GDX": {
       "name": "VanEck Gold Miners",
       "theme": "Materials",
       "priority": 1,
       "perfs": {
-        "1D": 2.97,
-        "1W": 1.51,
-        "1M": -16.83,
-        "3M": -14.19,
-        "YTD": -6.69
+        "1D": 6.55,
+        "1W": 8.39,
+        "1M": -9.24,
+        "3M": -9.65,
+        "YTD": -0.58
       },
-      "score": 65.0
+      "score": 58.3
     },
     "GDXJ": {
       "name": "VanEck Junior Gold Miners",
       "theme": "Materials",
       "priority": 2,
       "perfs": {
-        "1D": 3.15,
-        "1W": 3.65,
-        "1M": -19.14,
-        "3M": -15.87,
-        "YTD": -8.37
+        "1D": 7.31,
+        "1W": 10.11,
+        "1M": -10.97,
+        "3M": -11.09,
+        "YTD": -1.67
       },
-      "score": 62.9
+      "score": 58.8
     },
     "SIL": {
       "name": "Global X Silver Miners",
       "theme": "Materials",
       "priority": 2,
       "perfs": {
-        "1D": 3.27,
-        "1W": 3.03,
-        "1M": -20.41,
-        "3M": -13.38,
-        "YTD": -2.2
+        "1D": 6.45,
+        "1W": 9.26,
+        "1M": -12.24,
+        "3M": -8.64,
+        "YTD": 4.11
       },
-      "score": 65.69999999999999
+      "score": 59.5
     },
     "MTUM": {
       "name": "iShares MSCI USA Momentum Factor",
       "theme": "Momentum",
       "priority": 1,
       "perfs": {
-        "1D": 1.69,
-        "1W": 5.85,
-        "1M": 6.22,
-        "3M": 33.26,
-        "YTD": 29.6
+        "1D": 2.85,
+        "1W": 5.89,
+        "1M": 8.59,
+        "3M": 35.19,
+        "YTD": 33.29
       },
-      "score": 16.8
+      "score": 17.900000000000002
     },
     "PDP": {
       "name": "Invesco Dorsey Wright Momentum",
       "theme": "Momentum",
       "priority": 2,
       "perfs": {
-        "1D": 1.04,
-        "1W": 3.81,
-        "1M": 2.51,
-        "3M": 20.91,
-        "YTD": 25.21
+        "1D": 2.21,
+        "1W": 5.37,
+        "1M": 4.25,
+        "3M": 21.36,
+        "YTD": 27.98
       },
-      "score": 25.999999999999996
+      "score": 26.8
     },
     "QMOM": {
       "name": "Alpha Architect U.S. Quantitative Momentum",
       "theme": "Momentum",
       "priority": 2,
       "perfs": {
-        "1D": 1.29,
-        "1W": 2.95,
-        "1M": -0.97,
-        "3M": 18.12,
-        "YTD": 21.16
+        "1D": 0.71,
+        "1W": 2.97,
+        "1M": -0.45,
+        "3M": 16.11,
+        "YTD": 22.02
       },
-      "score": 34.8
+      "score": 42.5
     },
     "IBIT": {
       "name": "iShares Bitcoin Trust",
       "theme": "Crypto",
       "priority": 1,
       "perfs": {
-        "1D": -0.03,
-        "1W": 5.57,
-        "1M": -20.12,
-        "3M": -10.73,
-        "YTD": -27.41
+        "1D": 4.72,
+        "1W": 5.15,
+        "1M": -18.26,
+        "3M": -10.01,
+        "YTD": -23.99
       },
-      "score": 60.89999999999999
+      "score": 64.39999999999999
     },
     "FBTC": {
       "name": "Fidelity Wise Origin Bitcoin Fund",
       "theme": "Crypto",
       "priority": 1,
       "perfs": {
-        "1D": 0.11,
-        "1W": 5.51,
-        "1M": -20.13,
-        "3M": -10.7,
-        "YTD": -27.39
+        "1D": 4.72,
+        "1W": 5.06,
+        "1M": -18.24,
+        "3M": -10.06,
+        "YTD": -23.97
       },
-      "score": 61.7
+      "score": 64.0
     },
     "GBTC": {
       "name": "Grayscale Bitcoin Trust",
       "theme": "Crypto",
       "priority": 1,
       "perfs": {
-        "1D": 0.04,
-        "1W": 5.43,
-        "1M": -20.21,
-        "3M": -11.05,
-        "YTD": -27.82
+        "1D": 4.68,
+        "1W": 5.04,
+        "1M": -18.37,
+        "3M": -10.39,
+        "YTD": -24.44
       },
-      "score": 62.9
+      "score": 65.7
     },
     "ETHA": {
       "name": "iShares Ethereum Trust",
       "theme": "Crypto",
       "priority": 2,
       "perfs": {
-        "1D": -1.02,
-        "1W": 5.9,
-        "1M": -26.15,
-        "3M": -20.89,
-        "YTD": -43.96
+        "1D": 9.47,
+        "1W": 8.18,
+        "1M": -20.74,
+        "3M": -21.86,
+        "YTD": -38.65
       },
-      "score": 64.2
+      "score": 64.6
     },
     "BKCH": {
       "name": "Global X Blockchain",
       "theme": "Crypto",
       "priority": 2,
       "perfs": {
-        "1D": 1.33,
-        "1W": 6.68,
-        "1M": -4.47,
-        "3M": 35.0,
-        "YTD": 30.73
+        "1D": 4.67,
+        "1W": 4.8,
+        "1M": -2.89,
+        "3M": 34.02,
+        "YTD": 36.83
       },
-      "score": 39.699999999999996
+      "score": 45.7
     }
   }
 }
