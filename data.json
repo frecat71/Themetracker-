@@ -1,2741 +1,2741 @@
 {
-  "fetched_at": "2026-09-15T00:45:35Z",
+  "fetched_at": "2026-09-16T00:37:35Z",
   "industries": {
     "Advertising Agencies": {
       "ticker": "advertisingagencies",
       "perfs": {
-        "1D": 2.89,
-        "1W": 2.66,
-        "1M": 2.38,
-        "3M": -23.06,
-        "YTD": -41.52
+        "1D": -0.86,
+        "1W": 4.13,
+        "1M": 1.05,
+        "3M": -26.39,
+        "YTD": -42.02
       },
       "ranks": {
-        "1D": 10,
-        "1W": 7,
-        "1M": 23,
-        "3M": 140,
+        "1D": 79,
+        "1W": 4,
+        "1M": 29,
+        "3M": 142,
         "YTD": 144
       },
-      "composite": 31.499999999999996,
-      "acceleration": 133
+      "composite": 35.3,
+      "acceleration": 138
     },
     "Aerospace & Defense": {
       "ticker": "aerospacedefense",
       "perfs": {
-        "1D": -1.26,
-        "1W": -1.99,
-        "1M": -6.57,
-        "3M": -8.18,
-        "YTD": -1.44
+        "1D": -1.83,
+        "1W": -4.59,
+        "1M": -8.72,
+        "3M": -17.06,
+        "YTD": -3.25
       },
       "ranks": {
-        "1D": 110,
-        "1W": 70,
-        "1M": 102,
-        "3M": 115,
-        "YTD": 97
+        "1D": 121,
+        "1W": 113,
+        "1M": 109,
+        "3M": 129,
+        "YTD": 99
       },
-      "composite": 96.89999999999999,
-      "acceleration": 45
+      "composite": 111.80000000000001,
+      "acceleration": 16
     },
     "Agricultural Inputs": {
       "ticker": "agriculturalinputs",
       "perfs": {
-        "1D": -1.66,
-        "1W": -4.46,
-        "1M": 10.2,
-        "3M": 10.15,
-        "YTD": 23.92
+        "1D": 1.75,
+        "1W": -2.46,
+        "1M": 10.92,
+        "3M": 13.37,
+        "YTD": 26.09
       },
       "ranks": {
-        "1D": 113,
-        "1W": 117,
-        "1M": 3,
-        "3M": 19,
-        "YTD": 26
+        "1D": 7,
+        "1W": 82,
+        "1M": 2,
+        "3M": 10,
+        "YTD": 20
       },
-      "composite": 27.4,
-      "acceleration": -98
+      "composite": 18.8,
+      "acceleration": -72
     },
     "Airlines": {
       "ticker": "airlines",
       "perfs": {
-        "1D": -0.37,
-        "1W": -1.91,
-        "1M": -11.71,
-        "3M": -7.88,
-        "YTD": -5.7
+        "1D": -1.52,
+        "1W": -1.47,
+        "1M": -11.88,
+        "3M": -11.41,
+        "YTD": -7.13
       },
       "ranks": {
-        "1D": 85,
-        "1W": 68,
-        "1M": 133,
-        "3M": 111,
-        "YTD": 112
+        "1D": 109,
+        "1W": 65,
+        "1M": 129,
+        "3M": 119,
+        "YTD": 111
       },
-      "composite": 117.79999999999998,
-      "acceleration": 43
+      "composite": 115.2,
+      "acceleration": 54
     },
     "Airports & Air Services": {
       "ticker": "airportsairservices",
       "perfs": {
-        "1D": -0.78,
-        "1W": -3.16,
-        "1M": -9.29,
-        "3M": -16.43,
-        "YTD": -29.03
+        "1D": -1.05,
+        "1W": -3.68,
+        "1M": -8.31,
+        "3M": -21.43,
+        "YTD": -29.78
       },
       "ranks": {
-        "1D": 101,
-        "1W": 88,
-        "1M": 118,
-        "3M": 133,
+        "1D": 89,
+        "1W": 98,
+        "1M": 105,
+        "3M": 138,
         "YTD": 140
       },
-      "composite": 113.49999999999999,
-      "acceleration": 45
+      "composite": 106.89999999999999,
+      "acceleration": 40
     },
     "Aluminum": {
       "ticker": "aluminum",
       "perfs": {
-        "1D": -3.65,
-        "1W": -7.5,
-        "1M": -9.13,
-        "3M": -30.42,
-        "YTD": 0.14
+        "1D": -1.08,
+        "1W": -11.03,
+        "1M": -10.78,
+        "3M": -26.32,
+        "YTD": -0.94
       },
       "ranks": {
-        "1D": 129,
-        "1W": 138,
-        "1M": 116,
-        "3M": 144,
-        "YTD": 88
+        "1D": 91,
+        "1W": 139,
+        "1M": 123,
+        "3M": 141,
+        "YTD": 89
       },
-      "composite": 123.19999999999999,
-      "acceleration": 6
+      "composite": 128.0,
+      "acceleration": 2
     },
     "Apparel Manufacturing": {
       "ticker": "apparelmanufacturing",
       "perfs": {
-        "1D": 0.3,
-        "1W": -4.96,
-        "1M": -12.44,
-        "3M": -16.91,
-        "YTD": -7.53
+        "1D": -2.15,
+        "1W": -4.65,
+        "1M": -14.44,
+        "3M": -19.76,
+        "YTD": -9.52
       },
       "ranks": {
-        "1D": 58,
-        "1W": 124,
-        "1M": 138,
-        "3M": 134,
-        "YTD": 115
+        "1D": 132,
+        "1W": 116,
+        "1M": 139,
+        "3M": 136,
+        "YTD": 116
       },
-      "composite": 134.79999999999998,
-      "acceleration": 10
+      "composite": 134.1,
+      "acceleration": 20
     },
     "Apparel Retail": {
       "ticker": "apparelretail",
       "perfs": {
-        "1D": -0.41,
-        "1W": -3.96,
-        "1M": -14.37,
-        "3M": -17.67,
-        "YTD": -10.55
+        "1D": -1.63,
+        "1W": -4.07,
+        "1M": -15.17,
+        "3M": -18.33,
+        "YTD": -12.0
       },
       "ranks": {
-        "1D": 86,
+        "1D": 115,
         "1W": 106,
         "1M": 140,
-        "3M": 137,
-        "YTD": 121
+        "3M": 132,
+        "YTD": 122
       },
-      "composite": 132.9,
-      "acceleration": 31
+      "composite": 132.4,
+      "acceleration": 26
     },
     "Asset Management": {
       "ticker": "assetmanagement",
       "perfs": {
-        "1D": -0.7,
-        "1W": -4.49,
-        "1M": -8.8,
-        "3M": 2.72,
-        "YTD": -3.55
+        "1D": -1.08,
+        "1W": -3.89,
+        "1M": -8.55,
+        "3M": 0.61,
+        "YTD": -4.55
       },
       "ranks": {
-        "1D": 98,
-        "1W": 118,
-        "1M": 115,
-        "3M": 48,
-        "YTD": 104
+        "1D": 92,
+        "1W": 100,
+        "1M": 108,
+        "3M": 60,
+        "YTD": 103
       },
-      "composite": 108.89999999999999,
-      "acceleration": -70
+      "composite": 101.6,
+      "acceleration": -40
     },
     "Auto & Truck Dealerships": {
       "ticker": "autotruckdealerships",
       "perfs": {
-        "1D": 1.44,
-        "1W": -3.61,
-        "1M": -2.44,
-        "3M": 8.02,
-        "YTD": -3.62
+        "1D": -3.54,
+        "1W": -5.56,
+        "1M": -7.2,
+        "3M": 0.68,
+        "YTD": -8.48
       },
       "ranks": {
-        "1D": 28,
-        "1W": 101,
-        "1M": 66,
-        "3M": 28,
-        "YTD": 105
+        "1D": 142,
+        "1W": 125,
+        "1M": 96,
+        "3M": 59,
+        "YTD": 115
       },
-      "composite": 69.2,
-      "acceleration": -73
+      "composite": 98.1,
+      "acceleration": -66
     },
     "Auto Manufacturers": {
       "ticker": "automanufacturers",
       "perfs": {
-        "1D": -1.34,
-        "1W": 0.71,
-        "1M": 4.3,
-        "3M": -7.47,
-        "YTD": -16.86
+        "1D": -0.89,
+        "1W": -2.27,
+        "1M": 2.58,
+        "3M": -9.6,
+        "YTD": -17.6
       },
       "ranks": {
-        "1D": 111,
-        "1W": 21,
-        "1M": 14,
-        "3M": 108,
-        "YTD": 132
+        "1D": 80,
+        "1W": 77,
+        "1M": 18,
+        "3M": 111,
+        "YTD": 128
       },
-      "composite": 24.8,
-      "acceleration": 87
+      "composite": 39.1,
+      "acceleration": 34
     },
     "Auto Parts": {
       "ticker": "autoparts",
       "perfs": {
-        "1D": -0.16,
-        "1W": -3.33,
-        "1M": -5.27,
-        "3M": -7.49,
-        "YTD": -0.39
+        "1D": -2.21,
+        "1W": -3.5,
+        "1M": -7.4,
+        "3M": -9.55,
+        "YTD": -2.59
       },
       "ranks": {
-        "1D": 77,
-        "1W": 95,
-        "1M": 88,
+        "1D": 134,
+        "1W": 93,
+        "1M": 97,
         "3M": 109,
-        "YTD": 91
+        "YTD": 95
       },
-      "composite": 91.5,
-      "acceleration": 14
+      "composite": 97.4,
+      "acceleration": 16
     },
     "Banks - Diversified": {
       "ticker": "banksdiversified",
       "perfs": {
-        "1D": -1.66,
-        "1W": -2.26,
-        "1M": -2.05,
-        "3M": 8.61,
-        "YTD": 18.6
+        "1D": -0.33,
+        "1W": -1.55,
+        "1M": -2.65,
+        "3M": 8.1,
+        "YTD": 18.21
       },
       "ranks": {
-        "1D": 114,
-        "1W": 74,
-        "1M": 61,
-        "3M": 25,
+        "1D": 49,
+        "1W": 66,
+        "1M": 60,
+        "3M": 23,
         "YTD": 33
       },
-      "composite": 60.0,
-      "acceleration": -49
+      "composite": 57.5,
+      "acceleration": -43
     },
     "Banks - Regional": {
       "ticker": "banksregional",
       "perfs": {
-        "1D": -0.6,
-        "1W": -1.35,
-        "1M": -1.57,
-        "3M": 5.01,
-        "YTD": 9.05
+        "1D": -0.77,
+        "1W": -1.03,
+        "1M": -2.88,
+        "3M": 4.93,
+        "YTD": 8.21
       },
       "ranks": {
-        "1D": 95,
+        "1D": 73,
         "1W": 56,
-        "1M": 56,
-        "3M": 41,
-        "YTD": 55
+        "1M": 62,
+        "3M": 33,
+        "YTD": 59
       },
-      "composite": 54.5,
-      "acceleration": -15
+      "composite": 57.9,
+      "acceleration": -23
     },
     "Beverages - Brewers": {
       "ticker": "beveragesbrewers",
       "perfs": {
-        "1D": 1.77,
-        "1W": -0.59,
-        "1M": 0.22,
-        "3M": -5.74,
-        "YTD": 17.98
+        "1D": -0.4,
+        "1W": 0.02,
+        "1M": 0.04,
+        "3M": -4.92,
+        "YTD": 17.51
       },
       "ranks": {
-        "1D": 21,
-        "1W": 36,
-        "1M": 39,
-        "3M": 93,
-        "YTD": 35
+        "1D": 54,
+        "1W": 41,
+        "1M": 35,
+        "3M": 84,
+        "YTD": 34
       },
-      "composite": 43.8,
-      "acceleration": 57
+      "composite": 41.1,
+      "acceleration": 43
     },
     "Beverages - Non-Alcoholic": {
       "ticker": "beveragesnonalcoholic",
       "perfs": {
-        "1D": 1.07,
-        "1W": 0.28,
-        "1M": -0.56,
-        "3M": 1.79,
-        "YTD": 14.15
+        "1D": -0.56,
+        "1W": -0.36,
+        "1M": -1.39,
+        "3M": 1.78,
+        "YTD": 13.51
       },
       "ranks": {
-        "1D": 40,
-        "1W": 25,
-        "1M": 50,
-        "3M": 53,
+        "1D": 59,
+        "1W": 45,
+        "1M": 47,
+        "3M": 50,
         "YTD": 42
       },
-      "composite": 45.3,
-      "acceleration": 28
+      "composite": 46.9,
+      "acceleration": 5
     },
     "Beverages - Wineries & Distilleries": {
       "ticker": "beverageswineriesdistilleries",
       "perfs": {
-        "1D": 1.65,
-        "1W": -1.16,
-        "1M": -6.84,
-        "3M": 5.29,
-        "YTD": 1.84
+        "1D": -1.56,
+        "1W": -0.6,
+        "1M": -8.82,
+        "3M": 5.25,
+        "YTD": 0.25
       },
       "ranks": {
-        "1D": 26,
-        "1W": 54,
-        "1M": 104,
-        "3M": 38,
-        "YTD": 81
+        "1D": 110,
+        "1W": 51,
+        "1M": 110,
+        "3M": 30,
+        "YTD": 82
       },
-      "composite": 87.39999999999999,
-      "acceleration": -16
+      "composite": 90.2,
+      "acceleration": -21
     },
     "Biotechnology": {
       "ticker": "biotechnology",
       "perfs": {
-        "1D": 0.56,
-        "1W": -3.21,
-        "1M": 2.51,
-        "3M": 16.77,
-        "YTD": 11.23
+        "1D": -2.0,
+        "1W": -3.99,
+        "1M": 0.54,
+        "3M": 13.3,
+        "YTD": 9.03
       },
       "ranks": {
-        "1D": 52,
-        "1W": 93,
-        "1M": 22,
-        "3M": 8,
-        "YTD": 46
+        "1D": 129,
+        "1W": 103,
+        "1M": 32,
+        "3M": 11,
+        "YTD": 54
       },
-      "composite": 34.8,
-      "acceleration": -85
+      "composite": 44.1,
+      "acceleration": -92
     },
     "Broadcasting": {
       "ticker": "broadcasting",
       "perfs": {
-        "1D": 0.59,
-        "1W": -1.15,
-        "1M": -4.32,
-        "3M": 3.47,
-        "YTD": -15.98
+        "1D": -1.97,
+        "1W": 0.03,
+        "1M": -8.02,
+        "3M": 2.5,
+        "YTD": -17.63
       },
       "ranks": {
-        "1D": 51,
-        "1W": 53,
-        "1M": 76,
-        "3M": 45,
-        "YTD": 127
+        "1D": 128,
+        "1W": 40,
+        "1M": 102,
+        "3M": 47,
+        "YTD": 129
       },
-      "composite": 68.3,
-      "acceleration": -8
+      "composite": 84.1,
+      "acceleration": 7
     },
     "Building Materials": {
       "ticker": "buildingmaterials",
       "perfs": {
-        "1D": -0.98,
-        "1W": -5.68,
-        "1M": -9.49,
-        "3M": -14.5,
-        "YTD": -18.17
+        "1D": -0.89,
+        "1W": -4.29,
+        "1M": -10.5,
+        "3M": -17.12,
+        "YTD": -18.93
       },
       "ranks": {
-        "1D": 105,
-        "1W": 131,
-        "1M": 119,
-        "3M": 129,
+        "1D": 81,
+        "1W": 109,
+        "1M": 120,
+        "3M": 130,
         "YTD": 133
       },
-      "composite": 122.4,
-      "acceleration": -2
+      "composite": 118.8,
+      "acceleration": 21
     },
     "Building Products & Equipment": {
       "ticker": "buildingproductsequipment",
       "perfs": {
-        "1D": -3.08,
-        "1W": -5.25,
-        "1M": -11.09,
-        "3M": -10.68,
-        "YTD": 3.27
+        "1D": -0.8,
+        "1W": -5.34,
+        "1M": -12.07,
+        "3M": -12.97,
+        "YTD": 2.44
       },
       "ranks": {
-        "1D": 124,
-        "1W": 128,
+        "1D": 75,
+        "1W": 123,
         "1M": 131,
         "3M": 123,
-        "YTD": 75
+        "YTD": 76
       },
-      "composite": 129.6,
-      "acceleration": -5
+      "composite": 128.6,
+      "acceleration": 0
     },
     "Business Equipment & Supplies": {
       "ticker": "businessequipmentsupplies",
       "perfs": {
-        "1D": -3.51,
-        "1W": -0.92,
-        "1M": -2.22,
-        "3M": 10.68,
-        "YTD": 10.36
+        "1D": -2.48,
+        "1W": -2.25,
+        "1M": -4.76,
+        "3M": 8.34,
+        "YTD": 7.99
       },
       "ranks": {
-        "1D": 126,
-        "1W": 46,
-        "1M": 64,
-        "3M": 17,
-        "YTD": 51
+        "1D": 138,
+        "1W": 75,
+        "1M": 76,
+        "3M": 22,
+        "YTD": 60
       },
-      "composite": 55.7,
-      "acceleration": -29
+      "composite": 70.39999999999999,
+      "acceleration": -53
     },
     "Capital Markets": {
       "ticker": "capitalmarkets",
       "perfs": {
-        "1D": -2.05,
-        "1W": -4.1,
-        "1M": -1.1,
-        "3M": 0.95,
-        "YTD": 10.91
+        "1D": -1.46,
+        "1W": -4.65,
+        "1M": -2.13,
+        "3M": -2.27,
+        "YTD": 9.29
       },
       "ranks": {
-        "1D": 116,
-        "1W": 108,
-        "1M": 55,
-        "3M": 59,
-        "YTD": 49
+        "1D": 107,
+        "1W": 117,
+        "1M": 56,
+        "3M": 73,
+        "YTD": 52
       },
-      "composite": 66.0,
-      "acceleration": -49
+      "composite": 69.89999999999999,
+      "acceleration": -44
     },
     "Chemicals": {
       "ticker": "chemicals",
       "perfs": {
-        "1D": -1.05,
-        "1W": -0.85,
-        "1M": -2.57,
-        "3M": -15.6,
-        "YTD": 19.04
+        "1D": 2.9,
+        "1W": 1.11,
+        "1M": -1.74,
+        "3M": -11.9,
+        "YTD": 22.5
       },
       "ranks": {
-        "1D": 106,
-        "1W": 44,
-        "1M": 67,
-        "3M": 131,
-        "YTD": 31
+        "1D": 4,
+        "1W": 23,
+        "1M": 51,
+        "3M": 120,
+        "YTD": 28
       },
-      "composite": 68.80000000000001,
-      "acceleration": 87
+      "composite": 52.3,
+      "acceleration": 97
     },
     "Coking Coal": {
       "ticker": "cokingcoal",
       "perfs": {
-        "1D": -3.85,
-        "1W": -10.49,
-        "1M": 7.26,
-        "3M": -4.71,
-        "YTD": 1.81
+        "1D": -3.83,
+        "1W": -13.88,
+        "1M": -1.93,
+        "3M": -5.17,
+        "YTD": -2.09
       },
       "ranks": {
-        "1D": 130,
+        "1D": 143,
         "1W": 144,
-        "1M": 8,
+        "1M": 53,
         "3M": 86,
-        "YTD": 83
+        "YTD": 92
       },
-      "composite": 43.0,
+      "composite": 74.49999999999999,
       "acceleration": -58
     },
     "Communication Equipment": {
       "ticker": "communicationequipment",
       "perfs": {
-        "1D": -4.32,
-        "1W": -0.27,
-        "1M": -6.39,
-        "3M": -10.27,
-        "YTD": 43.72
+        "1D": 0.34,
+        "1W": -2.3,
+        "1M": -5.7,
+        "3M": -10.47,
+        "YTD": 44.2
       },
       "ranks": {
-        "1D": 136,
-        "1W": 31,
-        "1M": 100,
-        "3M": 121,
-        "YTD": 7
+        "1D": 17,
+        "1W": 78,
+        "1M": 86,
+        "3M": 117,
+        "YTD": 9
       },
-      "composite": 88.30000000000001,
-      "acceleration": 90
+      "composite": 87.5,
+      "acceleration": 39
     },
     "Computer Hardware": {
       "ticker": "computerhardware",
       "perfs": {
-        "1D": -4.74,
-        "1W": -5.14,
-        "1M": -5.68,
-        "3M": -5.24,
-        "YTD": 127.09
+        "1D": -0.64,
+        "1W": -7.37,
+        "1M": -8.54,
+        "3M": -12.32,
+        "YTD": 125.89
       },
       "ranks": {
-        "1D": 139,
-        "1W": 127,
-        "1M": 93,
-        "3M": 90,
+        "1D": 68,
+        "1W": 133,
+        "1M": 107,
+        "3M": 121,
         "YTD": 1
       },
-      "composite": 99.5,
-      "acceleration": -37
+      "composite": 113.6,
+      "acceleration": -12
     },
     "Confectioners": {
       "ticker": "confectioners",
       "perfs": {
-        "1D": -0.01,
-        "1W": 1.43,
-        "1M": -3.02,
-        "3M": -1.76,
-        "YTD": 10.14
+        "1D": -0.84,
+        "1W": 0.14,
+        "1M": -3.71,
+        "3M": -0.73,
+        "YTD": 9.21
       },
       "ranks": {
-        "1D": 73,
-        "1W": 15,
-        "1M": 69,
-        "3M": 72,
-        "YTD": 52
+        "1D": 78,
+        "1W": 37,
+        "1M": 65,
+        "3M": 66,
+        "YTD": 53
       },
-      "composite": 58.5,
-      "acceleration": 57
+      "composite": 59.5,
+      "acceleration": 29
     },
     "Conglomerates": {
       "ticker": "conglomerates",
       "perfs": {
-        "1D": -1.13,
-        "1W": -3.59,
-        "1M": -10.88,
-        "3M": -6.56,
-        "YTD": -0.6
+        "1D": 1.07,
+        "1W": -1.97,
+        "1M": -10.06,
+        "3M": -6.46,
+        "YTD": 0.46
       },
       "ranks": {
-        "1D": 109,
-        "1W": 100,
-        "1M": 130,
-        "3M": 97,
-        "YTD": 92
+        "1D": 12,
+        "1W": 72,
+        "1M": 117,
+        "3M": 91,
+        "YTD": 81
       },
-      "composite": 120.7,
-      "acceleration": -3
+      "composite": 105.39999999999999,
+      "acceleration": 19
     },
     "Consulting Services": {
       "ticker": "consultingservices",
       "perfs": {
-        "1D": 3.92,
-        "1W": 0.64,
-        "1M": -1.86,
-        "3M": 4.66,
-        "YTD": -16.16
+        "1D": -2.39,
+        "1W": 1.65,
+        "1M": -2.24,
+        "3M": 3.44,
+        "YTD": -18.17
       },
       "ranks": {
-        "1D": 2,
-        "1W": 22,
-        "1M": 59,
-        "3M": 42,
-        "YTD": 129
+        "1D": 137,
+        "1W": 19,
+        "1M": 57,
+        "3M": 41,
+        "YTD": 130
       },
-      "composite": 49.9,
-      "acceleration": 20
+      "composite": 47.8,
+      "acceleration": 22
     },
     "Consumer Electronics": {
       "ticker": "consumerelectronics",
       "perfs": {
-        "1D": 0.3,
-        "1W": 3.95,
-        "1M": 8.93,
-        "3M": 14.48,
-        "YTD": 21.46
+        "1D": -0.57,
+        "1W": 4.68,
+        "1M": 7.98,
+        "3M": 11.87,
+        "YTD": 20.76
       },
       "ranks": {
-        "1D": 59,
-        "1W": 4,
-        "1M": 5,
-        "3M": 9,
-        "YTD": 28
+        "1D": 60,
+        "1W": 2,
+        "1M": 7,
+        "3M": 14,
+        "YTD": 29
       },
-      "composite": 5.2,
-      "acceleration": 5
+      "composite": 6.7,
+      "acceleration": 12
     },
     "Copper": {
       "ticker": "copper",
       "perfs": {
-        "1D": -2.43,
-        "1W": -4.98,
-        "1M": 1.54,
-        "3M": 0.69,
-        "YTD": 34.89
+        "1D": -0.05,
+        "1W": -9.62,
+        "1M": 2.53,
+        "3M": -1.49,
+        "YTD": 34.82
       },
       "ranks": {
-        "1D": 119,
-        "1W": 126,
-        "1M": 28,
-        "3M": 60,
-        "YTD": 14
+        "1D": 35,
+        "1W": 136,
+        "1M": 19,
+        "3M": 69,
+        "YTD": 15
       },
-      "composite": 50.8,
-      "acceleration": -66
+      "composite": 47.4,
+      "acceleration": -67
     },
     "Credit Services": {
       "ticker": "creditservices",
       "perfs": {
-        "1D": 0.93,
-        "1W": -0.87,
-        "1M": -0.79,
-        "3M": 13.04,
-        "YTD": -1.4
+        "1D": -0.4,
+        "1W": 0.23,
+        "1M": -1.36,
+        "3M": 11.01,
+        "YTD": -1.8
       },
       "ranks": {
-        "1D": 43,
-        "1W": 45,
-        "1M": 52,
-        "3M": 12,
-        "YTD": 95
+        "1D": 55,
+        "1W": 35,
+        "1M": 46,
+        "3M": 16,
+        "YTD": 91
       },
-      "composite": 46.6,
-      "acceleration": -33
+      "composite": 40.8,
+      "acceleration": -19
     },
     "Department Stores": {
       "ticker": "departmentstores",
       "perfs": {
-        "1D": 0.93,
-        "1W": -2.67,
-        "1M": -1.02,
-        "3M": -2.17,
-        "YTD": 1.92
+        "1D": -2.11,
+        "1W": -2.37,
+        "1M": 1.96,
+        "3M": 0.78,
+        "YTD": -0.22
       },
       "ranks": {
-        "1D": 44,
+        "1D": 131,
         "1W": 80,
-        "1M": 53,
-        "3M": 73,
-        "YTD": 80
+        "1M": 23,
+        "3M": 56,
+        "YTD": 84
       },
-      "composite": 60.39999999999999,
-      "acceleration": -7
+      "composite": 37.699999999999996,
+      "acceleration": -24
     },
     "Diagnostics & Research": {
       "ticker": "diagnosticsresearch",
       "perfs": {
-        "1D": 1.2,
-        "1W": -0.99,
-        "1M": 1.51,
-        "3M": 22.89,
-        "YTD": 6.7
+        "1D": 3.32,
+        "1W": 4.11,
+        "1M": 6.04,
+        "3M": 25.99,
+        "YTD": 10.24
       },
       "ranks": {
-        "1D": 37,
-        "1W": 48,
-        "1M": 30,
+        "1D": 3,
+        "1W": 5,
+        "1M": 9,
         "3M": 4,
-        "YTD": 67
+        "YTD": 49
       },
-      "composite": 31.0,
-      "acceleration": -44
+      "composite": 7.7,
+      "acceleration": -1
     },
     "Discount Stores": {
       "ticker": "discountstores",
       "perfs": {
-        "1D": 1.77,
-        "1W": 0.8,
-        "1M": -4.73,
-        "3M": -7.05,
-        "YTD": 2.47
+        "1D": -1.41,
+        "1W": 0.43,
+        "1M": -5.81,
+        "3M": -8.13,
+        "YTD": 1.02
       },
       "ranks": {
-        "1D": 22,
-        "1W": 19,
-        "1M": 83,
-        "3M": 103,
-        "YTD": 78
+        "1D": 105,
+        "1W": 32,
+        "1M": 87,
+        "3M": 105,
+        "YTD": 80
       },
-      "composite": 72.19999999999999,
-      "acceleration": 84
+      "composite": 77.8,
+      "acceleration": 73
     },
     "Drug Manufacturers - General": {
       "ticker": "drugmanufacturersgeneral",
       "perfs": {
-        "1D": 1.37,
-        "1W": -3.1,
-        "1M": -1.07,
-        "3M": 5.03,
-        "YTD": 11.11
+        "1D": -0.36,
+        "1W": 0.11,
+        "1M": -0.38,
+        "3M": 6.07,
+        "YTD": 10.71
       },
       "ranks": {
-        "1D": 30,
-        "1W": 86,
-        "1M": 54,
-        "3M": 40,
+        "1D": 51,
+        "1W": 38,
+        "1M": 39,
+        "3M": 26,
         "YTD": 48
       },
-      "composite": 59.0,
-      "acceleration": -46
+      "composite": 37.5,
+      "acceleration": -12
     },
     "Drug Manufacturers - Specialty & Generic": {
       "ticker": "drugmanufacturersspecialtygeneric",
       "perfs": {
-        "1D": 1.67,
-        "1W": -0.65,
-        "1M": 1.4,
-        "3M": 1.86,
-        "YTD": 0.06
+        "1D": -0.61,
+        "1W": -0.08,
+        "1M": 0.26,
+        "3M": 1.72,
+        "YTD": -0.55
       },
       "ranks": {
-        "1D": 25,
-        "1W": 40,
-        "1M": 32,
-        "3M": 52,
-        "YTD": 89
+        "1D": 65,
+        "1W": 43,
+        "1M": 34,
+        "3M": 51,
+        "YTD": 87
       },
-      "composite": 35.6,
-      "acceleration": 12
+      "composite": 37.5,
+      "acceleration": 8
     },
     "Education & Training Services": {
       "ticker": "educationtrainingservices",
       "perfs": {
-        "1D": 1.22,
-        "1W": -3.21,
-        "1M": -0.52,
-        "3M": -0.15,
-        "YTD": -1.02
+        "1D": -0.34,
+        "1W": -0.9,
+        "1M": 0.0,
+        "3M": 3.58,
+        "YTD": -1.36
       },
       "ranks": {
-        "1D": 36,
-        "1W": 94,
-        "1M": 48,
-        "3M": 67,
-        "YTD": 93
+        "1D": 50,
+        "1W": 54,
+        "1M": 36,
+        "3M": 40,
+        "YTD": 90
       },
-      "composite": 59.099999999999994,
-      "acceleration": -27
+      "composite": 40.0,
+      "acceleration": -14
     },
     "Electrical Equipment & Parts": {
       "ticker": "electricalequipmentparts",
       "perfs": {
-        "1D": -6.84,
-        "1W": -7.4,
-        "1M": -10.54,
-        "3M": -16.95,
-        "YTD": 46.44
+        "1D": -0.11,
+        "1W": -11.5,
+        "1M": -11.39,
+        "3M": -19.74,
+        "YTD": 46.34
       },
       "ranks": {
-        "1D": 142,
-        "1W": 136,
-        "1M": 126,
+        "1D": 41,
+        "1W": 142,
+        "1M": 125,
         "3M": 135,
-        "YTD": 6
+        "YTD": 8
       },
-      "composite": 128.89999999999998,
-      "acceleration": -1
+      "composite": 129.4,
+      "acceleration": -7
     },
     "Electronic Components": {
       "ticker": "electroniccomponents",
       "perfs": {
-        "1D": -8.15,
-        "1W": -4.38,
-        "1M": -9.78,
-        "3M": -14.17,
-        "YTD": 24.82
+        "1D": -0.63,
+        "1W": -6.95,
+        "1M": -11.58,
+        "3M": -17.26,
+        "YTD": 24.04
       },
       "ranks": {
-        "1D": 144,
-        "1W": 113,
-        "1M": 120,
-        "3M": 128,
-        "YTD": 22
+        "1D": 66,
+        "1W": 131,
+        "1M": 126,
+        "3M": 131,
+        "YTD": 24
       },
-      "composite": 119.39999999999999,
-      "acceleration": 15
+      "composite": 127.5,
+      "acceleration": 0
     },
     "Electronic Gaming & Multimedia": {
       "ticker": "electronicgamingmultimedia",
       "perfs": {
-        "1D": 4.62,
-        "1W": 4.1,
-        "1M": 1.53,
-        "3M": 1.47,
-        "YTD": -20.2
+        "1D": -1.16,
+        "1W": 2.3,
+        "1M": -1.43,
+        "3M": -1.36,
+        "YTD": -21.13
       },
       "ranks": {
-        "1D": 1,
-        "1W": 3,
-        "1M": 29,
-        "3M": 57,
-        "YTD": 137
+        "1D": 96,
+        "1W": 14,
+        "1M": 48,
+        "3M": 68,
+        "YTD": 135
       },
-      "composite": 26.599999999999998,
+      "composite": 43.19999999999999,
       "acceleration": 54
     },
     "Electronics & Computer Distribution": {
       "ticker": "electronicscomputerdistribution",
       "perfs": {
-        "1D": -4.11,
-        "1W": -0.33,
-        "1M": 1.82,
-        "3M": 0.08,
-        "YTD": 79.8
+        "1D": 0.03,
+        "1W": 0.51,
+        "1M": 0.77,
+        "3M": -0.9,
+        "YTD": 79.73
       },
       "ranks": {
-        "1D": 133,
-        "1W": 33,
-        "1M": 26,
-        "3M": 66,
+        "1D": 31,
+        "1W": 31,
+        "1M": 30,
+        "3M": 67,
         "YTD": 3
       },
-      "composite": 31.400000000000002,
-      "acceleration": 33
+      "composite": 33.9,
+      "acceleration": 36
     },
     "Engineering & Construction": {
       "ticker": "engineeringconstruction",
       "perfs": {
-        "1D": -3.9,
-        "1W": -2.41,
-        "1M": -10.49,
-        "3M": -16.32,
-        "YTD": 18.11
+        "1D": -0.94,
+        "1W": -4.94,
+        "1M": -12.76,
+        "3M": -18.41,
+        "YTD": 17.0
       },
       "ranks": {
-        "1D": 131,
-        "1W": 77,
-        "1M": 125,
-        "3M": 132,
-        "YTD": 34
+        "1D": 86,
+        "1W": 120,
+        "1M": 134,
+        "3M": 133,
+        "YTD": 36
       },
-      "composite": 116.10000000000001,
-      "acceleration": 55
+      "composite": 131.1,
+      "acceleration": 13
     },
     "Entertainment": {
       "ticker": "entertainment",
       "perfs": {
-        "1D": 2.48,
-        "1W": 2.01,
-        "1M": 1.46,
-        "3M": 3.25,
-        "YTD": -5.23
+        "1D": -1.91,
+        "1W": 1.07,
+        "1M": -1.34,
+        "3M": 0.78,
+        "YTD": -7.08
       },
       "ranks": {
-        "1D": 14,
-        "1W": 9,
-        "1M": 31,
-        "3M": 46,
-        "YTD": 109
+        "1D": 126,
+        "1W": 24,
+        "1M": 45,
+        "3M": 57,
+        "YTD": 110
       },
-      "composite": 28.1,
-      "acceleration": 37
+      "composite": 42.0,
+      "acceleration": 33
     },
     "Farm & Heavy Construction Machinery": {
       "ticker": "farmheavyconstructionmachinery",
       "perfs": {
-        "1D": -2.12,
-        "1W": -3.17,
-        "1M": -2.11,
-        "3M": -3.33,
-        "YTD": 34.73
+        "1D": 0.09,
+        "1W": -2.73,
+        "1M": -2.09,
+        "3M": -4.86,
+        "YTD": 34.87
       },
       "ranks": {
-        "1D": 117,
-        "1W": 91,
-        "1M": 63,
-        "3M": 76,
-        "YTD": 15
+        "1D": 28,
+        "1W": 86,
+        "1M": 55,
+        "3M": 83,
+        "YTD": 13
       },
-      "composite": 69.89999999999999,
-      "acceleration": -15
+      "composite": 64.0,
+      "acceleration": -3
     },
     "Farm Products": {
       "ticker": "farmproducts",
       "perfs": {
-        "1D": -0.29,
-        "1W": 1.94,
-        "1M": 4.41,
-        "3M": 0.67,
-        "YTD": 24.23
+        "1D": -0.07,
+        "1W": 0.4,
+        "1M": 3.5,
+        "3M": 2.16,
+        "YTD": 24.15
       },
       "ranks": {
-        "1D": 82,
-        "1W": 10,
-        "1M": 13,
-        "3M": 61,
-        "YTD": 24
+        "1D": 36,
+        "1W": 33,
+        "1M": 15,
+        "3M": 48,
+        "YTD": 23
       },
-      "composite": 17.2,
-      "acceleration": 51
+      "composite": 21.900000000000002,
+      "acceleration": 15
     },
     "Financial Conglomerates": {
       "ticker": "financialconglomerates",
       "perfs": {
-        "1D": -0.32,
-        "1W": 0.01,
-        "1M": 0.92,
-        "3M": 6.17,
-        "YTD": 35.04
+        "1D": -0.9,
+        "1W": 0.67,
+        "1M": 0.4,
+        "3M": 5.74,
+        "YTD": 33.82
       },
       "ranks": {
-        "1D": 84,
-        "1W": 28,
-        "1M": 36,
-        "3M": 31,
-        "YTD": 13
+        "1D": 82,
+        "1W": 29,
+        "1M": 33,
+        "3M": 29,
+        "YTD": 17
       },
-      "composite": 33.9,
-      "acceleration": 3
+      "composite": 31.799999999999997,
+      "acceleration": 0
     },
     "Financial Data & Stock Exchanges": {
       "ticker": "financialdatastockexchanges",
       "perfs": {
-        "1D": 1.74,
-        "1W": -2.95,
-        "1M": 0.79,
-        "3M": 6.13,
-        "YTD": -5.89
+        "1D": -2.38,
+        "1W": -2.88,
+        "1M": -1.11,
+        "3M": 2.68,
+        "YTD": -8.13
       },
       "ranks": {
-        "1D": 23,
-        "1W": 84,
-        "1M": 37,
-        "3M": 32,
+        "1D": 136,
+        "1W": 89,
+        "1M": 43,
+        "3M": 46,
         "YTD": 113
       },
-      "composite": 45.900000000000006,
-      "acceleration": -52
+      "composite": 52.5,
+      "acceleration": -43
     },
     "Food Distribution": {
       "ticker": "fooddistribution",
       "perfs": {
-        "1D": 0.08,
-        "1W": -1.24,
-        "1M": -5.54,
-        "3M": 1.68,
-        "YTD": 17.66
+        "1D": -4.04,
+        "1W": -4.48,
+        "1M": -9.17,
+        "3M": -2.81,
+        "YTD": 12.9
       },
       "ranks": {
-        "1D": 65,
-        "1W": 55,
-        "1M": 92,
-        "3M": 55,
-        "YTD": 36
+        "1D": 144,
+        "1W": 111,
+        "1M": 113,
+        "3M": 74,
+        "YTD": 43
       },
-      "composite": 80.89999999999999,
-      "acceleration": 0
+      "composite": 108.7,
+      "acceleration": -37
     },
     "Footwear & Accessories": {
       "ticker": "footwearaccessories",
       "perfs": {
-        "1D": 0.05,
-        "1W": -4.23,
-        "1M": -12.31,
-        "3M": -20.87,
-        "YTD": -33.71
+        "1D": -2.34,
+        "1W": -4.75,
+        "1M": -13.69,
+        "3M": -22.74,
+        "YTD": -35.27
       },
       "ranks": {
-        "1D": 68,
-        "1W": 111,
-        "1M": 136,
-        "3M": 138,
-        "YTD": 142
+        "1D": 135,
+        "1W": 118,
+        "1M": 137,
+        "3M": 139,
+        "YTD": 143
       },
-      "composite": 131.2,
-      "acceleration": 27
+      "composite": 133.4,
+      "acceleration": 21
     },
     "Furnishings, Fixtures & Appliances": {
       "ticker": "furnishingsfixturesappliances",
       "perfs": {
-        "1D": 2.44,
-        "1W": -3.95,
-        "1M": -8.14,
-        "3M": 8.19,
-        "YTD": 4.15
+        "1D": -1.89,
+        "1W": -4.81,
+        "1M": -8.94,
+        "3M": 5.21,
+        "YTD": 2.17
       },
       "ranks": {
-        "1D": 15,
-        "1W": 105,
-        "1M": 111,
-        "3M": 27,
-        "YTD": 71
+        "1D": 124,
+        "1W": 119,
+        "1M": 112,
+        "3M": 32,
+        "YTD": 77
       },
-      "composite": 101.39999999999999,
-      "acceleration": -78
+      "composite": 105.39999999999999,
+      "acceleration": -87
     },
     "Gambling": {
       "ticker": "gambling",
       "perfs": {
-        "1D": 0.08,
-        "1W": 0.06,
-        "1M": 0.14,
-        "3M": -8.68,
-        "YTD": -34.23
+        "1D": -1.45,
+        "1W": -1.2,
+        "1M": -3.8,
+        "3M": -10.13,
+        "YTD": -35.18
       },
       "ranks": {
-        "1D": 66,
-        "1W": 26,
-        "1M": 41,
-        "3M": 118,
-        "YTD": 143
+        "1D": 106,
+        "1W": 59,
+        "1M": 66,
+        "3M": 115,
+        "YTD": 142
       },
-      "composite": 45.7,
-      "acceleration": 92
+      "composite": 69.5,
+      "acceleration": 56
     },
     "Gold": {
       "ticker": "gold",
       "perfs": {
-        "1D": -2.81,
-        "1W": -4.96,
-        "1M": 7.59,
-        "3M": 17.69,
-        "YTD": 11.96
+        "1D": 0.11,
+        "1W": -3.91,
+        "1M": 5.44,
+        "3M": 10.92,
+        "YTD": 12.08
       },
       "ranks": {
-        "1D": 123,
-        "1W": 125,
-        "1M": 7,
-        "3M": 7,
+        "1D": 26,
+        "1W": 101,
+        "1M": 10,
+        "3M": 17,
         "YTD": 45
       },
-      "composite": 30.599999999999998,
-      "acceleration": -118
+      "composite": 28.900000000000002,
+      "acceleration": -84
     },
     "Grocery Stores": {
       "ticker": "grocerystores",
       "perfs": {
-        "1D": 3.8,
-        "1W": 1.42,
-        "1M": 3.04,
-        "3M": -8.18,
-        "YTD": -4.81
+        "1D": 1.11,
+        "1W": 5.74,
+        "1M": 4.73,
+        "3M": -5.61,
+        "YTD": -3.76
       },
       "ranks": {
-        "1D": 4,
-        "1W": 16,
-        "1M": 19,
-        "3M": 116,
-        "YTD": 107
+        "1D": 11,
+        "1W": 1,
+        "1M": 12,
+        "3M": 87,
+        "YTD": 100
       },
-      "composite": 28.1,
-      "acceleration": 100
+      "composite": 17.299999999999997,
+      "acceleration": 86
     },
     "Health Information Services": {
       "ticker": "healthinformationservices",
       "perfs": {
-        "1D": 2.49,
-        "1W": -1.79,
-        "1M": 4.07,
-        "3M": 32.3,
-        "YTD": 12.99
+        "1D": 1.0,
+        "1W": 1.24,
+        "1M": 6.18,
+        "3M": 31.19,
+        "YTD": 14.12
       },
       "ranks": {
-        "1D": 13,
-        "1W": 65,
-        "1M": 15,
+        "1D": 14,
+        "1W": 22,
+        "1M": 8,
         "3M": 2,
-        "YTD": 43
+        "YTD": 40
       },
-      "composite": 23.7,
-      "acceleration": -63
+      "composite": 10.2,
+      "acceleration": -20
     },
     "Healthcare Plans": {
       "ticker": "healthcareplans",
       "perfs": {
-        "1D": 1.49,
-        "1W": -0.64,
-        "1M": 0.19,
-        "3M": -2.85,
-        "YTD": 20.75
+        "1D": -1.82,
+        "1W": -2.26,
+        "1M": -2.82,
+        "3M": -4.46,
+        "YTD": 18.55
       },
       "ranks": {
-        "1D": 27,
-        "1W": 38,
-        "1M": 40,
-        "3M": 75,
-        "YTD": 29
+        "1D": 120,
+        "1W": 76,
+        "1M": 61,
+        "3M": 82,
+        "YTD": 31
       },
-      "composite": 43.1,
-      "acceleration": 37
+      "composite": 66.1,
+      "acceleration": 6
     },
     "Home Improvement Retail": {
       "ticker": "homeimprovementretail",
       "perfs": {
-        "1D": 0.7,
-        "1W": -3.16,
-        "1M": -9.19,
-        "3M": -6.7,
-        "YTD": -12.07
+        "1D": -1.78,
+        "1W": -2.76,
+        "1M": -10.28,
+        "3M": -8.58,
+        "YTD": -13.63
       },
       "ranks": {
-        "1D": 47,
-        "1W": 89,
-        "1M": 117,
-        "3M": 100,
+        "1D": 118,
+        "1W": 88,
+        "1M": 119,
+        "3M": 107,
         "YTD": 125
       },
-      "composite": 109.69999999999999,
-      "acceleration": 11
+      "composite": 111.60000000000001,
+      "acceleration": 19
     },
     "Household & Personal Products": {
       "ticker": "householdpersonalproducts",
       "perfs": {
-        "1D": 1.06,
-        "1W": -1.49,
-        "1M": -0.75,
-        "3M": 0.51,
-        "YTD": 1.83
+        "1D": -0.45,
+        "1W": -0.95,
+        "1M": -0.93,
+        "3M": -0.38,
+        "YTD": 1.38
       },
       "ranks": {
-        "1D": 41,
-        "1W": 58,
-        "1M": 51,
-        "3M": 63,
-        "YTD": 82
+        "1D": 57,
+        "1W": 55,
+        "1M": 41,
+        "3M": 65,
+        "YTD": 79
       },
-      "composite": 53.599999999999994,
-      "acceleration": 5
+      "composite": 46.2,
+      "acceleration": 10
     },
     "Industrial Distribution": {
       "ticker": "industrialdistribution",
       "perfs": {
-        "1D": -0.69,
-        "1W": -3.19,
-        "1M": -6.68,
-        "3M": -3.76,
-        "YTD": 9.01
+        "1D": -1.22,
+        "1W": -3.51,
+        "1M": -7.54,
+        "3M": -4.97,
+        "YTD": 7.68
       },
       "ranks": {
-        "1D": 97,
-        "1W": 92,
-        "1M": 103,
-        "3M": 78,
-        "YTD": 56
+        "1D": 100,
+        "1W": 94,
+        "1M": 100,
+        "3M": 85,
+        "YTD": 62
       },
-      "composite": 98.3,
-      "acceleration": -14
+      "composite": 97.3,
+      "acceleration": -9
     },
     "Information Technology Services": {
       "ticker": "informationtechnologyservices",
       "perfs": {
-        "1D": 2.94,
-        "1W": 1.86,
-        "1M": 1.17,
-        "3M": -0.3,
-        "YTD": -22.23
+        "1D": -1.1,
+        "1W": 3.5,
+        "1M": 1.15,
+        "3M": 0.07,
+        "YTD": -23.08
       },
       "ranks": {
-        "1D": 9,
-        "1W": 12,
-        "1M": 34,
-        "3M": 68,
+        "1D": 93,
+        "1W": 8,
+        "1M": 27,
+        "3M": 64,
         "YTD": 138
       },
-      "composite": 33.0,
+      "composite": 26.9,
       "acceleration": 56
     },
     "Insurance - Diversified": {
       "ticker": "insurancediversified",
       "perfs": {
-        "1D": 0.87,
-        "1W": 1.48,
-        "1M": 1.27,
-        "3M": 5.18,
-        "YTD": 2.6
+        "1D": 0.25,
+        "1W": 2.01,
+        "1M": 2.04,
+        "3M": 4.28,
+        "YTD": 2.85
       },
       "ranks": {
-        "1D": 45,
-        "1W": 14,
-        "1M": 33,
+        "1D": 20,
+        "1W": 15,
+        "1M": 20,
         "3M": 39,
-        "YTD": 76
+        "YTD": 73
       },
-      "composite": 29.799999999999997,
-      "acceleration": 25
+      "composite": 20.9,
+      "acceleration": 24
     },
     "Insurance - Life": {
       "ticker": "insurancelife",
       "perfs": {
-        "1D": 0.56,
-        "1W": -1.38,
-        "1M": -2.06,
-        "3M": 5.79,
-        "YTD": 10.64
+        "1D": 0.17,
+        "1W": 0.84,
+        "1M": -2.43,
+        "3M": 5.89,
+        "YTD": 10.82
       },
       "ranks": {
-        "1D": 53,
-        "1W": 57,
-        "1M": 62,
-        "3M": 34,
-        "YTD": 50
+        "1D": 24,
+        "1W": 26,
+        "1M": 59,
+        "3M": 28,
+        "YTD": 47
       },
-      "composite": 58.199999999999996,
-      "acceleration": -23
+      "composite": 49.3,
+      "acceleration": 2
     },
     "Insurance - Property & Casualty": {
       "ticker": "insurancepropertycasualty",
       "perfs": {
-        "1D": 1.23,
-        "1W": 0.35,
-        "1M": 0.77,
-        "3M": 9.35,
+        "1D": -0.0,
+        "1W": 1.94,
+        "1M": 0.58,
+        "3M": 9.3,
         "YTD": 7.35
       },
       "ranks": {
         "1D": 34,
-        "1W": 24,
-        "1M": 38,
-        "3M": 23,
-        "YTD": 65
+        "1W": 16,
+        "1M": 31,
+        "3M": 19,
+        "YTD": 64
       },
-      "composite": 33.699999999999996,
-      "acceleration": -1
+      "composite": 26.799999999999997,
+      "acceleration": 3
     },
     "Insurance - Reinsurance": {
       "ticker": "insurancereinsurance",
       "perfs": {
-        "1D": 1.23,
-        "1W": -0.72,
-        "1M": 2.02,
-        "3M": 12.45,
-        "YTD": 17.41
+        "1D": -0.2,
+        "1W": 1.55,
+        "1M": 1.12,
+        "3M": 12.82,
+        "YTD": 17.18
       },
       "ranks": {
-        "1D": 35,
-        "1W": 42,
-        "1M": 25,
-        "3M": 15,
-        "YTD": 38
+        "1D": 44,
+        "1W": 20,
+        "1M": 28,
+        "3M": 12,
+        "YTD": 35
       },
-      "composite": 27.4,
-      "acceleration": -27
+      "composite": 24.799999999999997,
+      "acceleration": -8
     },
     "Insurance - Specialty": {
       "ticker": "insurancespecialty",
       "perfs": {
-        "1D": 0.95,
-        "1W": -1.14,
-        "1M": -2.79,
-        "3M": 5.6,
-        "YTD": -1.42
+        "1D": -1.18,
+        "1W": -0.59,
+        "1M": -4.62,
+        "3M": 4.3,
+        "YTD": -2.58
       },
       "ranks": {
-        "1D": 42,
-        "1W": 51,
-        "1M": 68,
-        "3M": 36,
-        "YTD": 96
+        "1D": 98,
+        "1W": 50,
+        "1M": 74,
+        "3M": 38,
+        "YTD": 94
       },
-      "composite": 61.4,
-      "acceleration": -15
+      "composite": 65.6,
+      "acceleration": -12
     },
     "Insurance Brokers": {
       "ticker": "insurancebrokers",
       "perfs": {
-        "1D": 3.19,
-        "1W": -3.13,
-        "1M": -5.0,
-        "3M": 8.63,
-        "YTD": -5.66
+        "1D": -1.3,
+        "1W": -1.3,
+        "1M": -5.67,
+        "3M": 8.81,
+        "YTD": -6.88
       },
       "ranks": {
-        "1D": 7,
-        "1W": 87,
-        "1M": 86,
-        "3M": 24,
-        "YTD": 111
+        "1D": 104,
+        "1W": 60,
+        "1M": 85,
+        "3M": 21,
+        "YTD": 109
       },
-      "composite": 80.0,
-      "acceleration": -63
+      "composite": 73.6,
+      "acceleration": -39
     },
     "Integrated Freight & Logistics": {
       "ticker": "integratedfreightlogistics",
       "perfs": {
-        "1D": 1.27,
-        "1W": -0.35,
-        "1M": -4.64,
-        "3M": -7.9,
-        "YTD": 14.42
+        "1D": -0.68,
+        "1W": 0.39,
+        "1M": -4.39,
+        "3M": -7.95,
+        "YTD": 13.64
       },
       "ranks": {
-        "1D": 33,
+        "1D": 70,
         "1W": 34,
-        "1M": 81,
-        "3M": 112,
+        "1M": 71,
+        "3M": 103,
         "YTD": 41
       },
-      "composite": 74.7,
-      "acceleration": 78
+      "composite": 66.8,
+      "acceleration": 69
     },
     "Internet Content & Information": {
       "ticker": "internetcontentinformation",
       "perfs": {
-        "1D": 3.04,
-        "1W": 4.23,
-        "1M": 3.46,
-        "3M": 1.76,
-        "YTD": 6.44
+        "1D": -0.72,
+        "1W": 3.75,
+        "1M": 2.89,
+        "3M": -1.96,
+        "YTD": 5.68
       },
       "ranks": {
-        "1D": 8,
-        "1W": 2,
+        "1D": 72,
+        "1W": 7,
         "1M": 17,
-        "3M": 54,
-        "YTD": 69
+        "3M": 72,
+        "YTD": 68
       },
-      "composite": 17.7,
-      "acceleration": 52
+      "composite": 20.5,
+      "acceleration": 65
     },
     "Internet Retail": {
       "ticker": "internetretail",
       "perfs": {
-        "1D": -0.81,
-        "1W": -2.14,
-        "1M": -4.84,
-        "3M": 6.11,
-        "YTD": 2.01
+        "1D": -1.95,
+        "1W": -3.22,
+        "1M": -6.11,
+        "3M": 1.11,
+        "YTD": 0.02
       },
       "ranks": {
-        "1D": 102,
-        "1W": 72,
-        "1M": 84,
-        "3M": 33,
-        "YTD": 79
+        "1D": 127,
+        "1W": 92,
+        "1M": 88,
+        "3M": 53,
+        "YTD": 83
       },
-      "composite": 76.5,
+      "composite": 85.3,
       "acceleration": -39
     },
     "Leisure": {
       "ticker": "leisure",
       "perfs": {
-        "1D": -0.57,
-        "1W": -4.17,
-        "1M": -9.96,
-        "3M": -8.91,
-        "YTD": -9.46
+        "1D": -1.9,
+        "1W": -4.04,
+        "1M": -11.77,
+        "3M": -10.96,
+        "YTD": -11.19
       },
       "ranks": {
-        "1D": 92,
-        "1W": 109,
-        "1M": 122,
-        "3M": 119,
-        "YTD": 119
+        "1D": 125,
+        "1W": 105,
+        "1M": 128,
+        "3M": 118,
+        "YTD": 120
       },
-      "composite": 119.1,
-      "acceleration": 10
+      "composite": 122.39999999999999,
+      "acceleration": 13
     },
     "Lodging": {
       "ticker": "lodging",
       "perfs": {
-        "1D": 1.33,
-        "1W": -0.61,
-        "1M": -3.05,
-        "3M": -12.01,
-        "YTD": 6.47
+        "1D": -0.94,
+        "1W": 0.92,
+        "1M": -5.32,
+        "3M": -12.9,
+        "YTD": 5.47
       },
       "ranks": {
-        "1D": 31,
-        "1W": 37,
-        "1M": 70,
-        "3M": 125,
-        "YTD": 68
+        "1D": 87,
+        "1W": 25,
+        "1M": 81,
+        "3M": 122,
+        "YTD": 69
       },
-      "composite": 68.9,
-      "acceleration": 88
+      "composite": 73.89999999999999,
+      "acceleration": 97
     },
     "Lumber & Wood Production": {
       "ticker": "lumberwoodproduction",
       "perfs": {
-        "1D": 0.28,
-        "1W": -2.84,
-        "1M": -8.3,
-        "3M": -3.99,
-        "YTD": 3.39
+        "1D": 1.23,
+        "1W": -0.33,
+        "1M": -6.83,
+        "3M": -3.64,
+        "YTD": 4.66
       },
       "ranks": {
-        "1D": 61,
-        "1W": 82,
-        "1M": 112,
-        "3M": 80,
-        "YTD": 74
+        "1D": 10,
+        "1W": 44,
+        "1M": 93,
+        "3M": 78,
+        "YTD": 71
       },
-      "composite": 102.8,
-      "acceleration": -2
+      "composite": 81.69999999999999,
+      "acceleration": 34
     },
     "Luxury Goods": {
       "ticker": "luxurygoods",
       "perfs": {
-        "1D": -0.22,
-        "1W": -0.8,
-        "1M": -6.48,
-        "3M": -17.41,
-        "YTD": -9.11
+        "1D": -0.92,
+        "1W": 1.87,
+        "1M": -7.52,
+        "3M": -19.73,
+        "YTD": -9.94
       },
       "ranks": {
-        "1D": 78,
-        "1W": 43,
-        "1M": 101,
-        "3M": 136,
-        "YTD": 118
+        "1D": 84,
+        "1W": 17,
+        "1M": 99,
+        "3M": 134,
+        "YTD": 117
       },
-      "composite": 92.89999999999998,
-      "acceleration": 93
+      "composite": 86.10000000000001,
+      "acceleration": 117
     },
     "Marine Shipping": {
       "ticker": "marineshipping",
       "perfs": {
-        "1D": 0.12,
-        "1W": 0.57,
-        "1M": 9.29,
-        "3M": 12.85,
-        "YTD": 55.49
+        "1D": 1.07,
+        "1W": 3.43,
+        "1M": 9.39,
+        "3M": 16.06,
+        "YTD": 57.31
       },
       "ranks": {
-        "1D": 63,
-        "1W": 23,
+        "1D": 13,
+        "1W": 9,
         "1M": 4,
-        "3M": 13,
+        "3M": 9,
         "YTD": 4
       },
-      "composite": 8.700000000000001,
-      "acceleration": -10
+      "composite": 5.5,
+      "acceleration": 0
     },
     "Medical Care Facilities": {
       "ticker": "medicalcarefacilities",
       "perfs": {
-        "1D": 0.62,
-        "1W": 3.15,
-        "1M": 1.71,
-        "3M": 14.14,
-        "YTD": 7.84
+        "1D": -0.68,
+        "1W": 2.97,
+        "1M": 1.38,
+        "3M": 12.66,
+        "YTD": 7.11
       },
       "ranks": {
-        "1D": 50,
-        "1W": 6,
-        "1M": 27,
-        "3M": 10,
-        "YTD": 63
+        "1D": 71,
+        "1W": 12,
+        "1M": 26,
+        "3M": 13,
+        "YTD": 66
       },
-      "composite": 21.099999999999998,
-      "acceleration": 4
+      "composite": 21.900000000000002,
+      "acceleration": 1
     },
     "Medical Devices": {
       "ticker": "medicaldevices",
       "perfs": {
-        "1D": 2.08,
-        "1W": -4.09,
-        "1M": -7.56,
-        "3M": 6.21,
-        "YTD": -16.06
+        "1D": -0.28,
+        "1W": -0.86,
+        "1M": -7.61,
+        "3M": 5.97,
+        "YTD": -16.29
       },
       "ranks": {
-        "1D": 18,
-        "1W": 107,
-        "1M": 110,
-        "3M": 30,
-        "YTD": 128
+        "1D": 46,
+        "1W": 53,
+        "1M": 101,
+        "3M": 27,
+        "YTD": 127
       },
-      "composite": 101.4,
-      "acceleration": -77
+      "composite": 83.99999999999999,
+      "acceleration": -26
     },
     "Medical Distribution": {
       "ticker": "medicaldistribution",
       "perfs": {
-        "1D": 1.95,
-        "1W": -1.49,
-        "1M": 4.53,
-        "3M": 12.83,
-        "YTD": 7.66
+        "1D": -1.1,
+        "1W": -0.44,
+        "1M": 2.0,
+        "3M": 11.58,
+        "YTD": 6.45
       },
       "ranks": {
-        "1D": 19,
-        "1W": 59,
-        "1M": 12,
-        "3M": 14,
-        "YTD": 64
+        "1D": 94,
+        "1W": 48,
+        "1M": 22,
+        "3M": 15,
+        "YTD": 67
       },
-      "composite": 21.599999999999998,
-      "acceleration": -45
+      "composite": 26.5,
+      "acceleration": -33
     },
     "Medical Instruments & Supplies": {
       "ticker": "medicalinstrumentssupplies",
       "perfs": {
-        "1D": 1.94,
-        "1W": -1.62,
-        "1M": -4.49,
-        "3M": 3.71,
-        "YTD": -12.56
+        "1D": 0.27,
+        "1W": 1.71,
+        "1M": -3.96,
+        "3M": 3.43,
+        "YTD": -12.32
       },
       "ranks": {
-        "1D": 20,
-        "1W": 61,
-        "1M": 79,
-        "3M": 44,
-        "YTD": 126
+        "1D": 19,
+        "1W": 18,
+        "1M": 68,
+        "3M": 42,
+        "YTD": 123
       },
-      "composite": 71.9,
-      "acceleration": -17
+      "composite": 55.4,
+      "acceleration": 24
     },
     "Metal Fabrication": {
       "ticker": "metalfabrication",
       "perfs": {
-        "1D": -4.11,
-        "1W": -9.41,
-        "1M": -15.74,
-        "3M": -14.88,
-        "YTD": 16.31
+        "1D": -0.63,
+        "1W": -8.73,
+        "1M": -16.61,
+        "3M": -15.74,
+        "YTD": 15.58
       },
       "ranks": {
-        "1D": 134,
-        "1W": 142,
+        "1D": 67,
+        "1W": 135,
         "1M": 143,
-        "3M": 130,
-        "YTD": 39
+        "3M": 128,
+        "YTD": 38
       },
-      "composite": 141.5,
-      "acceleration": -12
+      "composite": 139.9,
+      "acceleration": -7
     },
     "Mortgage Finance": {
       "ticker": "mortgagefinance",
       "perfs": {
-        "1D": 1.41,
-        "1W": -4.65,
-        "1M": -10.7,
-        "3M": -1.32,
-        "YTD": -33.23
+        "1D": -1.77,
+        "1W": -4.59,
+        "1M": -10.65,
+        "3M": -7.89,
+        "YTD": -34.41
       },
       "ranks": {
-        "1D": 29,
-        "1W": 121,
-        "1M": 127,
-        "3M": 71,
+        "1D": 117,
+        "1W": 114,
+        "1M": 121,
+        "3M": 102,
         "YTD": 141
       },
-      "composite": 120.19999999999999,
-      "acceleration": -50
+      "composite": 117.69999999999999,
+      "acceleration": -12
     },
     "Oil & Gas Drilling": {
       "ticker": "oilgasdrilling",
       "perfs": {
-        "1D": -3.34,
-        "1W": -4.42,
-        "1M": 0.14,
-        "3M": -6.7,
-        "YTD": 42.84
+        "1D": 5.68,
+        "1W": 1.44,
+        "1M": 3.57,
+        "3M": 3.05,
+        "YTD": 50.96
       },
       "ranks": {
-        "1D": 125,
-        "1W": 116,
-        "1M": 42,
-        "3M": 101,
-        "YTD": 9
+        "1D": 1,
+        "1W": 21,
+        "1M": 14,
+        "3M": 44,
+        "YTD": 6
       },
-      "composite": 62.7,
-      "acceleration": -15
+      "composite": 18.4,
+      "acceleration": 23
     },
     "Oil & Gas E&P": {
       "ticker": "oilgasep",
       "perfs": {
-        "1D": -0.11,
-        "1W": 1.51,
-        "1M": 6.93,
-        "3M": 9.97,
-        "YTD": 37.62
+        "1D": 2.7,
+        "1W": 3.28,
+        "1M": 8.17,
+        "3M": 17.54,
+        "YTD": 41.33
       },
       "ranks": {
-        "1D": 75,
-        "1W": 13,
-        "1M": 9,
-        "3M": 20,
+        "1D": 5,
+        "1W": 11,
+        "1M": 5,
+        "3M": 7,
         "YTD": 11
       },
-      "composite": 10.9,
-      "acceleration": 7
+      "composite": 6.4,
+      "acceleration": -4
     },
     "Oil & Gas Equipment & Services": {
       "ticker": "oilgasequipmentservices",
       "perfs": {
-        "1D": -4.43,
-        "1W": -6.75,
-        "1M": -2.35,
-        "3M": -7.43,
-        "YTD": 35.34
+        "1D": 1.48,
+        "1W": -5.43,
+        "1M": -3.68,
+        "3M": -3.47,
+        "YTD": 37.35
       },
       "ranks": {
-        "1D": 137,
-        "1W": 134,
-        "1M": 65,
-        "3M": 106,
+        "1D": 9,
+        "1W": 124,
+        "1M": 64,
+        "3M": 76,
         "YTD": 12
       },
-      "composite": 82.9,
-      "acceleration": -28
+      "composite": 77.19999999999999,
+      "acceleration": -48
     },
     "Oil & Gas Integrated": {
       "ticker": "oilgasintegrated",
       "perfs": {
-        "1D": -0.48,
-        "1W": 3.3,
-        "1M": 6.23,
-        "3M": 11.49,
-        "YTD": 43.26
+        "1D": 2.6,
+        "1W": 4.35,
+        "1M": 8.12,
+        "3M": 19.12,
+        "YTD": 46.98
       },
       "ranks": {
-        "1D": 88,
-        "1W": 5,
-        "1M": 11,
-        "3M": 16,
-        "YTD": 8
+        "1D": 6,
+        "1W": 3,
+        "1M": 6,
+        "3M": 5,
+        "YTD": 7
       },
-      "composite": 10.299999999999999,
-      "acceleration": 11
+      "composite": 5.299999999999999,
+      "acceleration": 2
     },
     "Oil & Gas Midstream": {
       "ticker": "oilgasmidstream",
       "perfs": {
-        "1D": -0.51,
-        "1W": -1.57,
-        "1M": 0.95,
-        "3M": 1.54,
-        "YTD": 24.13
+        "1D": -0.4,
+        "1W": -2.44,
+        "1M": -1.17,
+        "3M": 2.97,
+        "YTD": 23.64
       },
       "ranks": {
-        "1D": 90,
-        "1W": 60,
-        "1M": 35,
-        "3M": 56,
-        "YTD": 25
+        "1D": 56,
+        "1W": 81,
+        "1M": 44,
+        "3M": 45,
+        "YTD": 26
       },
-      "composite": 42.1,
-      "acceleration": -4
+      "composite": 51.5,
+      "acceleration": -36
     },
     "Oil & Gas Refining & Marketing": {
       "ticker": "oilgasrefiningmarketing",
       "perfs": {
-        "1D": -1.07,
-        "1W": 1.92,
-        "1M": 10.65,
-        "3M": 44.85,
-        "YTD": 112.53
+        "1D": 3.37,
+        "1W": 2.89,
+        "1M": 14.51,
+        "3M": 56.16,
+        "YTD": 119.69
       },
       "ranks": {
-        "1D": 107,
-        "1W": 11,
-        "1M": 2,
+        "1D": 2,
+        "1W": 13,
+        "1M": 1,
         "3M": 1,
         "YTD": 2
       },
-      "composite": 3.7,
-      "acceleration": -10
+      "composite": 3.4,
+      "acceleration": -12
     },
     "Other Industrial Metals & Mining": {
       "ticker": "otherindustrialmetalsmining",
       "perfs": {
-        "1D": -2.77,
-        "1W": -6.08,
-        "1M": -1.78,
-        "3M": -8.0,
-        "YTD": 24.86
+        "1D": -0.45,
+        "1W": -7.79,
+        "1M": -1.49,
+        "3M": -9.57,
+        "YTD": 24.27
       },
       "ranks": {
-        "1D": 122,
-        "1W": 132,
-        "1M": 58,
-        "3M": 114,
-        "YTD": 21
+        "1D": 58,
+        "1W": 134,
+        "1M": 49,
+        "3M": 110,
+        "YTD": 22
       },
-      "composite": 78.4,
-      "acceleration": -18
+      "composite": 72.1,
+      "acceleration": -24
     },
     "Other Precious Metals & Mining": {
       "ticker": "otherpreciousmetalsmining",
       "perfs": {
-        "1D": -3.92,
-        "1W": -6.62,
-        "1M": 2.26,
-        "3M": 9.5,
-        "YTD": -2.39
+        "1D": -0.66,
+        "1W": -7.17,
+        "1M": -0.03,
+        "3M": 1.89,
+        "YTD": -3.03
       },
       "ranks": {
-        "1D": 132,
-        "1W": 133,
-        "1M": 24,
-        "3M": 22,
-        "YTD": 99
+        "1D": 69,
+        "1W": 132,
+        "1M": 37,
+        "3M": 49,
+        "YTD": 98
       },
-      "composite": 45.6,
-      "acceleration": -111
+      "composite": 57.199999999999996,
+      "acceleration": -83
     },
     "Packaged Foods": {
       "ticker": "packagedfoods",
       "perfs": {
-        "1D": 0.06,
-        "1W": -3.03,
-        "1M": -5.7,
-        "3M": -0.84,
-        "YTD": -8.16
+        "1D": -0.29,
+        "1W": -2.74,
+        "1M": -6.27,
+        "3M": 0.27,
+        "YTD": -8.42
       },
       "ranks": {
-        "1D": 67,
-        "1W": 85,
-        "1M": 94,
-        "3M": 69,
-        "YTD": 116
+        "1D": 47,
+        "1W": 87,
+        "1M": 90,
+        "3M": 62,
+        "YTD": 114
       },
-      "composite": 89.7,
-      "acceleration": -16
+      "composite": 86.6,
+      "acceleration": -25
     },
     "Packaging & Containers": {
       "ticker": "packagingcontainers",
       "perfs": {
-        "1D": 0.31,
-        "1W": -4.41,
-        "1M": -9.91,
-        "3M": 2.06,
-        "YTD": 2.55
+        "1D": -0.08,
+        "1W": -2.11,
+        "1M": -9.36,
+        "3M": 0.95,
+        "YTD": 2.47
       },
       "ranks": {
-        "1D": 57,
-        "1W": 115,
-        "1M": 121,
-        "3M": 50,
-        "YTD": 77
+        "1D": 38,
+        "1W": 73,
+        "1M": 114,
+        "3M": 55,
+        "YTD": 75
       },
-      "composite": 112.69999999999999,
-      "acceleration": -65
+      "composite": 99.9,
+      "acceleration": -18
     },
     "Paper & Paper Products": {
       "ticker": "paperpaperproducts",
       "perfs": {
-        "1D": -1.42,
-        "1W": 0.06,
-        "1M": 11.31,
-        "3M": 8.23,
-        "YTD": -4.59
+        "1D": 0.21,
+        "1W": -0.05,
+        "1M": 10.42,
+        "3M": 6.32,
+        "YTD": -4.39
       },
       "ranks": {
-        "1D": 112,
-        "1W": 27,
-        "1M": 1,
-        "3M": 26,
-        "YTD": 106
+        "1D": 21,
+        "1W": 42,
+        "1M": 3,
+        "3M": 25,
+        "YTD": 102
       },
-      "composite": 8.700000000000001,
-      "acceleration": -1
+      "composite": 13.0,
+      "acceleration": -17
     },
     "Personal Services": {
       "ticker": "personalservices",
       "perfs": {
-        "1D": 0.68,
-        "1W": -2.58,
-        "1M": -4.71,
-        "3M": -6.29,
-        "YTD": -20.1
+        "1D": -1.7,
+        "1W": -1.32,
+        "1M": -6.89,
+        "3M": -6.69,
+        "YTD": -21.48
       },
       "ranks": {
-        "1D": 48,
-        "1W": 78,
-        "1M": 82,
+        "1D": 116,
+        "1W": 61,
+        "1M": 94,
         "3M": 95,
         "YTD": 136
       },
-      "composite": 82.5,
-      "acceleration": 17
+      "composite": 87.5,
+      "acceleration": 34
     },
     "Pharmaceutical Retailers": {
       "ticker": "pharmaceuticalretailers",
       "perfs": {
-        "1D": 3.57,
-        "1W": 1.01,
-        "1M": 7.84,
-        "3M": 9.96,
-        "YTD": -11.56
+        "1D": -3.36,
+        "1W": -5.9,
+        "1M": 5.01,
+        "3M": 8.86,
+        "YTD": -14.44
       },
       "ranks": {
-        "1D": 6,
-        "1W": 18,
-        "1M": 6,
-        "3M": 21,
-        "YTD": 124
+        "1D": 140,
+        "1W": 128,
+        "1M": 11,
+        "3M": 20,
+        "YTD": 126
       },
-      "composite": 9.899999999999999,
-      "acceleration": 3
+      "composite": 35.3,
+      "acceleration": -108
     },
     "Pollution & Treatment Controls": {
       "ticker": "pollutiontreatmentcontrols",
       "perfs": {
-        "1D": 0.02,
-        "1W": -1.72,
-        "1M": -4.57,
-        "3M": 1.31,
-        "YTD": -3.42
+        "1D": -1.17,
+        "1W": -3.1,
+        "1M": -6.23,
+        "3M": 0.6,
+        "YTD": -4.55
       },
       "ranks": {
-        "1D": 71,
-        "1W": 64,
-        "1M": 80,
-        "3M": 58,
-        "YTD": 103
+        "1D": 97,
+        "1W": 90,
+        "1M": 89,
+        "3M": 61,
+        "YTD": 104
       },
-      "composite": 74.6,
-      "acceleration": -6
+      "composite": 86.39999999999999,
+      "acceleration": -29
     },
     "Publishing": {
       "ticker": "publishing",
       "perfs": {
-        "1D": 3.78,
-        "1W": 2.47,
-        "1M": 2.52,
-        "3M": -1.07,
-        "YTD": 11.2
+        "1D": 0.74,
+        "1W": 3.41,
+        "1M": 3.0,
+        "3M": 0.14,
+        "YTD": 12.02
       },
       "ranks": {
-        "1D": 5,
-        "1W": 8,
-        "1M": 21,
-        "3M": 70,
-        "YTD": 47
+        "1D": 15,
+        "1W": 10,
+        "1M": 16,
+        "3M": 63,
+        "YTD": 46
       },
-      "composite": 23.3,
-      "acceleration": 62
+      "composite": 19.5,
+      "acceleration": 53
     },
     "Railroads": {
       "ticker": "railroads",
       "perfs": {
-        "1D": -0.04,
-        "1W": -1.64,
-        "1M": -4.35,
-        "3M": 2.74,
-        "YTD": 23.41
+        "1D": -0.37,
+        "1W": -1.58,
+        "1M": -4.04,
+        "3M": 3.41,
+        "YTD": 22.95
       },
       "ranks": {
-        "1D": 74,
-        "1W": 63,
-        "1M": 77,
-        "3M": 47,
+        "1D": 52,
+        "1W": 68,
+        "1M": 69,
+        "3M": 43,
         "YTD": 27
       },
-      "composite": 71.2,
-      "acceleration": -16
+      "composite": 66.2,
+      "acceleration": -25
     },
     "Real Estate - Development": {
       "ticker": "realestatedevelopment",
       "perfs": {
-        "1D": 0.05,
-        "1W": -4.37,
-        "1M": -10.84,
-        "3M": -2.48,
-        "YTD": 1.33
+        "1D": 0.3,
+        "1W": -1.19,
+        "1M": -9.48,
+        "3M": -1.83,
+        "YTD": 1.63
       },
       "ranks": {
-        "1D": 69,
-        "1W": 112,
-        "1M": 129,
-        "3M": 74,
-        "YTD": 84
+        "1D": 18,
+        "1W": 58,
+        "1M": 115,
+        "3M": 71,
+        "YTD": 78
       },
-      "composite": 120.10000000000001,
-      "acceleration": -38
+      "composite": 99.19999999999999,
+      "acceleration": 13
     },
     "Real Estate - Diversified": {
       "ticker": "realestatediversified",
       "perfs": {
-        "1D": -1.09,
-        "1W": -3.57,
-        "1M": -5.86,
-        "3M": -4.12,
-        "YTD": -4.97
+        "1D": 0.36,
+        "1W": -1.64,
+        "1M": -5.06,
+        "3M": -3.96,
+        "YTD": -4.63
       },
       "ranks": {
-        "1D": 108,
-        "1W": 99,
-        "1M": 97,
-        "3M": 83,
-        "YTD": 108
+        "1D": 16,
+        "1W": 69,
+        "1M": 80,
+        "3M": 79,
+        "YTD": 106
       },
-      "composite": 95.99999999999999,
-      "acceleration": -16
+      "composite": 77.7,
+      "acceleration": 10
     },
     "Real Estate Services": {
       "ticker": "realestateservices",
       "perfs": {
-        "1D": 0.09,
-        "1W": -4.38,
-        "1M": -7.24,
-        "3M": 1.9,
-        "YTD": -18.43
+        "1D": -1.27,
+        "1W": -2.64,
+        "1M": -8.41,
+        "3M": 0.73,
+        "YTD": -19.46
       },
       "ranks": {
-        "1D": 64,
-        "1W": 114,
+        "1D": 103,
+        "1W": 84,
         "1M": 106,
-        "3M": 51,
+        "3M": 58,
         "YTD": 134
       },
-      "composite": 102.09999999999998,
-      "acceleration": -63
+      "composite": 96.79999999999998,
+      "acceleration": -26
     },
     "Recreational Vehicles": {
       "ticker": "recreationalvehicles",
       "perfs": {
-        "1D": -0.25,
-        "1W": -7.44,
-        "1M": -11.17,
-        "3M": -8.49,
-        "YTD": -16.7
+        "1D": -2.15,
+        "1W": -6.1,
+        "1M": -13.22,
+        "3M": -10.05,
+        "YTD": -18.49
       },
       "ranks": {
-        "1D": 80,
-        "1W": 137,
-        "1M": 132,
-        "3M": 117,
-        "YTD": 130
+        "1D": 133,
+        "1W": 130,
+        "1M": 135,
+        "3M": 114,
+        "YTD": 132
       },
-      "composite": 131.5,
-      "acceleration": -20
+      "composite": 131.9,
+      "acceleration": -16
     },
     "REIT - Diversified": {
       "ticker": "reitdiversified",
       "perfs": {
-        "1D": 0.36,
-        "1W": -1.94,
-        "1M": -4.48,
-        "3M": -10.54,
-        "YTD": -3.13
+        "1D": -1.05,
+        "1W": -2.63,
+        "1M": -5.39,
+        "3M": -9.93,
+        "YTD": -4.15
       },
       "ranks": {
-        "1D": 55,
-        "1W": 69,
-        "1M": 78,
-        "3M": 122,
-        "YTD": 102
+        "1D": 90,
+        "1W": 83,
+        "1M": 82,
+        "3M": 112,
+        "YTD": 101
       },
-      "composite": 80.6,
-      "acceleration": 53
+      "composite": 85.2,
+      "acceleration": 29
     },
     "REIT - Healthcare Facilities": {
       "ticker": "reithealthcarefacilities",
       "perfs": {
-        "1D": -0.48,
-        "1W": -0.94,
-        "1M": -0.45,
-        "3M": 6.55,
-        "YTD": 20.11
+        "1D": -0.59,
+        "1W": -1.8,
+        "1M": -1.69,
+        "3M": 6.83,
+        "YTD": 19.4
       },
       "ranks": {
-        "1D": 89,
-        "1W": 47,
-        "1M": 46,
-        "3M": 29,
+        "1D": 62,
+        "1W": 71,
+        "1M": 50,
+        "3M": 24,
         "YTD": 30
       },
-      "composite": 44.49999999999999,
-      "acceleration": -18
+      "composite": 51.6,
+      "acceleration": -47
     },
     "REIT - Hotel & Motel": {
       "ticker": "reithotelmotel",
       "perfs": {
-        "1D": 0.33,
-        "1W": -0.06,
-        "1M": -1.95,
-        "3M": -4.06,
-        "YTD": 30.3
+        "1D": -0.6,
+        "1W": 0.55,
+        "1M": -3.14,
+        "3M": -4.45,
+        "YTD": 29.52
       },
       "ranks": {
-        "1D": 56,
-        "1W": 29,
-        "1M": 60,
+        "1D": 63,
+        "1W": 30,
+        "1M": 63,
         "3M": 81,
         "YTD": 18
       },
-      "composite": 55.9,
-      "acceleration": 52
+      "composite": 58.199999999999996,
+      "acceleration": 51
     },
     "REIT - Industrial": {
       "ticker": "reitindustrial",
       "perfs": {
-        "1D": 0.01,
-        "1W": -0.99,
-        "1M": -5.4,
-        "3M": -7.43,
-        "YTD": 8.11
+        "1D": 0.19,
+        "1W": -1.18,
+        "1M": -4.64,
+        "3M": -6.49,
+        "YTD": 8.32
       },
       "ranks": {
-        "1D": 72,
-        "1W": 49,
-        "1M": 89,
-        "3M": 107,
-        "YTD": 62
+        "1D": 23,
+        "1W": 57,
+        "1M": 75,
+        "3M": 93,
+        "YTD": 57
       },
-      "composite": 82.8,
-      "acceleration": 58
+      "composite": 73.2,
+      "acceleration": 36
     },
     "REIT - Mortgage": {
       "ticker": "reitmortgage",
       "perfs": {
-        "1D": -0.56,
-        "1W": -4.88,
-        "1M": -6.94,
-        "3M": -5.67,
-        "YTD": -10.58
+        "1D": -1.49,
+        "1W": -5.64,
+        "1M": -8.16,
+        "3M": -7.27,
+        "YTD": -11.92
       },
       "ranks": {
-        "1D": 91,
-        "1W": 123,
-        "1M": 105,
-        "3M": 92,
-        "YTD": 122
+        "1D": 108,
+        "1W": 127,
+        "1M": 103,
+        "3M": 98,
+        "YTD": 121
       },
       "composite": 107.3,
-      "acceleration": -31
+      "acceleration": -29
     },
     "REIT - Office": {
       "ticker": "reitoffice",
       "perfs": {
-        "1D": -0.57,
-        "1W": -3.86,
-        "1M": -5.51,
-        "3M": -3.86,
-        "YTD": 5.41
+        "1D": -0.18,
+        "1W": -1.33,
+        "1M": -4.5,
+        "3M": -3.33,
+        "YTD": 5.23
       },
       "ranks": {
-        "1D": 93,
-        "1W": 103,
-        "1M": 90,
-        "3M": 79,
+        "1D": 43,
+        "1W": 62,
+        "1M": 72,
+        "3M": 75,
         "YTD": 70
       },
-      "composite": 91.5,
-      "acceleration": -24
+      "composite": 70.3,
+      "acceleration": 13
     },
     "REIT - Residential": {
       "ticker": "reitresidential",
       "perfs": {
-        "1D": 1.08,
-        "1W": -1.04,
-        "1M": -3.69,
-        "3M": -4.42,
-        "YTD": 0.05
+        "1D": -0.57,
+        "1W": -1.39,
+        "1M": -4.5,
+        "3M": -3.51,
+        "YTD": -0.52
       },
       "ranks": {
-        "1D": 39,
-        "1W": 50,
-        "1M": 72,
-        "3M": 85,
-        "YTD": 90
+        "1D": 61,
+        "1W": 63,
+        "1M": 73,
+        "3M": 77,
+        "YTD": 86
       },
-      "composite": 68.9,
-      "acceleration": 35
+      "composite": 71.39999999999999,
+      "acceleration": 14
     },
     "REIT - Retail": {
       "ticker": "reitretail",
       "perfs": {
-        "1D": -0.15,
-        "1W": -2.33,
-        "1M": -5.9,
-        "3M": -7.3,
-        "YTD": 8.75
+        "1D": -0.83,
+        "1W": -3.55,
+        "1M": -6.33,
+        "3M": -6.75,
+        "YTD": 7.85
       },
       "ranks": {
         "1D": 76,
-        "1W": 76,
-        "1M": 98,
-        "3M": 105,
-        "YTD": 60
+        "1W": 95,
+        "1M": 91,
+        "3M": 96,
+        "YTD": 61
       },
-      "composite": 94.3,
-      "acceleration": 29
+      "composite": 92.29999999999998,
+      "acceleration": 1
     },
     "REIT - Specialty": {
       "ticker": "reitspecialty",
       "perfs": {
-        "1D": -2.35,
-        "1W": -2.64,
-        "1M": -5.53,
-        "3M": -7.93,
-        "YTD": 9.37
+        "1D": 0.08,
+        "1W": -2.7,
+        "1M": -6.58,
+        "3M": -7.28,
+        "YTD": 9.46
       },
       "ranks": {
-        "1D": 118,
-        "1W": 79,
-        "1M": 91,
-        "3M": 113,
-        "YTD": 54
+        "1D": 29,
+        "1W": 85,
+        "1M": 92,
+        "3M": 99,
+        "YTD": 51
       },
-      "composite": 90.8,
-      "acceleration": 34
+      "composite": 91.3,
+      "acceleration": 14
     },
     "Rental & Leasing Services": {
       "ticker": "rentalleasingservices",
       "perfs": {
-        "1D": -0.3,
-        "1W": -1.86,
-        "1M": -10.75,
-        "3M": -8.99,
-        "YTD": 8.95
+        "1D": -0.6,
+        "1W": -2.36,
+        "1M": -13.24,
+        "3M": -10.42,
+        "YTD": 8.3
       },
       "ranks": {
-        "1D": 83,
-        "1W": 67,
-        "1M": 128,
-        "3M": 120,
-        "YTD": 57
+        "1D": 64,
+        "1W": 79,
+        "1M": 136,
+        "3M": 116,
+        "YTD": 58
       },
-      "composite": 115.0,
-      "acceleration": 53
+      "composite": 122.6,
+      "acceleration": 37
     },
     "Residential Construction": {
       "ticker": "residentialconstruction",
       "perfs": {
-        "1D": 0.77,
-        "1W": -3.94,
-        "1M": -8.31,
-        "3M": -6.66,
-        "YTD": -6.54
+        "1D": 0.2,
+        "1W": -0.42,
+        "1M": -7.43,
+        "3M": -6.46,
+        "YTD": -6.35
       },
       "ranks": {
-        "1D": 46,
-        "1W": 104,
-        "1M": 113,
-        "3M": 99,
-        "YTD": 114
+        "1D": 22,
+        "1W": 47,
+        "1M": 98,
+        "3M": 92,
+        "YTD": 108
       },
-      "composite": 109.8,
-      "acceleration": -5
+      "composite": 87.2,
+      "acceleration": 45
     },
     "Resorts & Casinos": {
       "ticker": "resortscasinos",
       "perfs": {
-        "1D": -0.57,
-        "1W": -2.91,
-        "1M": -8.58,
-        "3M": -13.44,
-        "YTD": -16.7
+        "1D": -1.88,
+        "1W": -3.66,
+        "1M": -11.06,
+        "3M": -14.32,
+        "YTD": -18.27
       },
       "ranks": {
-        "1D": 94,
-        "1W": 83,
-        "1M": 114,
-        "3M": 126,
+        "1D": 122,
+        "1W": 97,
+        "1M": 124,
+        "3M": 127,
         "YTD": 131
       },
-      "composite": 109.0,
-      "acceleration": 43
+      "composite": 118.9,
+      "acceleration": 30
     },
     "Restaurants": {
       "ticker": "restaurants",
       "perfs": {
-        "1D": 1.71,
-        "1W": -1.83,
-        "1M": -4.85,
-        "3M": -4.08,
-        "YTD": -2.9
+        "1D": -3.36,
+        "1W": -4.12,
+        "1M": -8.2,
+        "3M": -7.15,
+        "YTD": -6.16
       },
       "ranks": {
-        "1D": 24,
-        "1W": 66,
-        "1M": 85,
-        "3M": 82,
-        "YTD": 100
+        "1D": 141,
+        "1W": 107,
+        "1M": 104,
+        "3M": 97,
+        "YTD": 107
       },
-      "composite": 80.89999999999999,
-      "acceleration": 16
+      "composite": 103.9,
+      "acceleration": -10
     },
     "Scientific & Technical Instruments": {
       "ticker": "scientifictechnicalinstruments",
       "perfs": {
-        "1D": -5.27,
-        "1W": -3.16,
-        "1M": -12.09,
-        "3M": -11.05,
-        "YTD": 28.04
+        "1D": 0.02,
+        "1W": -4.53,
+        "1M": -12.46,
+        "3M": -13.56,
+        "YTD": 28.05
       },
       "ranks": {
-        "1D": 140,
-        "1W": 90,
-        "1M": 134,
+        "1D": 32,
+        "1W": 112,
+        "1M": 132,
         "3M": 124,
         "YTD": 19
       },
-      "composite": 124.2,
-      "acceleration": 34
+      "composite": 127.2,
+      "acceleration": 12
     },
     "Security & Protection Services": {
       "ticker": "securityprotectionservices",
       "perfs": {
-        "1D": -0.22,
-        "1W": -2.15,
-        "1M": -4.0,
-        "3M": 10.52,
-        "YTD": 7.35
+        "1D": -0.07,
+        "1W": -1.46,
+        "1M": -4.2,
+        "3M": 10.09,
+        "YTD": 7.27
       },
       "ranks": {
-        "1D": 79,
-        "1W": 73,
-        "1M": 74,
+        "1D": 37,
+        "1W": 64,
+        "1M": 70,
         "3M": 18,
-        "YTD": 66
+        "YTD": 65
       },
-      "composite": 68.2,
-      "acceleration": -55
+      "composite": 63.599999999999994,
+      "acceleration": -46
     },
     "Semiconductor Equipment & Materials": {
       "ticker": "semiconductorequipmentmaterials",
       "perfs": {
-        "1D": -7.64,
-        "1W": -8.37,
-        "1M": -18.06,
-        "3M": -23.52,
-        "YTD": 52.16
+        "1D": -0.08,
+        "1W": -11.37,
+        "1M": -16.71,
+        "3M": -25.95,
+        "YTD": 52.04
       },
       "ranks": {
-        "1D": 143,
-        "1W": 139,
+        "1D": 39,
+        "1W": 140,
         "1M": 144,
-        "3M": 141,
+        "3M": 140,
         "YTD": 5
       },
-      "composite": 142.7,
-      "acceleration": 2
+      "composite": 142.8,
+      "acceleration": 0
     },
     "Semiconductors": {
       "ticker": "semiconductors",
       "perfs": {
-        "1D": -4.53,
-        "1W": -4.75,
-        "1M": -5.84,
-        "3M": -5.11,
-        "YTD": 34.73
+        "1D": 0.1,
+        "1W": -5.56,
+        "1M": -5.41,
+        "3M": -9.21,
+        "YTD": 34.87
       },
       "ranks": {
-        "1D": 138,
-        "1W": 122,
-        "1M": 96,
-        "3M": 88,
-        "YTD": 16
+        "1D": 27,
+        "1W": 126,
+        "1M": 83,
+        "3M": 108,
+        "YTD": 14
       },
-      "composite": 100.39999999999999,
-      "acceleration": -34
+      "composite": 94.1,
+      "acceleration": -18
     },
     "Shell Companies": {
       "ticker": "shellcompanies",
       "perfs": {
-        "1D": 0.05,
-        "1W": -0.14,
-        "1M": -0.48,
-        "3M": -3.44,
-        "YTD": 18.85
+        "1D": -0.14,
+        "1W": -0.4,
+        "1M": -1.89,
+        "3M": -4.06,
+        "YTD": 18.42
       },
       "ranks": {
-        "1D": 70,
-        "1W": 30,
-        "1M": 47,
-        "3M": 77,
+        "1D": 42,
+        "1W": 46,
+        "1M": 52,
+        "3M": 80,
         "YTD": 32
       },
-      "composite": 46.6,
-      "acceleration": 47
+      "composite": 53.6,
+      "acceleration": 34
     },
     "Silver": {
       "ticker": "silver",
       "perfs": {
-        "1D": -3.62,
-        "1W": -9.27,
-        "1M": -1.64,
-        "3M": 13.74,
-        "YTD": 26.9
+        "1D": -0.92,
+        "1W": -9.7,
+        "1M": -3.81,
+        "3M": 4.8,
+        "YTD": 25.73
       },
       "ranks": {
-        "1D": 128,
-        "1W": 140,
-        "1M": 57,
-        "3M": 11,
-        "YTD": 20
+        "1D": 85,
+        "1W": 137,
+        "1M": 67,
+        "3M": 34,
+        "YTD": 21
       },
-      "composite": 69.0,
-      "acceleration": -129
+      "composite": 77.7,
+      "acceleration": -103
     },
     "Software - Application": {
       "ticker": "softwareapplication",
       "perfs": {
-        "1D": 3.83,
-        "1W": -1.14,
-        "1M": -0.26,
-        "3M": 22.64,
-        "YTD": -9.55
+        "1D": -1.58,
+        "1W": 0.82,
+        "1M": -0.16,
+        "3M": 18.83,
+        "YTD": -10.98
       },
       "ranks": {
-        "1D": 3,
-        "1W": 52,
-        "1M": 45,
-        "3M": 5,
-        "YTD": 120
+        "1D": 113,
+        "1W": 28,
+        "1M": 38,
+        "3M": 6,
+        "YTD": 119
       },
-      "composite": 42.4,
-      "acceleration": -47
+      "composite": 32.8,
+      "acceleration": -22
     },
     "Software - Infrastructure": {
       "ticker": "softwareinfrastructure",
       "perfs": {
-        "1D": 2.78,
-        "1W": 1.36,
-        "1M": -0.52,
-        "3M": 21.61,
-        "YTD": 8.78
+        "1D": -1.18,
+        "1W": 0.84,
+        "1M": -0.53,
+        "3M": 17.06,
+        "YTD": 7.5
       },
       "ranks": {
-        "1D": 11,
-        "1W": 17,
-        "1M": 49,
-        "3M": 6,
-        "YTD": 59
+        "1D": 99,
+        "1W": 27,
+        "1M": 40,
+        "3M": 8,
+        "YTD": 63
       },
-      "composite": 38.3,
-      "acceleration": -11
+      "composite": 34.199999999999996,
+      "acceleration": -19
     },
     "Solar": {
       "ticker": "solar",
       "perfs": {
-        "1D": -0.65,
-        "1W": -0.43,
-        "1M": -12.46,
-        "3M": -29.43,
-        "YTD": -20.02
+        "1D": -2.09,
+        "1W": -5.94,
+        "1M": -14.01,
+        "3M": -31.74,
+        "YTD": -21.7
       },
       "ranks": {
-        "1D": 96,
-        "1W": 35,
-        "1M": 139,
-        "3M": 143,
-        "YTD": 135
+        "1D": 130,
+        "1W": 129,
+        "1M": 138,
+        "3M": 144,
+        "YTD": 137
       },
-      "composite": 118.6,
-      "acceleration": 108
+      "composite": 136.79999999999998,
+      "acceleration": 15
     },
     "Specialty Business Services": {
       "ticker": "specialtybusinessservices",
       "perfs": {
-        "1D": 2.78,
-        "1W": -0.64,
-        "1M": -0.14,
-        "3M": 5.54,
-        "YTD": -8.76
+        "1D": -1.88,
+        "1W": -0.63,
+        "1M": -1.94,
+        "3M": 4.66,
+        "YTD": -10.47
       },
       "ranks": {
-        "1D": 12,
-        "1W": 39,
-        "1M": 44,
-        "3M": 37,
-        "YTD": 117
+        "1D": 123,
+        "1W": 52,
+        "1M": 54,
+        "3M": 35,
+        "YTD": 118
       },
-      "composite": 42.3,
-      "acceleration": -2
+      "composite": 51.699999999999996,
+      "acceleration": -17
     },
     "Specialty Chemicals": {
       "ticker": "specialtychemicals",
       "perfs": {
-        "1D": -0.74,
-        "1W": -3.4,
-        "1M": -5.09,
-        "3M": -6.63,
-        "YTD": 9.56
+        "1D": 0.15,
+        "1W": -2.15,
+        "1M": -5.62,
+        "3M": -6.62,
+        "YTD": 9.72
       },
       "ranks": {
-        "1D": 100,
-        "1W": 97,
-        "1M": 87,
-        "3M": 98,
-        "YTD": 53
+        "1D": 25,
+        "1W": 74,
+        "1M": 84,
+        "3M": 94,
+        "YTD": 50
       },
-      "composite": 90.1,
-      "acceleration": 1
+      "composite": 83.0,
+      "acceleration": 20
     },
     "Specialty Industrial Machinery": {
       "ticker": "specialtyindustrialmachinery",
       "perfs": {
-        "1D": -4.15,
-        "1W": -4.21,
-        "1M": -12.35,
-        "3M": -5.22,
-        "YTD": 8.72
+        "1D": -0.09,
+        "1W": -5.16,
+        "1M": -12.57,
+        "3M": -7.86,
+        "YTD": 8.61
       },
       "ranks": {
-        "1D": 135,
-        "1W": 110,
-        "1M": 137,
-        "3M": 89,
-        "YTD": 61
+        "1D": 40,
+        "1W": 121,
+        "1M": 133,
+        "3M": 101,
+        "YTD": 55
       },
-      "composite": 126.8,
-      "acceleration": -21
+      "composite": 127.4,
+      "acceleration": -20
     },
     "Specialty Retail": {
       "ticker": "specialtyretail",
       "perfs": {
-        "1D": 1.18,
-        "1W": -2.75,
-        "1M": -7.33,
-        "3M": -4.32,
-        "YTD": 0.42
+        "1D": -3.2,
+        "1W": -4.64,
+        "1M": -10.23,
+        "3M": -6.17,
+        "YTD": -2.8
       },
       "ranks": {
-        "1D": 38,
-        "1W": 81,
-        "1M": 109,
-        "3M": 84,
-        "YTD": 86
+        "1D": 139,
+        "1W": 115,
+        "1M": 118,
+        "3M": 89,
+        "YTD": 96
       },
-      "composite": 100.9,
-      "acceleration": 3
+      "composite": 114.5,
+      "acceleration": -26
     },
     "Staffing & Employment Services": {
       "ticker": "staffingemploymentservices",
       "perfs": {
-        "1D": 2.39,
-        "1W": -5.53,
-        "1M": -6.38,
-        "3M": 25.1,
-        "YTD": 34.39
+        "1D": 0.01,
+        "1W": 0.04,
+        "1M": -4.83,
+        "3M": 27.7,
+        "YTD": 34.43
       },
       "ranks": {
-        "1D": 17,
-        "1W": 129,
-        "1M": 99,
+        "1D": 33,
+        "1W": 39,
+        "1M": 78,
         "3M": 3,
-        "YTD": 17
+        "YTD": 16
       },
-      "composite": 95.39999999999999,
-      "acceleration": -126
+      "composite": 62.69999999999999,
+      "acceleration": -36
     },
     "Steel": {
       "ticker": "steel",
       "perfs": {
-        "1D": -2.61,
-        "1W": -4.52,
-        "1M": -4.11,
-        "3M": -5.03,
-        "YTD": 40.17
+        "1D": 1.58,
+        "1W": -1.67,
+        "1M": -2.33,
+        "3M": -1.64,
+        "YTD": 42.39
       },
       "ranks": {
-        "1D": 120,
-        "1W": 120,
-        "1M": 75,
-        "3M": 87,
+        "1D": 8,
+        "1W": 70,
+        "1M": 58,
+        "3M": 70,
         "YTD": 10
       },
-      "composite": 85.2,
-      "acceleration": -33
+      "composite": 61.599999999999994,
+      "acceleration": 0
     },
     "Telecom Services": {
       "ticker": "telecomservices",
       "perfs": {
-        "1D": 0.63,
-        "1W": 0.73,
-        "1M": 2.59,
-        "3M": 0.15,
-        "YTD": 3.58
+        "1D": -0.39,
+        "1W": 0.22,
+        "1M": 1.7,
+        "3M": 0.96,
+        "YTD": 3.18
       },
       "ranks": {
-        "1D": 49,
-        "1W": 20,
-        "1M": 20,
-        "3M": 65,
-        "YTD": 73
+        "1D": 53,
+        "1W": 36,
+        "1M": 25,
+        "3M": 54,
+        "YTD": 72
       },
-      "composite": 24.5,
-      "acceleration": 45
+      "composite": 30.1,
+      "acceleration": 18
     },
     "Textile Manufacturing": {
       "ticker": "textilemanufacturing",
       "perfs": {
-        "1D": -0.27,
-        "1W": -3.52,
-        "1M": -10.05,
-        "3M": -13.57,
-        "YTD": 17.44
+        "1D": -0.98,
+        "1W": -4.03,
+        "1M": -11.97,
+        "3M": -14.22,
+        "YTD": 16.3
       },
       "ranks": {
-        "1D": 81,
-        "1W": 98,
-        "1M": 123,
-        "3M": 127,
+        "1D": 88,
+        "1W": 104,
+        "1M": 130,
+        "3M": 126,
         "YTD": 37
       },
-      "composite": 118.39999999999999,
-      "acceleration": 29
+      "composite": 124.4,
+      "acceleration": 22
     },
     "Thermal Coal": {
       "ticker": "thermalcoal",
       "perfs": {
-        "1D": -1.76,
-        "1W": -3.39,
-        "1M": 6.24,
-        "3M": 2.59,
-        "YTD": 3.84
+        "1D": -1.23,
+        "1W": -5.33,
+        "1M": 1.74,
+        "3M": 5.22,
+        "YTD": 2.57
       },
       "ranks": {
-        "1D": 115,
-        "1W": 96,
-        "1M": 10,
-        "3M": 49,
-        "YTD": 72
+        "1D": 101,
+        "1W": 122,
+        "1M": 24,
+        "3M": 31,
+        "YTD": 74
       },
-      "composite": 31.1,
-      "acceleration": -47
+      "composite": 44.300000000000004,
+      "acceleration": -91
     },
     "Tobacco": {
       "ticker": "tobacco",
       "perfs": {
-        "1D": 2.43,
-        "1W": 4.99,
-        "1M": 3.36,
-        "3M": 0.52,
-        "YTD": 15.9
+        "1D": -0.77,
+        "1W": 3.83,
+        "1M": 2.03,
+        "3M": 1.71,
+        "YTD": 15.01
       },
       "ranks": {
-        "1D": 16,
-        "1W": 1,
-        "1M": 18,
-        "3M": 62,
-        "YTD": 40
+        "1D": 74,
+        "1W": 6,
+        "1M": 21,
+        "3M": 52,
+        "YTD": 39
       },
-      "composite": 19.0,
-      "acceleration": 61
+      "composite": 21.099999999999998,
+      "acceleration": 46
     },
     "Tools & Accessories": {
       "ticker": "toolsaccessories",
       "perfs": {
-        "1D": -0.73,
-        "1W": -4.5,
-        "1M": -10.09,
-        "3M": -6.45,
-        "YTD": 12.26
+        "1D": 0.05,
+        "1W": -3.96,
+        "1M": -10.65,
+        "3M": -7.59,
+        "YTD": 12.31
       },
       "ranks": {
-        "1D": 99,
-        "1W": 119,
-        "1M": 124,
-        "3M": 96,
+        "1D": 30,
+        "1W": 102,
+        "1M": 122,
+        "3M": 100,
         "YTD": 44
       },
-      "composite": 120.19999999999999,
-      "acceleration": -23
+      "composite": 115.8,
+      "acceleration": -2
     },
     "Travel Services": {
       "ticker": "travelservices",
       "perfs": {
-        "1D": 0.29,
-        "1W": -5.6,
-        "1M": -15.68,
-        "3M": 0.45,
-        "YTD": -10.99
+        "1D": -1.57,
+        "1W": -3.69,
+        "1M": -15.91,
+        "3M": -5.66,
+        "YTD": -12.39
       },
       "ranks": {
-        "1D": 60,
-        "1W": 130,
-        "1M": 142,
-        "3M": 64,
-        "YTD": 123
+        "1D": 112,
+        "1W": 99,
+        "1M": 141,
+        "3M": 88,
+        "YTD": 124
       },
-      "composite": 131.79999999999998,
-      "acceleration": -66
+      "composite": 127.29999999999998,
+      "acceleration": -11
     },
     "Trucking": {
       "ticker": "trucking",
       "perfs": {
-        "1D": 0.4,
-        "1W": -3.72,
-        "1M": -12.23,
-        "3M": -22.59,
-        "YTD": 24.25
+        "1D": -0.22,
+        "1W": -3.11,
+        "1M": -11.6,
+        "3M": -20.35,
+        "YTD": 23.97
       },
       "ranks": {
-        "1D": 54,
-        "1W": 102,
-        "1M": 135,
-        "3M": 139,
-        "YTD": 23
+        "1D": 45,
+        "1W": 91,
+        "1M": 127,
+        "3M": 137,
+        "YTD": 25
       },
-      "composite": 128.8,
-      "acceleration": 37
+      "composite": 120.8,
+      "acceleration": 46
     },
     "Uranium": {
       "ticker": "uranium",
       "perfs": {
-        "1D": -3.54,
-        "1W": -9.37,
-        "1M": -7.26,
-        "3M": -7.7,
-        "YTD": -3.12
+        "1D": -1.81,
+        "1W": -12.25,
+        "1M": -8.93,
+        "3M": -14.18,
+        "YTD": -4.59
       },
       "ranks": {
-        "1D": 127,
-        "1W": 141,
-        "1M": 107,
-        "3M": 110,
-        "YTD": 101
+        "1D": 119,
+        "1W": 143,
+        "1M": 111,
+        "3M": 125,
+        "YTD": 105
       },
-      "composite": 114.1,
-      "acceleration": -31
+      "composite": 118.79999999999998,
+      "acceleration": -18
     },
     "Utilities - Diversified": {
       "ticker": "utilitiesdiversified",
       "perfs": {
-        "1D": -0.87,
-        "1W": -1.62,
-        "1M": -3.42,
-        "3M": -7.14,
-        "YTD": -1.31
+        "1D": -1.56,
+        "1W": -4.33,
+        "1M": -4.76,
+        "3M": -8.29,
+        "YTD": -2.84
       },
       "ranks": {
-        "1D": 103,
-        "1W": 62,
-        "1M": 71,
-        "3M": 104,
-        "YTD": 94
+        "1D": 111,
+        "1W": 110,
+        "1M": 77,
+        "3M": 106,
+        "YTD": 97
       },
-      "composite": 72.5,
-      "acceleration": 42
+      "composite": 86.5,
+      "acceleration": -4
     },
     "Utilities - Independent Power Producers": {
       "ticker": "utilitiesindependentpowerproducers",
       "perfs": {
-        "1D": -5.99,
-        "1W": -9.46,
-        "1M": -7.29,
-        "3M": -5.38,
-        "YTD": -23.87
+        "1D": -1.25,
+        "1W": -11.38,
+        "1M": -9.81,
+        "3M": -9.99,
+        "YTD": -24.82
       },
       "ranks": {
-        "1D": 141,
-        "1W": 143,
-        "1M": 108,
-        "3M": 91,
+        "1D": 102,
+        "1W": 141,
+        "1M": 116,
+        "3M": 113,
         "YTD": 139
       },
-      "composite": 113.29999999999998,
-      "acceleration": -52
+      "composite": 120.69999999999999,
+      "acceleration": -28
     },
     "Utilities - Regulated Electric": {
       "ticker": "utilitiesregulatedelectric",
       "perfs": {
-        "1D": -0.92,
-        "1W": -2.27,
-        "1M": -5.73,
-        "3M": -6.96,
-        "YTD": 0.42
+        "1D": -1.1,
+        "1W": -4.2,
+        "1M": -7.12,
+        "3M": -8.12,
+        "YTD": -0.68
       },
       "ranks": {
-        "1D": 104,
-        "1W": 75,
+        "1D": 95,
+        "1W": 108,
         "1M": 95,
-        "3M": 102,
-        "YTD": 87
+        "3M": 104,
+        "YTD": 88
       },
-      "composite": 91.7,
-      "acceleration": 27
+      "composite": 98.5,
+      "acceleration": -4
     },
     "Utilities - Regulated Gas": {
       "ticker": "utilitiesregulatedgas",
       "perfs": {
-        "1D": -0.41,
-        "1W": -2.02,
-        "1M": -3.7,
-        "3M": -5.78,
-        "YTD": -1.56
+        "1D": -0.83,
+        "1W": -3.61,
+        "1M": -4.86,
+        "3M": -6.44,
+        "YTD": -2.38
       },
       "ranks": {
-        "1D": 87,
-        "1W": 71,
-        "1M": 73,
-        "3M": 94,
-        "YTD": 98
+        "1D": 77,
+        "1W": 96,
+        "1M": 79,
+        "3M": 90,
+        "YTD": 93
       },
-      "composite": 74.7,
-      "acceleration": 23
+      "composite": 83.5,
+      "acceleration": -6
     },
     "Utilities - Regulated Water": {
       "ticker": "utilitiesregulatedwater",
       "perfs": {
-        "1D": 0.22,
-        "1W": -0.67,
-        "1M": 3.54,
-        "3M": 5.67,
-        "YTD": 8.92
+        "1D": -0.29,
+        "1W": -1.57,
+        "1M": 3.72,
+        "3M": 4.61,
+        "YTD": 8.6
       },
       "ranks": {
-        "1D": 62,
-        "1W": 41,
-        "1M": 16,
-        "3M": 35,
-        "YTD": 58
+        "1D": 48,
+        "1W": 67,
+        "1M": 13,
+        "3M": 36,
+        "YTD": 56
       },
-      "composite": 22.9,
-      "acceleration": -6
+      "composite": 26.1,
+      "acceleration": -31
     },
     "Utilities - Renewable": {
       "ticker": "utilitiesrenewable",
       "perfs": {
-        "1D": -2.62,
-        "1W": -7.27,
-        "1M": -15.46,
-        "3M": -26.24,
-        "YTD": -5.65
+        "1D": -1.61,
+        "1W": -10.52,
+        "1M": -16.45,
+        "3M": -28.11,
+        "YTD": -7.17
       },
       "ranks": {
-        "1D": 121,
-        "1W": 135,
-        "1M": 141,
-        "3M": 142,
-        "YTD": 110
+        "1D": 114,
+        "1W": 138,
+        "1M": 142,
+        "3M": 143,
+        "YTD": 112
       },
-      "composite": 139.89999999999998,
-      "acceleration": 7
+      "composite": 141.3,
+      "acceleration": 5
     },
     "Waste Management": {
       "ticker": "wastemanagement",
       "perfs": {
-        "1D": 1.31,
-        "1W": -0.27,
-        "1M": 0.05,
-        "3M": 4.29,
-        "YTD": 0.46
+        "1D": -0.91,
+        "1W": -0.5,
+        "1M": -1.0,
+        "3M": 4.31,
+        "YTD": -0.46
       },
       "ranks": {
-        "1D": 32,
-        "1W": 32,
-        "1M": 43,
-        "3M": 43,
+        "1D": 83,
+        "1W": 49,
+        "1M": 42,
+        "3M": 37,
         "YTD": 85
       },
-      "composite": 40.8,
-      "acceleration": 11
+      "composite": 42.900000000000006,
+      "acceleration": -12
     }
   }
 }
